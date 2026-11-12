@@ -107,7 +107,8 @@ TAREFAS={
  "01/12": [
   "TMB: próximo longo e Shorts originais — a definir com a estrutura nova de Luiz",
   "Palavras.co: quando os créditos do Claude reiniciarem, novo lote de enriquecimento de verbetes (mínimo 150; mais se o orçamento permitir)",
-  "🗂 Começa a organização das redes (até 11/12): `cronograma/ORGANIZACAO-DAS-REDES-DEZEMBRO-2026.md`"
+  "🗂 Começa a organização das redes (até 11/12): `cronograma/ORGANIZACAO-DAS-REDES-DEZEMBRO-2026.md`",
+  "🧹 Limpeza da pasta, onda 2: pedir ao Claude a lista da mídia do Ciúme, do EP06 e das sessões brutas do Inveja para apagar (regra em `DECISOES-VIGENTES.md`, seção 7)"
  ],
  "02/12": [
   "🎬 Palavras · Vídeo 4 estreia 18h (*Testar e comparar*: thumb clone × padrão Palavras — 2º vídeo da E1)",
