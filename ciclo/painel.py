@@ -34,14 +34,17 @@ def gerar(canal, cfg, hoje):
 
     # 2. próximas leituras
     L += ['## 2. Leituras a fazer', '']
-    pend = []
+    pend, sem_data = [], set()
     for p, c, ls in cs:
         if (c.get('Estado', '').strip().lower() == 'parado'):
             continue
         for l in ls:
             if not leitura_feita(l):
                 d = primeira_data(l.get('Data'))
-                pend.append((d or dt.date.max, p.split('/')[-1], l.get('Leitura', '?'), l.get('Data', '?')))
+                if d is None:
+                    sem_data.add(p.split('/')[-1])
+                    continue
+                pend.append((d, p.split('/')[-1], l.get('Leitura', '?'), l.get('Data', '?')))
     if pend:
         L += ['| Data | Vídeo | Leitura | Situação |', '|---|---|---|---|']
         for d, nome, leitura, texto in sorted(pend):
@@ -55,6 +58,8 @@ def gerar(canal, cfg, hoje):
             L.append(f'| {quando} | `{nome}` | {cel(leitura)} | {sit} |')
     else:
         L.append('Nenhuma leitura pendente.')
+    if sem_data:
+        L += ['', 'Sem data de estreia (as leituras entram quando a data existir): ' + ', '.join(f'`{s}`' for s in sorted(sem_data)) + '.']
     L.append('')
 
     # 3. todos

@@ -49,7 +49,7 @@ TAREFAS={
  ],
  "12/11": [
   "✅ feito (Luiz, 12/11) — Ciúme: partes S13–S29 no Premiere; montagem pronta",
-  "Ciúme: subir o longo no Studio e programar para qua 18/11, 18h (título, descrição, tags, legenda .srt, Testar e comparar A × B1) e os 6 Shorts (19 a 26/11, 20h) — tudo em `canais/palavras/episodios/ep02-ciume/youtube-publicacao/` e `redes/youtube/shorts/`"
+  "Ciúme: subir o longo no Studio e programar para qua 18/11, 18h (título, descrição, tags, legenda .srt) e os 6 Shorts (19 a 26/11, 20h) — tudo em `canais/palavras/episodios/ep02-ciume/youtube-publicacao/` e `redes/youtube/shorts/`"
  ],
  "13/11": [
   "Palavras · Homem-criança: aprovar a decomposição do viral de origem",
@@ -64,7 +64,7 @@ TAREFAS={
   "Ler o radar semanal (roda sozinho às 7h41; arquivo em `estudos/envelopamento/radar/`)"
  ],
  "17/11": [
-  "Ciúme: conferir no Studio que o longo está programado para qua 18/11, 18h, com o Testar e comparar ligado",
+  "Ciúme: conferir no Studio que o longo está programado para qua 18/11, 18h",
   "TMB: semana de Luiz desenvolver o vídeo na estrutura nova (17 a 24/11). Instruções novas virão de Luiz; EP04, EP05, EP07 e EP08 parados por tempo indeterminado",
   "TMB · EP03, leitura do dia 7–10 (decide): pedir ao Claude o prompt da leitura e colar os números do Studio",
   "Palavras · Homem-criança: narrar e editar (17 a 20/11)"
@@ -91,7 +91,7 @@ TAREFAS={
   "TMB · EP06, leitura do dia 7–10 (decide): pedir ao Claude o prompt da leitura e colar os números do Studio"
  ],
  "25/11": [
-  "🎬 Palavras · Homem-criança estreia 18h: ligar o *Testar e comparar* (A2 × A × B) quando ficar público; post da comunidade às 19h",
+  "🎬 Palavras · Homem-criança estreia 18h; post da comunidade às 19h",
   "Palavras · Inveja, leitura do dia 14 (decide): pedir ao Claude o prompt da leitura e colar os números do Studio",
   "Palavras: escolher o tema do vídeo de 09/12 entre os 3 candidatos do Claude (busca no vidIQ, até 20 créditos)"
  ],
@@ -111,7 +111,7 @@ TAREFAS={
   "🧹 Limpeza da pasta, onda 2: pedir ao Claude a lista da mídia do Ciúme, do EP06 e das sessões brutas do Inveja para apagar (regra em `DECISOES-VIGENTES.md`, seção 7)"
  ],
  "02/12": [
-  "🎬 Palavras · Vídeo 4 estreia 18h (*Testar e comparar*: thumb clone × padrão Palavras — 2º vídeo da E1)",
+  "🎬 Palavras · Vídeo 4 estreia 18h (2º vídeo da E1)",
   "Palavras · Ciúme, leitura do dia 14 (decide): pedir ao Claude o prompt da leitura e colar os números do Studio"
  ],
  "03/12": [
