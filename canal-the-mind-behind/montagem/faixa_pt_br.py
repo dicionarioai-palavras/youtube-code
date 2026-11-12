@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
     T=json.load(open(EP/'montagem'/'timeline.json',encoding='utf-8')); CAMA=str(EP/'audio'/'mix'/'trilha-cama.wav')
     OUT=EP/'final'/'pt-br'; OUT.mkdir(parents=True,exist_ok=True); NOME=EP.name.split('-')[0].upper()+'-'+'-'.join(EP.name.split('-')[1:])
 else:
-    EP=None; A='/mnt/user-data/uploads/Redes-sociais/canal-the-mind-behind/episodios/ep01-kitty-genovese/audio/pt-br/'
+    EP=None; A='/mnt/user-data/uploads/Redes-sociais/canais/the-mind-behind/episodios/ep01-kitty-genovese/audio/pt-br/'
     T=json.load(open('/tmp/mont/timeline.json')); CAMA='/tmp/mont/musica.wav'; OUT=Path('/tmp/pt/out'); NOME='EP01'
 os.makedirs('/tmp/pt',exist_ok=True)
 B=T['blocos']; DUR=T['duracao']; FINAL=20

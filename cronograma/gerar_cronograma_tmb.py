@@ -21,8 +21,8 @@ def add(d, c, t):
 # Alterna crime e mistério; casos de risco M ficam depois que o canal estiver rodando.
 # Pauta (06/11/2026: 2 longos por semana, terça e sábado). EP01 já no ar (qui 05/11).
 # EP02–EP07 = novembro; EP08–EP16 = dezembro (aprovar no lote do mês). Alterna crime e mistério.
-# 07/11/2026 (Luiz, pela triagem de demanda `canal-the-mind-behind/pesquisa-de-demanda/2026-11-pauta.md`): EP06 Somerton -> Gary Ridgway; EP07 Dancing plague e EP08 Central Park Five (invertidos); Somerton para a reserva; D. B. Cooper entra no lugar antigo de Ridgway (dezembro, provisório até a triagem).
-# 09/11/2026 (Luiz): a POC de envelopamento (`estudo-envelopamento/poc/POC-2026-11-09.md`, v3) é o primeiro episódio depois do EP08 (vira EP09);
+# 07/11/2026 (Luiz, pela triagem de demanda `canais/the-mind-behind/estrategia/pesquisa-de-demanda/2026-11-pauta.md`): EP06 Somerton -> Gary Ridgway; EP07 Dancing plague e EP08 Central Park Five (invertidos); Somerton para a reserva; D. B. Cooper entra no lugar antigo de Ridgway (dezembro, provisório até a triagem).
+# 09/11/2026 (Luiz): a POC de envelopamento (`estudos/envelopamento/poc/POC-2026-11-09.md`, v3) é o primeiro episódio depois do EP08 (vira EP09);
 # os demais andam uma vaga (Chikatilo -> EP10 ...); o Zodiac vira EP17 (ter 29/12). A triagem de dezembro (26/11) reordena EP10–EP16; o EP09 fica fixo.
 _CASOS = ['Kitty Genovese (1964)', 'Dyatlov Pass (1959)', 'BTK / Dennis Rader (2005)', 'Mary Celeste (1872)', 'Norrmalmstorg, Estocolmo (1973)', 'Gary Ridgway (1982–2001)', 'Dancing plague (1518)', 'Central Park Five (1989)', 'POC envelopamento — The Victims Who Outsmarted Ted Bundy and Jeffrey Dahmer', 'Andrei Chikatilo (1978–1990)', 'Flannan Isles (1900)', 'Ed Kemper', 'Salem (1692)', 'D. B. Cooper (1971)', 'Jack the Ripper (1888)', 'Hinterkaifeck (1922)', 'Zodiac (1968–69)']
 _DATAS = [dt.date(2026,11,5), dt.date(2026,11,7)]   # EP02 antecipado para sáb 07/11 (Luiz, 06/11/2026)
@@ -34,7 +34,7 @@ PAUTA = [(f'EP{i+1:02d}', c, _DATAS[i]) for i, c in enumerate(_CASOS) if _DATAS[
 um = dt.timedelta(1)
 
 # ---------- hoje (05/11): estreia ----------
-add(INICIO, Z, 'Se o canal ainda não existe: criar, verificar por telefone e configurar (`canal-the-mind-behind/08-CANAL-YOUTUBE-CONFIG.md`, seções 1–4)')
+add(INICIO, Z, 'Se o canal ainda não existe: criar, verificar por telefone e configurar (`canais/the-mind-behind/guias/08-CANAL-YOUTUBE-CONFIG.md`, seções 1–4)')
 add(INICIO, L, '🎬 EP01 — Kitty Genovese: subir `final/EP01-kitty-genovese-final.mp4` com o `PACOTE-YOUTUBE.md` (título, descrição, capítulos, thumb A, comentário fixado) — publicar **antes** dos Shorts')
 EP01S = [(INICIO, S19, 'S1 38 WITNESSES?'), (INICIO+dt.timedelta(1), S12, 'S2 WHERE DID "38" COME FROM?'),
          (INICIO+dt.timedelta(1), S19, 'S3 WOULD YOU HELP?'), (INICIO+dt.timedelta(2), S12, "S4 SHE DIDN'T DIE ALONE")]
@@ -61,7 +61,7 @@ for n, (ep, caso, d) in enumerate(PAUTA):
     add(d-2*um, Z, f'{ep}: aprovar o `ROTEIRO-PT.md` (até 12h)')
     add(d-2*um, P, f'IA: {ep} narração EN + faixa PT-BR (ElevenLabs) + conferência + imagens (Runway)')
     add(d-um, P, f'IA: {ep} montagem, render, thumbs e 4 cortes (faixas PT-BR do longo e dos cortes; abertura nova no corte se o gancho tiver nota < 50)')
-    add(d-um, Z, f'{ep}: assistir e aprovar o vídeo e os 4 cortes (com as aberturas novas em PT); agendar longo 14h + cortes + post na comunidade (18h do dia do longo; `canal-the-mind-behind/comunidade/POSTS-COMUNIDADE.md`)')
+    add(d-um, Z, f'{ep}: assistir e aprovar o vídeo e os 4 cortes (com as aberturas novas em PT); agendar longo 14h + cortes + post na comunidade (18h do dia do longo; `canais/the-mind-behind/comunidade/POSTS-COMUNIDADE.md`)')
 
 # ---------- EP02 (feito) e EP03 (07/11/2026) ----------
 # EP02 produzido e aprovado em 06–07/11; cortes nos horários livres depois do lote 0.
@@ -71,7 +71,7 @@ for d0, c, s_ in [(dt.date(2026,11,10), S19, 'S1 fear decides first'), (dt.date(
                   (dt.date(2026,11,11), S19, 'S3 too small to believe'), (dt.date(2026,11,12), S12, 'S4 the one who turned back')]:
     add(d0, c, f'EP02 · {s_} (`final/shorts/`; "vídeo relacionado" = EP02)')
 # POST COMUNIDADE EP01/EP02 (já no ar): seg 09/11 e qua 11/11, 18h
-add(dt.date(2026,11,9), Z, 'Post na comunidade do EP01 (18h; texto e imagens em `canal-the-mind-behind/comunidade/POSTS-COMUNIDADE.md`) + programar o do EP02 (qua 11/11, 18h) e o do EP03 (ter 10/11, 18h)')
+add(dt.date(2026,11,9), Z, 'Post na comunidade do EP01 (18h; texto e imagens em `canais/the-mind-behind/comunidade/POSTS-COMUNIDADE.md`) + programar o do EP02 (qua 11/11, 18h) e o do EP03 (ter 10/11, 18h)')
 # EP03 vai ao ar ter 10/11 14h; toda a produção concentrada na seg 09/11 (pedido de Luiz, 07/11/2026).
 add(dt.date(2026,11,9), P, 'IA (cedo): `DEMANDA.md` do EP03 (nota 6,7, amarelo: título e tese pelo mecanismo, não pelo nome do caso) e roteiro do EP03 (BTK / Dennis Rader, 2005) em EN + PT, com PESQUISA-FONTES e checagem de risco (pessoa viva condenada: status jurídico correto; vítimas sem descrição gráfica)')
 add(dt.date(2026,11,9), Z, 'EP03: aprovar o `ROTEIRO-PT.md` (até 11h)')
@@ -134,9 +134,9 @@ if MODO_CORTES == 'um_por_dia': _distribui()
 # ---------- pesquisa de demanda (Luiz, 07/11/2026) ----------
 # Retorno aos 7 e 28 dias de cada longo publicado (dados do próprio canal pelo vidIQ) e triagem da pauta de dezembro antes da aprovação.
 for ep, caso, d0 in PAUTA:
-    if d0 + 7*um <= FIM: add(d0 + 7*um, P, f'IA: retorno de 7 dias do {ep} ({caso}) no vidIQ → `canal-the-mind-behind/pesquisa-de-demanda/RESULTADOS.md`')
+    if d0 + 7*um <= FIM: add(d0 + 7*um, P, f'IA: retorno de 7 dias do {ep} ({caso}) no vidIQ → `canais/the-mind-behind/estrategia/pesquisa-de-demanda/RESULTADOS.md`')
     if d0 + 28*um <= FIM: add(d0 + 28*um, P, f'IA: retorno de 28 dias do {ep} ({caso}) → `RESULTADOS.md` (a cada 4 episódios, leitura nota × resultado)')
-add(dt.date(2026,11,26), P, 'IA: triagem de demanda da pauta de dezembro (EP09–EP16 + reservas) no vidIQ → `canal-the-mind-behind/pesquisa-de-demanda/2026-12-pauta.md`, com ordem recomendada')
+add(dt.date(2026,11,26), P, 'IA: triagem de demanda da pauta de dezembro (EP09–EP16 + reservas) no vidIQ → `canais/the-mind-behind/estrategia/pesquisa-de-demanda/2026-12-pauta.md`, com ordem recomendada')
 
 # ---------- rotina ----------
 d = INICIO
@@ -164,10 +164,10 @@ md.write(f'''# Agenda do canal The Mind Behind (05/11 a 31/12/2026)
 
 Gerado por `code/cronograma/gerar_cronograma_tmb.py` (editar o script e rodar de novo; não editar só este arquivo). Versão planilha: `CRONOGRAMA-THE-MIND-BEHIND.csv`.
 
-- **Horários (Luiz, 08/11/2026; público-alvo EUA/Reino Unido/Canadá/Austrália, não o Brasil):** longos às **14h de Brasília** (= 12h em Nova York, 9h em Los Angeles, 17h em Londres); Shorts às **16h** (14h NY / 19h Londres) e **21h** (19h NY / 16h LA). Fonte: `canal-the-mind-behind/HORARIOS-DE-POSTAGEM.md`.\n- **Longos:** **terça e sábado, 14h** (Brasília) — decisão de Luiz em 06/11/2026 (antes eram 3 por semana). EP01 saiu na qui 05/11; EP02 antecipado para sáb 07/11 (Luiz, 06/11/2026); EP03 na ter 10/11 e daí em diante terça e sábado.\n- **Shorts: 2 por dia, todos os dias (16h e 21h).** 4 cortes de cada longo (8 por semana) + **6 Shorts originais por semana**, de temas próprios, com gancho e CTA próprios (`canal-the-mind-behind/10-SHORTS-ORIGINAIS.md`), produzidos em lote toda quarta.
+- **Horários (Luiz, 08/11/2026; público-alvo EUA/Reino Unido/Canadá/Austrália, não o Brasil):** longos às **14h de Brasília** (= 12h em Nova York, 9h em Los Angeles, 17h em Londres); Shorts às **16h** (14h NY / 19h Londres) e **21h** (19h NY / 16h LA). Fonte: `canais/the-mind-behind/guias/HORARIOS-DE-POSTAGEM.md`.\n- **Longos:** **terça e sábado, 14h** (Brasília) — decisão de Luiz em 06/11/2026 (antes eram 3 por semana). EP01 saiu na qui 05/11; EP02 antecipado para sáb 07/11 (Luiz, 06/11/2026); EP03 na ter 10/11 e daí em diante terça e sábado.\n- **Shorts: 2 por dia, todos os dias (16h e 21h).** 4 cortes de cada longo (8 por semana) + **6 Shorts originais por semana**, de temas próprios, com gancho e CTA próprios (`canais/the-mind-behind/guias/10-SHORTS-ORIGINAIS.md`), produzidos em lote toda quarta.
 - **Shorts:** modo `{MODO_CORTES}`. {"**1 por dia, às 21h (Luiz, 08/11/2026, do EP03 em diante)**: S1 no dia do longo, S2–S4 nos dias seguintes; quando os cortes de dois longos se encontram, o dia ganha um 2º Short às 16h. Foco na qualidade. Shorts originais do lote 1 em diante pausados." if MODO_CORTES == "um_por_dia" else MODO_CORTES}`. {"Dois por dia, 16h e 21h: o S1 sai no dia do longo, às 21h; os outros três nos dois dias seguintes. Assim o canal aparece todo dia e cada longo recebe empurrão até o próximo." if MODO_CORTES=="espalhado" else "Os quatro saem no dia do longo, depois dele."} Trocar o modo: `MODO_CORTES` no topo do script. Decisão de Luiz (05/11): espalhar desde o EP01.
 - **Produção de cada episódio (D = dia do longo):** D−3 a IA entrega o roteiro EN + PT · D−2 Luiz aprova o PT até 12h, a IA gera voz e imagens · D−1 a IA monta e Luiz aprova o corte e agenda. Com longos na terça e no sábado, a produção de um começa enquanto o outro está indo ao ar.
-- **Pauta:** proposta pela IA a partir de `canal-the-mind-behind/03-BANCO-DE-CASOS.md`, **com triagem de demanda de todos os casos** (`canal-the-mind-behind/pesquisa-de-demanda/AAAA-MM-pauta.md`, desde 07/11/2026), ordenada pela nota e alternando crime e mistério. Luiz aprova em lote por mês; trocar um tema = trocar a linha em `PAUTA` no script.
+- **Pauta:** proposta pela IA a partir de `canais/the-mind-behind/estrategia/03-BANCO-DE-CASOS.md`, **com triagem de demanda de todos os casos** (`canais/the-mind-behind/estrategia/pesquisa-de-demanda/AAAA-MM-pauta.md`, desde 07/11/2026), ordenada pela nota e alternando crime e mistério. Luiz aprova em lote por mês; trocar um tema = trocar a linha em `PAUTA` no script.
 - **Quem publica é Luiz** (agendando no Studio na véspera). A IA não publica.
 ''')
 cur = None

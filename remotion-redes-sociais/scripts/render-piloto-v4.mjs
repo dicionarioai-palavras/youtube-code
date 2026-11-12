@@ -1,5 +1,5 @@
 import fs from 'node:fs';import crypto from 'node:crypto';import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
-const root='C:/Users/Dell/Desktop/Redes-sociais',project=root+'/code/remotion-redes-sociais',d=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v4';
+const root='C:/Users/Dell/Desktop/Redes-sociais',project=root+'/code/remotion-redes-sociais',d=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v4';
 const mode=process.argv[2]??'stills',chromiumOptions={gl:'swangle'};
 const src=project+'/src/PilotoInvejaV4.tsx',hash=crypto.createHash('sha256').update(fs.readFileSync(src)).update('banco-equilibrado-v2').digest('hex').slice(0,14),bundleDir=project+'/out/bundle-piloto-v4-'+hash;
 const isolated=project+'/.runtime-v4-public';fs.mkdirSync(isolated,{recursive:true});fs.cpSync(project+'/public/piloto-inveja-v4',isolated+'/piloto-inveja-v4',{recursive:true});fs.mkdirSync(isolated+'/fonts',{recursive:true});for(const f of ['BebasNeue.woff2','Inter-400.woff2','Inter-500.woff2'])fs.copyFileSync(project+'/public/fonts/'+f,isolated+'/fonts/'+f);

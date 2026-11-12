@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';import {pathToFileURL} from 'node:url';
-const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v4',o=d+'/entrega',ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe',probe=root+'/_esteiras/cortes-redes-sociais/bin/ffprobe.exe',duration=2471/30;
+const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v4',o=d+'/entrega',ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe',probe=root+'/_esteiras/cortes-redes-sociais/bin/ffprobe.exe',duration=2471/30;
 const run=a=>execFileSync(ff,['-v','error','-filter_complex_threads','1',...a],{maxBuffer:3e6});const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 // Efeitos sintetizados próprios e determinísticos: não apresentados como gravações/licenças YouTube.
 const ev=[{t:24.74,d:.07,a:.018,hz:360},{t:30.73,d:.05,a:.012,hz:1100},{t:34.94,d:.05,a:.01,hz:1050},{t:36.77,d:.05,a:.01,hz:950},{t:52.99,d:.08,a:.012,hz:270},{t:70.52,d:.65,a:.002,hz:0}];

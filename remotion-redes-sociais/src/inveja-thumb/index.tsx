@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Composition, Img, registerRoot, staticFile} from 'remotion';
 
 // Thumb do vídeo longo Inveja — composição T-A ("o binóculo que olha de volta").
-// Estudo: palavras/youtube/peças/inveja/thumb/inveja-estudo-semiotico-thumb.txt
+// Estudo: canais/palavras/episodios/ep01-inveja/thumb/inveja-estudo-semiotico-thumb.txt
 // 1920x1080 (renderizar com --scale=2 para 3840x2160). Imagens de Luiz (Runway) em public/img.
 // Reflexos: refl-prato.png e refl-chave.png são recortes espelhados com distorção de lente (pré-processados).
 

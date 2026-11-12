@@ -35,21 +35,21 @@ YT_STUDIO=[
  ('24/11','20h','Palavras','Short Ciúme C2 "Zeloso no currículo" (YouTube)'),('26/11','20h','Palavras','Short Ciúme C3 "Em francês, ciúme é persiana" (YouTube)'),
  ('10/11','18h','The Mind Behind','Post da comunidade EP03'),
 ]
-# 11/11/2026 (Luiz): agenda do TMB limpa — só os Shorts do EP03, 1 por dia às 21h, até o EP06 (17/11). Ver canal-the-mind-behind/agenda/AGENDA-2026-11-11.md
+# 11/11/2026 (Luiz): agenda do TMB limpa — só os Shorts do EP03, 1 por dia às 21h, até o EP06 (17/11). Ver canais/the-mind-behind/estrategia/agenda/AGENDA-2026-11-11.md
 CUTS={'EP03-S1':'12/11 21h','EP03-S2':'13/11 21h','EP03-S3':'14/11 21h','EP03-S4':'15/11 21h'}
 for c,w in CUTS.items(): YT_STUDIO.append((w[:5],w[6:],'The Mind Behind',f'Short {c} (YouTube)'))
 for s,h,m,t in YT_STUDIO: A(d(s),h,m,t)
 # ---------- (3) O que só Luiz faz ----------
 TAREFAS={
  "11/11": [
-  "✅ feito (Luiz, 11/11) — TMB: subir no Studio a capa nova (`identidade-visual/the-mind-behind/youtube/tmb-banner-terca.png`) e colar a descrição \"toda terça\" (inglês, português e espanhol); trocar as bios do Instagram e do TikTok (textos no fim de `canal-the-mind-behind/08-CANAL-YOUTUBE-CONFIG.md`)",
+  "✅ feito (Luiz, 11/11) — TMB: subir no Studio a capa nova (`identidade-visual/the-mind-behind/youtube/tmb-banner-terca.png`) e colar a descrição \"toda terça\" (inglês, português e espanhol); trocar as bios do Instagram e do TikTok (textos no fim de `canais/the-mind-behind/guias/08-CANAL-YOUTUBE-CONFIG.md`)",
   "✅ feito (Luiz, 11/11) — TMB: agendar o EP06 (Green River) no Studio para ter 17/11, 14h, e fazer a parte do EP06 na aba \"Ajustes por lote\" de `cronograma/AJUSTES-MANUAIS-THE-MIND-BEHIND.xlsx` (com o *Testar e comparar* do E14). O relacionado dos Shorts do EP06 não vale mais: eles saíram da agenda.",
   "✅ feito (Luiz, 11/11) — Conferir no Studio o post da comunidade do Palavras programado para 19h (texto \"Seu amigo é promovido…\", imagem `inveja-instagram-carrossel-01.png`)",
   "Pedir ao Claude: \"trocar os artigos do Inveja para a versão com o vídeo\" e depois pedir a reindexação no Search Console"
  ],
  "12/11": [
   "✅ feito (Luiz, 12/11) — Ciúme: partes S13–S29 no Premiere; montagem pronta",
-  "Ciúme: subir o longo no Studio e programar para qua 18/11, 18h (título, descrição, tags, legenda .srt, Testar e comparar A × B1) e os 6 Shorts (19 a 26/11, 20h) — tudo em `palavras/youtube/peças/ciume/youtube-publicacao/` e `redes/youtube/shorts/`"
+  "Ciúme: subir o longo no Studio e programar para qua 18/11, 18h (título, descrição, tags, legenda .srt, Testar e comparar A × B1) e os 6 Shorts (19 a 26/11, 20h) — tudo em `canais/palavras/episodios/ep02-ciume/youtube-publicacao/` e `redes/youtube/shorts/`"
  ],
  "13/11": [
   "Palavras · Homem-criança: aprovar a decomposição do viral de origem",
@@ -61,7 +61,7 @@ TAREFAS={
   "Palavras · Homem-criança: aprovar o roteiro",
   "Palavras · Inveja, leitura de 72 h: pedir ao Claude o prompt da leitura e colar os números do Studio",
   "Palavras: Shorts originais — a confirmar com as regras novas de validação que Luiz vai trazer (Shorts feitos para Short; corte do longo só com critério)",
-  "Ler o radar semanal (roda sozinho às 7h41; arquivo em `estudo-envelopamento/radar/`)"
+  "Ler o radar semanal (roda sozinho às 7h41; arquivo em `estudos/envelopamento/radar/`)"
  ],
  "17/11": [
   "Ciúme: conferir no Studio que o longo está programado para qua 18/11, 18h, com o Testar e comparar ligado",

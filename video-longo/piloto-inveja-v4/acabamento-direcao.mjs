@@ -1,5 +1,5 @@
 import fs from 'node:fs';import {execFileSync} from 'node:child_process';
-const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v4',ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe',p=d+'/entrega/02-cenas/00-montagem-remotion-sem-audio.mp4';
+const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v4',ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe',p=d+'/entrega/02-cenas/00-montagem-remotion-sem-audio.mp4';
 const mode=process.argv[2]??'plan';
 const beats=[
  [0,11.88,'Convívio próximo; vergonha íntima ainda sem explicação.','Banco real de mesa e gestos; perspectiva de quem está sentado. Movimento próprio do vídeo, sem chamar atenção para técnica.','Luz diurna de banco com saturação reduzida; abertura sóbria.','Título discreto, voz em primeiro plano; sem trilha cômica.'],

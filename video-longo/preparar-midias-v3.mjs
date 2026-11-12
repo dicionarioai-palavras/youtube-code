@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {execFileSync} from 'node:child_process';
-const root='C:/Users/Dell/Desktop/Redes-sociais',dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v3',pub=root+'/code/remotion-redes-sociais/public/piloto-inveja-v3';
+const root='C:/Users/Dell/Desktop/Redes-sociais',dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v3',pub=root+'/code/remotion-redes-sociais/public/piloto-inveja-v3';
 const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';
 const run=a=>execFileSync(ff,['-v','error',...a],{maxBuffer:4e6});
 for(const sub of ['','camera-frames'])fs.mkdirSync(path.join(pub,sub),{recursive:true});
@@ -9,6 +9,6 @@ for(const [src,name] of [['pixabay-santorini.mp4','santorini.png'],['pixabay-sao
 run(['-i',dir+'/originais/c125-fora-do-feed.png','-vf','crop=1152:648:650:430,scale=1920:1080','-frames:v','1','-update','1','-y',pub+'/c125-detalhe.png']);
 fs.copyFileSync(pub+'/c125-detalhe.png',dir+'/originais/c125-detalhe.png');
 run(['-i',dir+'/originais/luiz-real-2s.mp4','-vf','fps=30,scale=1920:1080,setsar=1','-frames:v','48','-threads','1','-y',pub+'/camera-frames/%03d.png']);
-const voice=root+'/palavras/youtube/peças/inveja/videos/inveja-v2/inveja-narracao-final-v5.wav';
+const voice=root+'/canais/palavras/episodios/ep01-inveja/videos/inveja-v2/inveja-narracao-final-v5.wav';
 for(const [n,start,dur] of [['feed',348.77,33.5],['camera',79.13,1.6]])run(['-ss',String(start),'-i',voice,'-t',String(dur),'-ar','48000','-ac','2','-c:a','pcm_s24le','-y',dir+'/entrega/03-audio/'+n+'-voz-original.wav']);
 console.log('MIDIAS-LOCAIS-PREPARADAS');

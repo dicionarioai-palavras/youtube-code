@@ -1,6 +1,6 @@
 # Piloto Inveja v4 — retomada
 
-Execução autorizada em23/10/2026, cenas1–32. Não é executor genérico de todos os vídeos. Direção e documentação em palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v4.
+Execução autorizada em23/10/2026, cenas1–32. Não é executor genérico de todos os vídeos. Direção e documentação em canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v4.
 
 Etapas pagas já executadas: gerar-e-baixar.mjs image e video; não repetir com outros nomes nem alterar receita para provocar nova geração. IDs no ledger. Limite33cr; sem repetição. buscar-banco-saldo consulta APIs e usa cache.
 

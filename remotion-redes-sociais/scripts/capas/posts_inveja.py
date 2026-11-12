@@ -1,6 +1,6 @@
 # Peças de texto do Palavras para Inveja (31/10/2026): carrossel Instagram (4:5), post único (4:5),
 # stories (9:16), capa do destaque, carrossel TikTok (9:16) e imagem do post da comunidade do YouTube (1:1).
-# Textos: palavras/youtube/peças/inveja/redes/final/*.txt (aprovados). Uso: python posts_inveja.py <assets> <olho.jpg> <saida>
+# Textos: canais/palavras/episodios/ep01-inveja/redes/final/*.txt (aprovados). Uso: python posts_inveja.py <assets> <olho.jpg> <saida>
 import base64, os, sys
 from playwright.sync_api import sync_playwright
 A, OLHO, OUT = sys.argv[1], sys.argv[2], sys.argv[3]

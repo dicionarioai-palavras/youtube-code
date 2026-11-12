@@ -4,7 +4,7 @@ import {COR, FONTE} from '../tema';
 
 // Cartelas da direção visual v2 (06/11/2026): mesmo vocabulário do "zoom que revela".
 // O elemento principal é revelado (máscara que abre + escala 1,1 → 1,0), nunca só fade. Tudo dirigido pela timeline.
-// Guia: canal-the-mind-behind/11-DIRECAO-VISUAL-V2.md, seção 4.
+// Guia: canais/the-mind-behind/guias/11-DIRECAO-VISUAL-V2.md, seção 4.
 
 const ease = Easing.bezier(0.45, 0, 0.25, 1);
 const abre = (f: number, ini: number, dur = 18) => interpolate(f, [ini, ini + dur], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease});

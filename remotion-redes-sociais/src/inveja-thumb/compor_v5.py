@@ -14,10 +14,10 @@ OSSO, TERRA, TINTA = (243, 233, 213), (196, 109, 69), (21, 22, 26)
 
 src, out, var = sys.argv[1], sys.argv[2], sys.argv[3]
 U = src
-BG_PATH = f'{U}/palavras/youtube/peças/inveja/videos/imagens/S15-16-17-18/CAMPEONADO_NA_CABECA.png'
-BIN_PATH = f'{U}/palavras/youtube/peças/inveja/thumb/_trabalho/A1-recorte.png'
-REFL = {'prato': f'{U}/palavras/youtube/peças/inveja/thumb/_trabalho/refl-prato.png',
-        'chave': f'{U}/palavras/youtube/peças/inveja/thumb/_trabalho/refl-chave.png'}
+BG_PATH = f'{U}/canais/palavras/episodios/ep01-inveja/videos/imagens/S15-16-17-18/CAMPEONADO_NA_CABECA.png'
+BIN_PATH = f'{U}/canais/palavras/episodios/ep01-inveja/thumb/_trabalho/A1-recorte.png'
+REFL = {'prato': f'{U}/canais/palavras/episodios/ep01-inveja/thumb/_trabalho/refl-prato.png',
+        'chave': f'{U}/canais/palavras/episodios/ep01-inveja/thumb/_trabalho/refl-chave.png'}
 FONT, ICON = 'Bebas.ttf', 'icone.png'
 
 # parâmetros por variante (coordenadas na escala 1920)

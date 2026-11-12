@@ -1,5 +1,5 @@
 // EP04 — Mary Celeste (07/11/2026): composição tmb-ep04 (montagem v2, componente EpisodioV2). Timeline: ep04-timeline.json
-// (gerada por canal-the-mind-behind/episodios/ep04-btk-dennis-rader/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep04.mjs
+// (gerada por canais/the-mind-behind/episodios/ep04-btk-dennis-rader/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep04.mjs
 import React from 'react';
 import {Composition} from 'remotion';
 import {EpisodioV2, TimelineV2} from './EpisodioV2';

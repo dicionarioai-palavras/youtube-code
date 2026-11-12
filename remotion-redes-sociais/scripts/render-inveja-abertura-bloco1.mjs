@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {bundle} from '@remotion/bundler';import {selectComposition,renderStill,renderMedia} from '@remotion/renderer';
-const root=process.cwd(),out=path.resolve(root,'../../palavras/youtube/peças/inveja/videos/remotion/ABERTURA-BLOCO1-2026-10-28');fs.mkdirSync(out,{recursive:true});const browserExecutable='C:/Program Files/Google/Chrome/Application/chrome.exe';
+const root=process.cwd(),out=path.resolve(root,'../../canais/palavras/episodios/ep01-inveja/videos/remotion/ABERTURA-BLOCO1-2026-10-28');fs.mkdirSync(out,{recursive:true});const browserExecutable='C:/Program Files/Google/Chrome/Application/chrome.exe';
 const serveUrl=await bundle({entryPoint:path.join(root,'src/inveja-abertura-bloco1/index.tsx'),publicDir:path.join(root,'public-abertura-bloco1'),outDir:path.join(out,'bundle')});
 const composition=await selectComposition({serveUrl,id:'abertura-olho-palavra',browserExecutable});
 for(const frame of [15,25,35,59]){await renderStill({serveUrl,composition,browserExecutable,frame,imageFormat:'png',output:path.join(out,`quadro-${frame}.png`)});console.log('Quadro '+frame);}

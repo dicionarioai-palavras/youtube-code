@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {pathToFileURL,fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../../../',import.meta.url)).replaceAll('\\','/').replace(/\/$/,'');
-const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1';const out=dir+'/entrega';
+const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1';const out=dir+'/entrega';
 const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';const probe=root+'/_esteiras/cortes-redes-sociais/bin/ffprobe.exe';
 const recipe=JSON.parse(fs.readFileSync(dir+'/receita-montagem.json'));const {shots,fps,frames}=recipe;const duration=frames/fps;
 const run=(args)=>execFileSync(ff,['-v','error',...args],{maxBuffer:8e6});

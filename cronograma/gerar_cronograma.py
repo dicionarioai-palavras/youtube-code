@@ -9,9 +9,9 @@ def add(d,col,txt):
     if d.weekday()>=5 and 'enquete da comunidade' in txt: txt+=' — programar no Studio na sexta'
     rows.setdefault(d,{c:[] for c in COLS})[COLS[col]].append(txt)
 Y,S,I,L,B=range(5)
-P='midias-compartilhadas/palavras/youtube/inveja/pecas/'
+P='canais/palavras/episodios/ep01-inveja/pecas/'
 # ---------- Vídeo 1 — Inveja (pronto) ----------
-add(D(11,11),Y,'🎬 VÍDEO 1 — INVEJA: "Por Que Seus Amigos Te Invejam em Segredo (Mais do Que Você Imagina)" (embalagem envelopada, teste E14, 10/11; A/B envelopada × v5 — `estudo-envelopamento/troca-2026-11/LEIA-ME-TROCAS.md`) estreia às **18h** (Luiz: no Studio, conferir a estreia às 18h, trocar o título e montar o Testar e comparar); **19h: post na comunidade** (enquete com imagem + link; `palavras/youtube/peças/inveja/comunidade/POST-COMUNIDADE-INVEJA.md`); Luiz: comentário fixado logo depois (textos: youtube-publicacao/)')
+add(D(11,11),Y,'🎬 VÍDEO 1 — INVEJA: "Por Que Seus Amigos Te Invejam em Segredo (Mais do Que Você Imagina)" (embalagem envelopada, teste E14, 10/11; A/B envelopada × v5 — `estudos/envelopamento/troca-2026-11/LEIA-ME-TROCAS.md`) estreia às **18h** (Luiz: no Studio, conferir a estreia às 18h, trocar o título e montar o Testar e comparar); **19h: post na comunidade** (enquete com imagem + link; `canais/palavras/episodios/ep01-inveja/comunidade/POST-COMUNIDADE-INVEJA.md`); Luiz: comentário fixado logo depois (textos: youtube-publicacao/)')
 add(D(11,11),B,'Inveja: trocar pilar e crônica para a versão com embed (antes-do-video/LEIA-ME.md) e pedir reindexação')
 add(D(11,11),L,'Story/post avisando do vídeo (opcional, sem peça pronta)')
 add(D(12,11),S,'Inveja · corte `palavras-o-olho-volta` (ATÉ ONDE ESSE OLHAR VAI?)')
@@ -34,7 +34,7 @@ add(D(27,11),S,'Inveja · corte `palavras-calculadora-do-almoco` (O QUE A CONTA 
 add(D(29,11),L,'Bastidor solto · `corta-isso-ai-x-eu-e-essa-camera` (6 s; sem ficha — confirmar)')
 add(D(11,12),Y,'Inveja · métricas de 30 dias (vídeo, blog, cortes, posts) → PLANO-EVOLUCAO-CONTINUA.md (M11)')
 # Pesquisa de demanda (Luiz, 07/11/2026): retorno aos 7 e 28 dias de cada vídeo, comparado com a nota da triagem
-add(D(18,11),Y,'IA: Inveja · retorno de 7 dias da pesquisa de demanda (nota 9,1): views, múltiplo, retenção e CTR pelo vidIQ → palavras/youtube/calibragem/notas-externas.md')
+add(D(18,11),Y,'IA: Inveja · retorno de 7 dias da pesquisa de demanda (nota 9,1): views, múltiplo, retenção e CTR pelo vidIQ → canais/palavras/guias/calibragem/notas-externas.md')
 add(D(9,12),Y,'IA: Inveja · retorno de 28 dias da pesquisa de demanda → notas-externas.md')
 add(D(25,11),Y,'IA: Ciúme · retorno de 7 dias da pesquisa de demanda (nota 7,75) → notas-externas.md')
 add(D(16,12),Y,'IA: Ciúme · retorno de 28 dias da pesquisa de demanda → notas-externas.md')
@@ -45,8 +45,8 @@ add(D(10,11),S,'AGENDAR o Ciúme no Palavras: `pra-que-nove-vezes` e `palavras-p
 add(D(10,11),L,'AGENDAR o Ciúme no perfil Luiz: `o-cara-da-persiana`, `volta-pro-comeco-da-frase`, `pra-que-nove-vezes` (19, 21 e 30/11)')
 # ---------- Vídeo 2 — Ciúme (estreia 18/11; bastidores prontos em 07/11) ----------
 C='Ciúme · '
-add(D(10,11),B,C+'VALIDAR os 5 artigos do Ciúme (rascunhos em palavras/youtube/peças/ciume/roteiro-blogs/palavras-barra-blog/: pilar, crônica, ciúme ou ciúmes, Capitu, prova de amor) → com o ok, Claude exporta para final/ e deixa a publicação pronta nas datas abaixo (16/11, 19/11, 26/11, 03/12)')
-add(D(16,11),B,'Vídeo 2 — Ciúme · publicar pilar (/blog/ciume-origem-da-palavra) + crônica (/blog/ciume-ou-cuidado) + pedir indexação (textos e imagens prontos: palavras/youtube/peças/ciume/roteiro-blogs/)')
+add(D(10,11),B,C+'VALIDAR os 5 artigos do Ciúme (rascunhos em canais/palavras/episodios/ep02-ciume/roteiro-blogs/palavras-barra-blog/: pilar, crônica, ciúme ou ciúmes, Capitu, prova de amor) → com o ok, Claude exporta para final/ e deixa a publicação pronta nas datas abaixo (16/11, 19/11, 26/11, 03/12)')
+add(D(16,11),B,'Vídeo 2 — Ciúme · publicar pilar (/blog/ciume-origem-da-palavra) + crônica (/blog/ciume-ou-cuidado) + pedir indexação (textos e imagens prontos: canais/palavras/episodios/ep02-ciume/roteiro-blogs/)')
 add(D(19,11),B,C+'publicar artigo "Ciúme ou ciúmes: qual é o certo?" (/blog/ciume-ou-ciumes) + pedir indexação')
 add(D(26,11),B,C+'publicar artigo "Capitu traiu Bentinho?" (/blog/capitu-traiu-bentinho) + pedir indexação')
 add(D(3,12),B,C+'publicar artigo "Ciúme é prova de amor?" (/blog/ciume-e-prova-de-amor) + pedir indexação')
@@ -63,7 +63,7 @@ add(D(23,11),Y,C+'resposta da enquete no comentário fixado')
 add(D(24,11),S,C+'corte 2 do vídeo final (a construir)')
 add(D(30,11),L,C+'`pra-que-nove-vezes` (versão Luiz; 9 dias depois da versão Palavras; crédito CC BY)')
 # ---------- Vídeos 2 a 8 (a produzir) ----------
-# 09/11/2026 (Luiz): Vídeo 3 = POC de envelopamento (`estudo-envelopamento/poc/POC-2026-11-09.md`, v3).
+# 09/11/2026 (Luiz): Vídeo 3 = POC de envelopamento (`estudos/envelopamento/poc/POC-2026-11-09.md`, v3).
 TEMAS={3:'POC envelopamento — "A Psicologia dos Homens Que Nunca Amadurecem" (maduro / homem-criança)'}
 for n,w in enumerate([D(25,11),D(2,12),D(9,12),D(16,12),D(23,12),D(30,12)],3):
     v=f'Vídeo {n}'
@@ -86,7 +86,7 @@ for n,w in enumerate([D(25,11),D(2,12),D(9,12),D(16,12),D(23,12),D(30,12)],3):
 tb=[(D(17,11),'Mal ou mau — pilar (/blog/mal-ou-mau)','mal ou mau'),(D(1,12),'Sessão, seção ou cessão — pilar','sessão, seção ou cessão'),
     (D(15,12),'Por que mal e mau soam iguais (crônica)','mal ou mau'),(D(29,12),'Origem de sessão, seção e cessão (crônica)','sessão, seção ou cessão')]
 for d,t,tema in tb:
-    add(d,B,f'Conteúdo independente · artigo "{t}" (palavras/blog/{tema}/palavras-barra-blog/final/)')
+    add(d,B,f'Conteúdo independente · artigo "{t}" (canais/palavras/independentes/blog/{tema}/palavras-barra-blog/final/)')
 add(D(21,11),I,'Conteúdo independente · Mal ou mau — carrossel IG + carrossel TikTok (textos prontos em redes/final; arte a construir)')
 add(D(5,12),I,'Conteúdo independente · Sessão, seção ou cessão — carrossel IG + carrossel TikTok (arte a construir)')
 add(D(19,12),I,'Conteúdo independente · Mal ou mau — post único + stories (arte a construir)')
@@ -120,12 +120,12 @@ md.write('''# Cronograma geral de postagens — Palavras e Luiz (06/11 a 31/12/2
 
 Criado em 31/10/2026 a pedido de Luiz. **Dia V do primeiro vídeo (Inveja): quarta 11/11/2026.** Depois, um vídeo longo por semana, às quartas, conforme cada vídeo e suas peças ficarem prontos (Vídeo 2 = Ciúme, 18/11; os Vídeos 3–8 são vagas a preencher). Luiz decide na hora de postar o que entra, o que sai e qual capa usar. LinkedIn e Medium fora por ora (Luiz decide quando aparecerem).
 Fim de semana sem tarefas de Luiz (07/11/2026): o que sai no sábado e no domingo é programado durante a semana. Verbetes: 10–30 novos por dia útil. **Site novo no ar em qua 18/11** (deploy em produção); daí em diante, todo verbete publicado vai para indexação no mesmo dia. SEO: rotina semanal toda segunda (`C:\\proj\\ROTINA_SEO_SEMANAL.md`).\nOrdem de cada vídeo: artigos no blog (segunda) → vídeo (quarta) → redes (quinta a terça). Regras: 1 peça de vídeo por dia por marca; bastidores sempre no Luiz, às vezes no Palavras.
-Peças do Inveja: `midias-compartilhadas/palavras/youtube/inveja/pecas/`; do Ciúme: `midias-compartilhadas/palavras/youtube/ciume/pecas/` (arquivo por destino e legenda na `ficha.md` de cada pasta). Ao postar: marcar `postado`, data e link na ficha. Versão planilha: `CRONOGRAMA-GERAL-POSTAGENS.csv`.
+Peças do Inveja: `canais/palavras/episodios/ep01-inveja/pecas/`; do Ciúme: `canais/palavras/episodios/ep02-ciume/pecas/` (arquivo por destino e legenda na `ficha.md` de cada pasta). Ao postar: marcar `postado`, data e link na ficha. Versão planilha: `CRONOGRAMA-GERAL-POSTAGENS.csv`.
 
 ''')
 md.write('''
 ## Como postar — passo a passo (vale para todas as peças)
-Antes de tudo: abra a pasta da peça (o nome entre crases na tabela) em `midias-compartilhadas/palavras/youtube/<tema>/pecas/<peça>/`. A `ficha.md` tem a legenda pronta, as figurinhas, o link e as observações; o nome do arquivo diz onde postar. Depois de postar, me diga (ou marque na ficha) `postado`, data e link.
+Antes de tudo: abra a pasta da peça (o nome entre crases na tabela) em `canais/palavras/episodios/<tema>/pecas/<peça>/`. A `ficha.md` tem a legenda pronta, as figurinhas, o link e as observações; o nome do arquivo diz onde postar. Depois de postar, me diga (ou marque na ficha) `postado`, data e link.
 
 **Qual arquivo subir**
 - `...postar-no-shorts...` ou `...--postar-no-shorts--com-trilha.mp4` → YouTube Shorts.
@@ -173,12 +173,12 @@ Antes de tudo: abra a pasta da peça (o nome entre crases na tabela) em `midias-
 3. No dia seguinte, fixe nos comentários a "Resposta" da ficha.
 
 **Blog (palavras.co)**
-1. Na véspera ou no dia, me peça "publicar os artigos de hoje": eu publico pela API do blog o texto aprovado (`palavras/youtube/peças/<tema>/roteiro-blogs/final/`) com a imagem de `roteiro-blogs/imagem-artigo/` (procedimento: `code/blog-publicacao/LEIA-ME.md`).
+1. Na véspera ou no dia, me peça "publicar os artigos de hoje": eu publico pela API do blog o texto aprovado (`canais/palavras/episodios/<tema>/roteiro-blogs/final/`) com a imagem de `roteiro-blogs/imagem-artigo/` (procedimento: `code/blog-publicacao/LEIA-ME.md`).
 2. Você confere a página no ar e pede a indexação no Google Search Console (**Inspecionar URL** → **Solicitar indexação**).
 3. No dia do vídeo, eu troco os artigos para a versão com o vídeo incorporado.
 4. LinkedIn e Medium: só quando você decidir (textos prontos em `roteiro-blogs/linkedin/` e agenda em `roteiro-blogs/medium/importacao.md`).
 
-**Horários (08/11/2026, público no Brasil; análise em `palavras/HORARIOS-DE-POSTAGEM.md`)**: vídeo longo **quarta, 18h**; Shorts, Reels e TikTok **20h** (principal) e **12h** (segunda peça do dia, quando houver); carrossel 12h; stories ao longo do dia. Revisar com os dados das contas depois dos primeiros vídeos.
+**Horários (08/11/2026, público no Brasil; análise em `canais/palavras/guias/HORARIOS-DE-POSTAGEM.md`)**: vídeo longo **quarta, 18h**; Shorts, Reels e TikTok **20h** (principal) e **12h** (segunda peça do dia, quando houver); carrossel 12h; stories ao longo do dia. Revisar com os dados das contas depois dos primeiros vídeos.
 ''')
 cur=None
 for d in dias:
@@ -190,7 +190,7 @@ for d in dias:
     md.write(f'| {SEM[d.weekday()]} {d.strftime("%d/%m")} | '+' | '.join('<br>'.join(r[c]) or '—' for c in COLS)+' |\n')
 md.write('''
 ## Reserva e pendências
-- Inveja, 2ª leva de cortes: feita em 01/11/2026 e agendada (13/11, 15/11, 27/11). Plano: `palavras/youtube/peças/inveja/redes/PLANO-CONSTRUCAO-CORTES-CTA-2026-10-31.md`.
+- Inveja, 2ª leva de cortes: feita em 01/11/2026 e agendada (13/11, 15/11, 27/11). Plano: `canais/palavras/episodios/ep01-inveja/redes/PLANO-CONSTRUCAO-CORTES-CTA-2026-10-31.md`.
 - Conteúdo independente (apoio, ~2 por mês; Luiz decide quando): datas acima são sugestão. Reserva para janeiro: "Bem ou bom", "Secção ou seção", "Seção eleitoral ou sessão eleitoral" (janela eleitoral passada: reavaliar o ângulo). Reels e vídeos de TikTok desse conteúdo: roteiros prontos em `redes/final/`, gravação a produzir.
 - Vídeos 7 (23/12) e 8 (30/12) confirmados por Luiz também nas semanas de fim de ano.
 - Rotina de SEO: `C:\\proj\\ROTINA_SEO_SEMANAL.md` (segunda: exportações + pedido ao Claude; todo dia: 10–20 pedidos de indexação; alertas: rastreamento > 1 s, 4xx > 1% ou qualquer 5xx, erro de sitemap, queda de indexadas, recomendação nova no Bing, e-mail do Search Console/Bing). URLs novas do blog e verbetes citados nos vídeos (ex.: /palavra/inveja) entram na lista de indexação.

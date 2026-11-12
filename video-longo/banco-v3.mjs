@@ -1,5 +1,5 @@
 import fs from 'node:fs';import {pathToFileURL} from 'node:url';import crypto from 'node:crypto';
-const root='C:/Users/Dell/Desktop/Redes-sociais';const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v3';
+const root='C:/Users/Dell/Desktop/Redes-sociais';const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v3';
 const {loadExternalEnv}=await import(pathToFileURL(root+'/code/apis-externas/src/config.mjs'));loadExternalEnv();const {searchPixabay}=await import(pathToFileURL(root+'/code/apis-externas/src/pixabay.mjs'));
 const reports=[];for(const q of ['Santorini','sao paulo']){const r=await searchPixabay('video',q,{perPage:3});reports.push(r);console.log(JSON.stringify({query:q,cached:r.cache_hit,results:r.results.map(i=>({id:i.id,tags:i.tags,author:i.author,source:i.page_url,variants:Object.keys(i.variants)}))}));}
 fs.writeFileSync(dir+'/direcao/pixabay-buscas.json',JSON.stringify(reports,null,2));

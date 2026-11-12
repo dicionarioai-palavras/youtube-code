@@ -1,5 +1,5 @@
 import fs from 'node:fs';import {pathToFileURL} from 'node:url';
-const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v4';
+const root='C:/Users/Dell/Desktop/Redes-sociais',d=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v4';
 const {loadExternalEnv}=await import(pathToFileURL(root+'/code/apis-externas/src/config.mjs'));loadExternalEnv();
 const {searchPixabay}=await import(pathToFileURL(root+'/code/apis-externas/src/pixabay.mjs'));
 const {getRunwayBalance}=await import(pathToFileURL(root+'/code/apis-externas/src/runway-saldo.mjs'));

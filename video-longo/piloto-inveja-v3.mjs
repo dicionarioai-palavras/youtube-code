@@ -1,6 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {pathToFileURL} from 'node:url';
 const root='C:/Users/Dell/Desktop/Redes-sociais';
-const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v3';
+const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v3';
 const {runwayJob}=await import(pathToFileURL(root+'/code/apis-externas/src/runway-gerar.mjs'));
 const {getRunwayBalance}=await import(pathToFileURL(root+'/code/apis-externas/src/runway-saldo.mjs'));
 const {loadExternalEnv}=await import(pathToFileURL(root+'/code/apis-externas/src/config.mjs'));loadExternalEnv();

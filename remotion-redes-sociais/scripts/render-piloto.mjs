@@ -4,7 +4,7 @@ import {execFileSync} from 'node:child_process';
 import {bundle} from '@remotion/bundler';
 import {selectComposition,renderMedia} from '@remotion/renderer';
 const root=path.resolve('../..');
-const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1';
+const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1';
 const recipe=JSON.parse(fs.readFileSync(dir+'/receita-montagem.json'));
 const serveUrl=await bundle({entryPoint:path.resolve('src/PilotoInveja.tsx')});
 for(const s of recipe.shots){

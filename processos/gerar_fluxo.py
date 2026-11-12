@@ -2,12 +2,12 @@
 import html, textwrap
 
 FASES = [
- ('1', 'Pauta', 'pesquisa-de-mercado/04_temas-quentes · palavras/ESTRATEGIA-GERAL.md', [
+ ('1', 'Pauta', 'pesquisa-de-mercado/04_temas-quentes · canais/palavras/AGENTS.md', [
    ('Temas quentes da semana de lançamento (datas, notícias, buscas em alta, tendências, Search Console) + opções atemporais', 'n'),
    ('Temas: lista de urgências e pilares (emoções, julgamento, cultura, mudança de sentido)', 'n'),
    ('Pesquisa de mercado e calibragem (buscas reais, referências Elementar e Ludoviajante)', 'n'),
    ('Luiz escolhe o tema e se os derivados são atemporais ou puxados pelo tema quente', 'g')]),
- ('2', 'Roteiro', 'palavras/youtube/guias/CRIACAO-DO-ROTEIRO.md', [
+ ('2', 'Roteiro', 'canais/palavras/guias/CRIACAO-DO-ROTEIRO.md', [
    ('Uma etapa por vez; só o roteiro (sem título, thumb ou peças)', 'n'),
    ('Resumidor: resumo base + fontes externas (palavras.co atual não é fonte)', 'g'),
    ('Estruturador: modelo, variáveis com fonte, blocos', 'g'),
@@ -63,7 +63,7 @@ FASES = [
    ('Conteúdo independente de apoio: ~2 por mês, quinzenal (Luiz decide quando)', 'n'),
    ('Gerar o .md e o .csv (dia a dia, por marca e rede)', 'n'),
    ('Regras: 1 vídeo por dia por marca; mesmo trecho ≥ 7 dias de distância', 'n')]),
- ('10', 'Publicação', 'palavras/PLANO-DE-PUBLICACAO.md', [
+ ('10', 'Publicação', 'canais/palavras/guias/PLANO-DE-PUBLICACAO.md', [
    ('Segunda: artigos do vídeo no blog', 'n'),
    ('Quarta: vídeo longo (Não listado → Público); artigos ganham o embed', 'n'),
    ('Quinta a terça: cortes, posts e bastidores', 'n')]),

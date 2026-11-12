@@ -3,13 +3,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 const root=fileURLToPath(new URL('../../../',import.meta.url)).replaceAll('\\','/').replace(/\/$/,'');
-const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1';
+const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1';
 const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';
 const out=dir+'/entrega';for(const sub of ['01-previa','02-cenas','03-audio','04-premiere','05-registros','06-fontes'])fs.mkdirSync(out+'/'+sub,{recursive:true});
 const pub=root+'/code/remotion-redes-sociais/public/piloto-inveja-v1';fs.mkdirSync(pub,{recursive:true});
 for(const file of fs.readdirSync(dir+'/originais').filter(f=>/\.(png|jpg|mp4)$/.test(f)))fs.copyFileSync(dir+'/originais/'+file,pub+'/'+file);
-const raw=root+'/midias-compartilhadas/palavras/youtube/inveja/videos/20261016_211135/20261016_211135.mp4';
-const voice=root+'/palavras/youtube/peças/inveja/videos/inveja-v2/inveja-narracao-final-v5.wav';
+const raw=root+'/canais/palavras/episodios/ep01-inveja/sessoes-brutas/20261016_211135/20261016_211135.mp4';
+const voice=root+'/canais/palavras/episodios/ep01-inveja/videos/inveja-v2/inveja-narracao-final-v5.wav';
 // Alinhamento pela correlação do envelope da voz; não altera a narração final.
 function envelope(file,start,duration){const b=execFileSync(ff,['-v','error','-ss',String(start),'-i',file,'-t',String(duration),'-vn','-ac','1','-ar','8000','-f','f32le','pipe:1'],{maxBuffer:8e6});const a=new Float32Array(b.buffer,b.byteOffset,b.length/4);const e=[];for(let i=0;i+80<=a.length;i+=80){let s=0;for(let k=0;k<80;k++)s+=a[i+k]**2;e.push(Math.sqrt(s/80));}return e;}
 const ref=envelope(voice,79.13,1.3),rawEnv=envelope(raw,247,5);let best={score:-1,offset:0};

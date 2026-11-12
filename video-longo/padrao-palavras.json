@@ -22,7 +22,7 @@
       "body": "Inter"
     },
     "reference_note": "F/H são referências históricas opcionais. Sem paleta/fundo uniforme obrigatório; referência específica por sequência quando necessária.",
-    "standard": "palavras/youtube/guias/PADRAO-DIRECAO-AUDIOVISUAL.md",
+    "standard": "canais/palavras/guias/PADRAO-DIRECAO-AUDIOVISUAL.md",
     "context_before_prompt": true,
     "sequence_atmosphere_required": true,
     "real_luiz": true,

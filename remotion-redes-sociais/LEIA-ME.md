@@ -32,7 +32,7 @@ No Studio você pode mudar textos, cores e o gancho em `src\estilo.ts` e em `src
 ## Como entra um corte novo (sem IA)
 O `scripts\preparar.mjs` lê o `cortes.json` aprovado e a transcrição do Whisper da pasta do vídeo, gera os proxies e calcula a legenda:
 ```powershell
-node scripts\preparar.mjs --video "C:\Users\Dell\Desktop\Redes-sociais\midias-compartilhadas\palavras\youtube\inveja\videos\20261010_231243" --corte 01-botao-da-foto --marca luiz --gancho "Bastidor: o erro clássico" --gancho-ate 2.5
+node scripts\preparar.mjs --video "C:\Users\Dell\Desktop\Redes-sociais\canais\palavras\episodios\ep01-inveja\sessoes-brutas\20261010_231243" --corte 01-botao-da-foto --marca luiz --gancho "Bastidor: o erro clássico" --gancho-ate 2.5
 ```
 Opções: `--layout tela --regiao x,y,w,h` (gravação de tela) · `--pb` (preto e branco) · `--mudo` (sem áudio original) · `--cta "texto"` · `--trilha trilhas\musica.mp3 --volume 0.2` · `--id` (para variações do mesmo corte). O ffmpeg usado é o da esteira (`_esteiras\cortes-redes-sociais\bin`).
 

@@ -1,6 +1,6 @@
 import json, subprocess, sys, numpy as np, unicodedata, re
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-F='/home/claude/s1329'; SRC='/mnt/user-data/uploads/Redes-sociais/palavras/youtube/peças/ciume/redes/_fontes-cortes'
+F='/home/claude/s1329'; SRC='/mnt/user-data/uploads/Redes-sociais/canais/palavras/episodios/ep02-ciume/redes/_fontes-cortes'
 BEB=lambda s: ImageFont.truetype(f'{F}/BebasNeue.ttf',s); INT=lambda s: ImageFont.truetype(f'{F}/Inter-500.ttf',s)
 OSSO=(251,233,194); TERRA=(196,109,69); W,H,FPS=1080,1920,30
 ICON=Image.open('/home/claude/emb/_icone-osso.png').convert('RGBA').resize((70,70))

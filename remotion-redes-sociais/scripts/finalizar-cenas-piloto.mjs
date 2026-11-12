@@ -1,6 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import {execFileSync} from 'node:child_process';
 import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia} from '@remotion/renderer';
-const root=path.resolve('../..');const d=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1';const out=d+'/entrega';
+const root=path.resolve('../..');const d=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1';const out=d+'/entrega';
 const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';const run=args=>execFileSync(ff,['-v','error',...args],{maxBuffer:4e6});
 const serveUrl=await bundle({entryPoint:path.resolve('src/PilotoInveja.tsx')});
 const inputProps={kind:'distance-overlay',frames:321};const chromiumOptions={gl:'swangle'};

@@ -3,7 +3,7 @@ Gera clipes, stills, SFX e o JSON de props. Uso: python3 montagem_inveja.py <rai
 import json, os, re, subprocess, sys, statistics
 R = sys.argv[1]
 UP = '/mnt/user-data/uploads/Redes-sociais'
-VID = f'{UP}/midias-compartilhadas/palavras/youtube/inveja/videos'
+VID = f'{UP}/canais/palavras/episodios/ep01-inveja/sessoes-brutas'
 PUB = f'{R}/public'; OUT = 'temas/palavras/inveja/montagem'; D = f'{PUB}/{OUT}'
 os.makedirs(D, exist_ok=True)
 FF = ['ffmpeg', '-nostdin', '-v', 'error', '-y']
@@ -77,7 +77,7 @@ sfx.append({'t': 1.1, 'src': f'{OUT}/whoosh.wav', 'vol': 0.6})
 sfx.append({'t': t - 0.15, 'src': f'{OUT}/whoosh.wav', 'vol': 0.8}); momentos.append({'t': t, 'tipo': 'transicao'})
 
 # ---------- S1: botão da foto (selfie vertical) + gancho + ERRO congelado
-F1 = f'{UP}/midias-compartilhadas/palavras/youtube/inveja/videos/20261010_231243/20261010_231243.mp4'
+F1 = f'{UP}/canais/palavras/episodios/ep01-inveja/sessoes-brutas/20261010_231243/20261010_231243.mp4'
 w1 = palavras(F1.replace('.mp4', '.json'))
 add_video(F1, 0.0, 6.3, w1, 'camera', {'foco': [0.5, 0.4]})
 burro = next(w for w in w1 if w[2].lower().startswith('burro'))

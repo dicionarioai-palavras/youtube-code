@@ -1,6 +1,6 @@
 # Piloto Inveja
 
-Entrega real e decisões em palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1/entrega/LEIA-ME.md. Scripts instalados e credenciais compartilhadas, nunca duplicadas.
+Entrega real e decisões em canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1/entrega/LEIA-ME.md. Scripts instalados e credenciais compartilhadas, nunca duplicadas.
 
 Retomada sem gasto: node code/video-longo/piloto-inveja/executar.mjs. Reutiliza os oito renders existentes e não chama APIs. Alterar fonte/receita exige nova rodada de render (não sobrescrever aprovação antiga silenciosamente).
 

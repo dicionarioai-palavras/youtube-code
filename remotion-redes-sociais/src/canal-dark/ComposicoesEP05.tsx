@@ -1,5 +1,5 @@
 // EP05 — Norrmalmstorg (07/11/2026): composição tmb-ep05 (montagem v2, componente EpisodioV2). Timeline: ep05-timeline.json
-// (gerada por canal-the-mind-behind/episodios/ep05-norrmalmstorg-stockholm/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep05.mjs
+// (gerada por canais/the-mind-behind/episodios/ep05-norrmalmstorg-stockholm/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep05.mjs
 import React from 'react';
 import {Composition} from 'remotion';
 import {EpisodioV2, TimelineV2} from './EpisodioV2';

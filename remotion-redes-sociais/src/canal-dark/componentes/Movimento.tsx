@@ -7,7 +7,7 @@ import {AbsoluteFill, Img, interpolate, useCurrentFrame, useVideoConfig, Easing}
 // O enquadramento é limitado para nunca mostrar a borda da imagem.
 // Atalhos: mov "revela" (fechado no foco → aberto), "descobre" (aberto → fechado no foco),
 // "desliza" (de -> para na mesma escala), "parado" (leve respiração no foco).
-// Guia: canal-the-mind-behind/11-DIRECAO-VISUAL-V2.md
+// Guia: canais/the-mind-behind/guias/11-DIRECAO-VISUAL-V2.md
 
 export type Quadro = {x: number; y: number; s: number};
 export type Mov = 'revela' | 'descobre' | 'desliza' | 'parado';

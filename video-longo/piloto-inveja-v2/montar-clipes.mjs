@@ -1,6 +1,6 @@
 import {fileURLToPath} from 'node:url';
 import fs from 'node:fs';import {execFileSync} from 'node:child_process';
-const root=fileURLToPath(new URL('../../../',import.meta.url)).replaceAll('\\','/').replace(/\/$/,'');const dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v2';const old=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v1';const out=dir+'/entrega';const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';
+const root=fileURLToPath(new URL('../../../',import.meta.url)).replaceAll('\\','/').replace(/\/$/,'');const dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v2';const old=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v1';const out=dir+'/entrega';const ff=root+'/_esteiras/cortes-redes-sociais/bin/ffmpeg.exe';
 const run=args=>execFileSync(ff,['-v','error',...args],{maxBuffer:4e6});
 fs.copyFileSync(old+'/entrega/08-grafismos/c026-028-regua-alpha.mov',out+'/08-grafismos/c026-028-regua-alpha.mov');
 // O plano gerado é desacelerado para cobrir o bloco de10,7s; áudio gerado descartado.

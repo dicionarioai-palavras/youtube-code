@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
-const root=process.cwd(),out=path.resolve(root,'../../palavras/youtube/peças/inveja/videos/remotion/S03-20s-2026-10-27');
+const root=process.cwd(),out=path.resolve(root,'../../canais/palavras/episodios/ep01-inveja/videos/remotion/S03-20s-2026-10-27');
 fs.mkdirSync(out,{recursive:true});
 const browserExecutable='C:/Program Files/Google/Chrome/Application/chrome.exe';
 const serveUrl=await bundle({entryPoint:path.join(root,'src/inveja-s03/index.tsx'),publicDir:path.join(root,'public'),outDir:path.join(out,'bundle')});

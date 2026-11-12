@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {bundle} from '@remotion/bundler';import {selectComposition,renderStill,renderMedia} from '@remotion/renderer';
-const root=process.cwd(),out=path.resolve(root,'../../palavras/youtube/peças/inveja/videos/remotion/S05-27s-2026-10-28');fs.mkdirSync(out,{recursive:true});const browserExecutable='C:/Program Files/Google/Chrome/Application/chrome.exe';
+const root=process.cwd(),out=path.resolve(root,'../../canais/palavras/episodios/ep01-inveja/videos/remotion/S05-27s-2026-10-28');fs.mkdirSync(out,{recursive:true});const browserExecutable='C:/Program Files/Google/Chrome/Application/chrome.exe';
 const serveUrl=await bundle({entryPoint:path.join(root,'src/inveja-s05/index.tsx'),publicDir:path.join(root,'public'),outDir:path.join(out,'bundle')});
 const composition=await selectComposition({serveUrl,id:'inveja-s05-27s',browserExecutable});
 fs.writeFileSync(path.join(out,'composicao-v2-zoom.json'),JSON.stringify({width:1920,height:1080,fps:24,durationInFrames:648,durationSeconds:27,from:55,to:82,audio:false,zoom:{start:1.072,end:1.500,continuous:true,panX:[0,-60],panY:[0,90]},shade:{start:.12,end:.82,continuous:true},ruler_onset:17.46,shadow_onset:22.16,question_onset:26.09},null,2));

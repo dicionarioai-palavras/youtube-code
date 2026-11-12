@@ -1,5 +1,5 @@
 // EP07 — Dancing plague (08/11/2026): composição tmb-ep07 (montagem v2, componente EpisodioV2). Timeline: ep07-timeline.json
-// (gerada por canal-the-mind-behind/episodios/ep07-norrmalmstorg-stockholm/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep07.mjs
+// (gerada por canais/the-mind-behind/episodios/ep07-norrmalmstorg-stockholm/montagem/plano.json + plano_v2.py). Render: scripts/render-tmb-ep07.mjs
 import React from 'react';
 import {Composition} from 'remotion';
 import {EpisodioV2, TimelineV2} from './EpisodioV2';

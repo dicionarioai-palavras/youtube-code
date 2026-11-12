@@ -6,7 +6,7 @@ const HOME=process.env.HOME, BK=path.join(HOME,'mnt/proj/palavras/palavras-backe
 const env=Object.fromEntries(fs.readFileSync(path.join(BK,'.env'),'utf8').split(/\r?\n/).filter(l=>/^[A-Z0-9_]+=/.test(l)).map(l=>{const i=l.indexOf('=');return [l.slice(0,i),l.slice(i+1).replace(/^"|"$/g,'')]}));
 const postgres=(await import(path.join(BK,'node_modules/.pnpm/postgres@3.4.9/node_modules/postgres/src/index.js'))).default;
 const DRY=process.argv.includes('--dry');
-const P=path.join(HOME,'mnt/Redes-sociais/palavras/youtube/peças/ciume/roteiro-blogs');
+const P=path.join(HOME,'mnt/Redes-sociais/canais/palavras/episodios/ep02-ciume/roteiro-blogs');
 const AV=path.join(P,'final/antes-do-video'), IMG=path.join(P,'imagem-artigo');
 const A=[
  {slug:'ciume-origem-da-palavra',arq:'ciume-blog-pilar',img:'ciume-origem-da-palavra.jpg',featured:true,

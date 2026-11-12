@@ -45,4 +45,4 @@ Rodar na nuvem/PC com Chrome (o shell remoto não tem). Tudo sai da pasta do epi
 | Timeline | `montagem/shorts_originais_montar.py` (dentro da pasta de trabalho com `transcricao.json`, `cenas.json`, `troca.json`) → `remotion-redes-sociais/src/canal-dark/lote00-shorts.json` |
 | Mix | `montagem/shorts_originais_mix.py en|pt` (LOTE=<pasta de trabalho>) |
 | Render | `remotion-redes-sociais/scripts/render-tmb-shorts-originais.mjs <pasta-mix> <saida>` (composições `tmb-lote00-*`, componente `src/canal-dark/ShortOriginal.tsx`) |
-Detalhes e lições: `canal-the-mind-behind/shorts-originais/lote-00/ESTADO.md`.
+Detalhes e lições: `canais/the-mind-behind/shorts/lote-00/ESTADO.md`.

@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
-const root='C:/Users/Dell/Desktop/Redes-sociais',project=root+'/code/remotion-redes-sociais',dir=root+'/palavras/youtube/peças/inveja/direcao-video/piloto-integrado-v3';
+const root='C:/Users/Dell/Desktop/Redes-sociais',project=root+'/code/remotion-redes-sociais',dir=root+'/canais/palavras/episodios/ep01-inveja/direcao-video/piloto-integrado-v3';
 const serveUrl=await bundle({entryPoint:project+'/src/PilotoInvejaV3.tsx',publicDir:project+'/public'});const chromiumOptions={gl:'swangle'};
 const mode=process.argv[2]??'stills';
 for(const id of mode==='overlay'?['InvejaCityOverlayV3']:['InvejaFeedV3','InvejaCameraRealV3']){
