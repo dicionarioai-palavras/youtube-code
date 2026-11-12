@@ -1,0 +1,978 @@
+{
+ "id": "montagem-bastidores-inveja",
+ "marca": "palavras",
+ "duracao": 54.509,
+ "clips": [
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c01.mp4",
+   "inicio": 0.0,
+   "dur": 3.2,
+   "layout": "tela",
+   "regiaoAnim": {
+    "de": [
+     0.035,
+     0.065,
+     0.24,
+     0.05
+    ],
+    "para": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "segura": 1.1,
+    "anima": 1.4
+   },
+   "sai": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c02.mp4",
+   "inicio": 3.2,
+   "dur": 6.3,
+   "layout": "camera",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "entra": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c03.mp4",
+   "inicio": 9.5,
+   "dur": 0.95,
+   "layout": "camera",
+   "foco": [
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "tipo": "still",
+   "src": "temas/palavras/inveja/montagem/s04.jpg",
+   "inicio": 10.45,
+   "dur": 1.0,
+   "carimbo": "ERRO #1",
+   "tremida": true,
+   "sai": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c05.mp4",
+   "inicio": 11.45,
+   "dur": 3.0,
+   "layout": "camera",
+   "foco": [
+    0.572,
+    0.419
+   ],
+   "entra": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c06.mp4",
+   "inicio": 14.45,
+   "dur": 3.12,
+   "layout": "camera",
+   "foco": [
+    0.572,
+    0.419
+   ]
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c07.mp4",
+   "inicio": 17.57,
+   "dur": 2.88,
+   "layout": "camera",
+   "foco": [
+    0.572,
+    0.419
+   ]
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c08.mp4",
+   "inicio": 20.45,
+   "dur": 5.06,
+   "layout": "camera",
+   "foco": [
+    0.572,
+    0.419
+   ],
+   "sai": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c09.mp4",
+   "inicio": 25.51,
+   "dur": 3.0,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c09.wav",
+   "entra": true
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c10.mp4",
+   "inicio": 28.51,
+   "dur": 1.97,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c10.wav"
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c11.mp4",
+   "inicio": 30.48,
+   "dur": 1.2,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c11.wav"
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c12.mp4",
+   "inicio": 31.68,
+   "dur": 5.36,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c12.wav"
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c13.mp4",
+   "inicio": 37.04,
+   "dur": 1.052,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c13.wav"
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c14.mp4",
+   "inicio": 38.092,
+   "dur": 2.478,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c14.wav"
+  },
+  {
+   "tipo": "video",
+   "src": "temas/palavras/inveja/montagem/c15.mp4",
+   "inicio": 40.569,
+   "dur": 10.24,
+   "layout": "tela",
+   "regiao": [
+    0.29,
+    0.14,
+    0.66,
+    0.62
+   ],
+   "onda": "temas/palavras/inveja/montagem/c15.wav"
+  }
+ ],
+ "palavras": [
+  {
+   "t0": 4.1,
+   "t1": 4.335,
+   "texto": "Mano,"
+  },
+  {
+   "t0": 4.346,
+   "t1": 4.428,
+   "texto": "eu"
+  },
+  {
+   "t0": 4.428,
+   "t1": 4.55,
+   "texto": "fiz"
+  },
+  {
+   "t0": 4.55,
+   "t1": 4.673,
+   "texto": "uma"
+  },
+  {
+   "t0": 4.673,
+   "t1": 5.021,
+   "texto": "gravação"
+  },
+  {
+   "t0": 5.021,
+   "t1": 5.113,
+   "texto": "de"
+  },
+  {
+   "t0": 5.113,
+   "t1": 5.205,
+   "texto": "um"
+  },
+  {
+   "t0": 5.205,
+   "t1": 5.451,
+   "texto": "vídeo"
+  },
+  {
+   "t0": 5.451,
+   "t1": 5.564,
+   "texto": "de"
+  },
+  {
+   "t0": 5.564,
+   "t1": 5.912,
+   "texto": "10"
+  },
+  {
+   "t0": 5.912,
+   "t1": 6.28,
+   "texto": "minutos"
+  },
+  {
+   "t0": 6.28,
+   "t1": 6.36,
+   "texto": "e"
+  },
+  {
+   "t0": 6.36,
+   "t1": 6.531,
+   "texto": "eu"
+  },
+  {
+   "t0": 6.531,
+   "t1": 6.952,
+   "texto": "tinha"
+  },
+  {
+   "t0": 6.952,
+   "t1": 7.624,
+   "texto": "apertado"
+  },
+  {
+   "t0": 7.624,
+   "t1": 7.794,
+   "texto": "na"
+  },
+  {
+   "t0": 7.794,
+   "t1": 8.261,
+   "texto": "bosta"
+  },
+  {
+   "t0": 8.261,
+   "t1": 8.398,
+   "texto": "do"
+  },
+  {
+   "t0": 8.398,
+   "t1": 8.751,
+   "texto": "botão"
+  },
+  {
+   "t0": 8.751,
+   "t1": 8.899,
+   "texto": "da"
+  },
+  {
+   "t0": 8.899,
+   "t1": 9.4,
+   "texto": "foto."
+  },
+  {
+   "t0": 9.94,
+   "t1": 10.3,
+   "texto": "Burro!"
+  },
+  {
+   "t0": 11.57,
+   "t1": 11.57,
+   "texto": "Nesse"
+  },
+  {
+   "t0": 11.59,
+   "t1": 12.01,
+   "texto": "momento,"
+  },
+  {
+   "t0": 12.24,
+   "t1": 12.52,
+   "texto": "surge"
+  },
+  {
+   "t0": 12.53,
+   "t1": 12.7,
+   "texto": "um"
+  },
+  {
+   "t0": 12.7,
+   "t1": 13.22,
+   "texto": "desejo"
+  },
+  {
+   "t0": 13.22,
+   "t1": 14.33,
+   "texto": "mesquinho."
+  },
+  {
+   "t0": 14.57,
+   "t1": 14.57,
+   "texto": "Tomara"
+  },
+  {
+   "t0": 14.59,
+   "t1": 14.64,
+   "texto": "que"
+  },
+  {
+   "t0": 14.64,
+   "t1": 14.7,
+   "texto": "o"
+  },
+  {
+   "t0": 14.71,
+   "t1": 14.97,
+   "texto": "vale"
+  },
+  {
+   "t0": 15.04,
+   "t1": 15.12,
+   "texto": "a"
+  },
+  {
+   "t0": 15.24,
+   "t1": 15.79,
+   "texto": "refeição"
+  },
+  {
+   "t0": 15.79,
+   "t1": 15.97,
+   "texto": "dele"
+  },
+  {
+   "t0": 16.15,
+   "t1": 16.45,
+   "texto": "seja"
+  },
+  {
+   "t0": 16.45,
+   "t1": 16.69,
+   "texto": "uma"
+  },
+  {
+   "t0": 16.69,
+   "t1": 17.45,
+   "texto": "merda.",
+   "censura": true
+  },
+  {
+   "t0": 17.69,
+   "t1": 17.71,
+   "texto": "Não,"
+  },
+  {
+   "t0": 17.71,
+   "t1": 18.02,
+   "texto": "seja"
+  },
+  {
+   "t0": 18.02,
+   "t1": 18.48,
+   "texto": "ruim,"
+  },
+  {
+   "t0": 18.48,
+   "t1": 18.91,
+   "texto": "né?"
+  },
+  {
+   "t0": 19.03,
+   "t1": 19.11,
+   "texto": "Seja"
+  },
+  {
+   "t0": 19.11,
+   "t1": 19.26,
+   "texto": "uma"
+  },
+  {
+   "t0": 19.26,
+   "t1": 19.49,
+   "texto": "merda",
+   "censura": true
+  },
+  {
+   "t0": 19.66,
+   "t1": 19.76,
+   "texto": "não,"
+  },
+  {
+   "t0": 19.76,
+   "t1": 19.94,
+   "texto": "seja"
+  },
+  {
+   "t0": 19.97,
+   "t1": 20.33,
+   "texto": "ruim."
+  },
+  {
+   "t0": 20.57,
+   "t1": 20.57,
+   "texto": "Só"
+  },
+  {
+   "t0": 20.57,
+   "t1": 20.57,
+   "texto": "pra"
+  },
+  {
+   "t0": 20.591,
+   "t1": 20.707,
+   "texto": "dar"
+  },
+  {
+   "t0": 20.739,
+   "t1": 20.95,
+   "texto": "uma"
+  },
+  {
+   "t0": 20.95,
+   "t1": 21.868,
+   "texto": "equilibrada,"
+  },
+  {
+   "t0": 21.868,
+   "t1": 22.28,
+   "texto": "né?"
+  },
+  {
+   "t0": 22.28,
+   "t1": 22.656,
+   "texto": "Não,"
+  },
+  {
+   "t0": 22.656,
+   "t1": 22.677,
+   "texto": "mas"
+  },
+  {
+   "t0": 22.96,
+   "t1": 23.221,
+   "texto": "aqui"
+  },
+  {
+   "t0": 23.221,
+   "t1": 23.378,
+   "texto": "no"
+  },
+  {
+   "t0": 23.378,
+   "t1": 23.712,
+   "texto": "texto"
+  },
+  {
+   "t0": 23.911,
+   "t1": 23.942,
+   "texto": "tá"
+  },
+  {
+   "t0": 23.942,
+   "t1": 24.099,
+   "texto": "só"
+  },
+  {
+   "t0": 24.099,
+   "t1": 24.329,
+   "texto": "pra"
+  },
+  {
+   "t0": 24.329,
+   "t1": 25.5,
+   "texto": "equilibrar."
+  },
+  {
+   "t0": 25.63,
+   "t1": 25.943,
+   "texto": "Isso"
+  },
+  {
+   "t0": 25.943,
+   "t1": 25.999,
+   "texto": "é"
+  },
+  {
+   "t0": 26.334,
+   "t1": 28.39,
+   "texto": "anáfora."
+  },
+  {
+   "t0": 28.63,
+   "t1": 28.63,
+   "texto": "Não"
+  },
+  {
+   "t0": 28.661,
+   "t1": 28.84,
+   "texto": "faço"
+  },
+  {
+   "t0": 28.84,
+   "t1": 28.986,
+   "texto": "ideia"
+  },
+  {
+   "t0": 29.322,
+   "t1": 29.343,
+   "texto": "do"
+  },
+  {
+   "t0": 29.343,
+   "t1": 29.553,
+   "texto": "que"
+  },
+  {
+   "t0": 29.553,
+   "t1": 29.616,
+   "texto": "é"
+  },
+  {
+   "t0": 29.616,
+   "t1": 30.36,
+   "texto": "anáfora."
+  },
+  {
+   "t0": 30.6,
+   "t1": 30.915,
+   "texto": "Recurso"
+  },
+  {
+   "t0": 31.25,
+   "t1": 31.68,
+   "texto": "forte."
+  },
+  {
+   "t0": 31.8,
+   "t1": 31.8,
+   "texto": "Quer"
+  },
+  {
+   "t0": 31.83,
+   "t1": 31.97,
+   "texto": "que"
+  },
+  {
+   "t0": 31.97,
+   "t1": 32.09,
+   "texto": "eu"
+  },
+  {
+   "t0": 32.09,
+   "t1": 32.57,
+   "texto": "analise"
+  },
+  {
+   "t0": 32.57,
+   "t1": 32.64,
+   "texto": "a"
+  },
+  {
+   "t0": 32.64,
+   "t1": 33.18,
+   "texto": "cadência"
+  },
+  {
+   "t0": 33.18,
+   "t1": 33.31,
+   "texto": "do"
+  },
+  {
+   "t0": 33.31,
+   "t1": 33.86,
+   "texto": "parágrafo"
+  },
+  {
+   "t0": 33.91,
+   "t1": 34.7,
+   "texto": "inteiro?"
+  },
+  {
+   "t0": 34.82,
+   "t1": 35.52,
+   "texto": "Não."
+  },
+  {
+   "t0": 35.7,
+   "t1": 35.7,
+   "texto": "Eu"
+  },
+  {
+   "t0": 35.733,
+   "t1": 35.854,
+   "texto": "quero"
+  },
+  {
+   "t0": 35.854,
+   "t1": 36.052,
+   "texto": "entender"
+  },
+  {
+   "t0": 36.25,
+   "t1": 36.283,
+   "texto": "o"
+  },
+  {
+   "t0": 36.425,
+   "t1": 36.458,
+   "texto": "que"
+  },
+  {
+   "t0": 36.458,
+   "t1": 36.502,
+   "texto": "é"
+  },
+  {
+   "t0": 36.502,
+   "t1": 36.92,
+   "texto": "anáfora."
+  },
+  {
+   "t0": 37.16,
+   "t1": 37.674,
+   "texto": "Quero"
+  },
+  {
+   "t0": 37.674,
+   "t1": 37.972,
+   "texto": "entender"
+  },
+  {
+   "t0": 38.212,
+   "t1": 38.212,
+   "texto": "o"
+  },
+  {
+   "t0": 38.293,
+   "t1": 38.59,
+   "texto": "que"
+  },
+  {
+   "t0": 38.59,
+   "t1": 38.672,
+   "texto": "é"
+  },
+  {
+   "t0": 38.699,
+   "t1": 40.051,
+   "texto": "anáfora."
+  },
+  {
+   "t0": 40.111,
+   "t1": 40.173,
+   "texto": "Não"
+  },
+  {
+   "t0": 40.173,
+   "t1": 40.449,
+   "texto": "conhecia"
+  },
+  {
+   "t0": 40.689,
+   "t1": 41.209,
+   "texto": "Anáfora."
+  },
+  {
+   "t0": 41.209,
+   "t1": 41.573,
+   "texto": "Figura"
+  },
+  {
+   "t0": 41.925,
+   "t1": 41.994,
+   "texto": "de"
+  },
+  {
+   "t0": 41.994,
+   "t1": 42.926,
+   "texto": "linguagem"
+  },
+  {
+   "t0": 42.926,
+   "t1": 43.13,
+   "texto": "que"
+  },
+  {
+   "t0": 43.505,
+   "t1": 44.028,
+   "texto": "consiste"
+  },
+  {
+   "t0": 44.472,
+   "t1": 44.574,
+   "texto": "na"
+  },
+  {
+   "t0": 44.574,
+   "t1": 45.529,
+   "texto": "repetição"
+  },
+  {
+   "t0": 45.802,
+   "t1": 45.972,
+   "texto": "de"
+  },
+  {
+   "t0": 45.972,
+   "t1": 46.347,
+   "texto": "uma"
+  },
+  {
+   "t0": 46.552,
+   "t1": 47.291,
+   "texto": "palavra"
+  },
+  {
+   "t0": 47.291,
+   "t1": 47.416,
+   "texto": "ou"
+  },
+  {
+   "t0": 47.563,
+   "t1": 48.427,
+   "texto": "expressão"
+  },
+  {
+   "t0": 48.427,
+   "t1": 48.484,
+   "texto": "em"
+  },
+  {
+   "t0": 48.689,
+   "t1": 49.394,
+   "texto": "diferentes"
+  },
+  {
+   "t0": 49.394,
+   "t1": 49.689,
+   "texto": "partes"
+  },
+  {
+   "t0": 49.882,
+   "t1": 49.882,
+   "texto": "de"
+  },
+  {
+   "t0": 50.144,
+   "t1": 50.201,
+   "texto": "um"
+  },
+  {
+   "t0": 50.201,
+   "t1": 50.689,
+   "texto": "texto."
+  }
+ ],
+ "momentos": [
+  {
+   "t": 3.2,
+   "tipo": "transicao"
+  },
+  {
+   "t": 9.94,
+   "tipo": "zoom",
+   "forca": 1.25
+  },
+  {
+   "t": 11.45,
+   "tipo": "transicao"
+  },
+  {
+   "t": 13.22,
+   "tipo": "sticker",
+   "texto": "DESEJO MESQUINHO",
+   "dur": 1.6
+  },
+  {
+   "t": 13.22,
+   "tipo": "zoom",
+   "forca": 1.15
+  },
+  {
+   "t": 25.509999999999998,
+   "tipo": "transicao"
+  },
+  {
+   "t": 26.334,
+   "tipo": "spot",
+   "dur": 2.4,
+   "box": [
+    0.3198,
+    0.3485,
+    0.5705,
+    0.0468
+   ],
+   "palavra": "anáfora."
+  },
+  {
+   "t": 30.6,
+   "tipo": "spot",
+   "dur": 2.4,
+   "box": [
+    0.3221,
+    0.3844,
+    0.5745,
+    0.0492
+   ],
+   "palavra": "Recurso"
+  },
+  {
+   "t": 36.502,
+   "tipo": "spot",
+   "dur": 2.4,
+   "box": [
+    0.3198,
+    0.3485,
+    0.5705,
+    0.0468
+   ],
+   "palavra": "anáfora."
+  },
+  {
+   "t": 40.689,
+   "tipo": "zoom",
+   "forca": 1.12
+  },
+  {
+   "t": 40.689,
+   "tipo": "spot",
+   "dur": 2.4,
+   "box": [
+    0.2364,
+    0.3092,
+    0.1491,
+    0.0594
+   ],
+   "palavra": "Anáfora."
+  },
+  {
+   "t": 41.289,
+   "tipo": "etimologia",
+   "dur": 5.0,
+   "palavra": "anáfora",
+   "classe": "substantivo feminino",
+   "origem": "Repetição de uma palavra ou expressão no início de versos, frases ou orações sucessivas.",
+   "partes": [],
+   "fonte": "palavras.co/palavra/anafora"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 1.1,
+   "src": "audio/sfx/whoosh.wav",
+   "vol": 0.55
+  },
+  {
+   "t": 3.0500000000000003,
+   "src": "audio/sfx/whoosh.wav",
+   "vol": 0.55
+  },
+  {
+   "t": 10.45,
+   "src": "audio/sfx/corneta.wav",
+   "vol": 0.5
+  },
+  {
+   "t": 11.299999999999999,
+   "src": "audio/sfx/whoosh.wav",
+   "vol": 0.55
+  },
+  {
+   "t": 13.22,
+   "src": "audio/sfx/clique.wav",
+   "vol": 0.6
+  },
+  {
+   "t": 16.69,
+   "src": "temas/palavras/inveja/montagem/beep.wav",
+   "vol": 0.6
+  },
+  {
+   "t": 19.26,
+   "src": "temas/palavras/inveja/montagem/beep.wav",
+   "vol": 0.6
+  },
+  {
+   "t": 25.36,
+   "src": "audio/sfx/whoosh.wav",
+   "vol": 0.55
+  },
+  {
+   "t": 41.289,
+   "src": "audio/sfx/clique.wav",
+   "vol": 0.6
+  },
+  {
+   "t": 41.619,
+   "src": "audio/sfx/lapis.wav",
+   "vol": 0.35
+  }
+ ],
+ "mutes": [
+  {
+   "t0": 16.69,
+   "t1": 17.45
+  },
+  {
+   "t0": 19.26,
+   "t1": 19.49
+  }
+ ],
+ "gancho": {
+  "texto": "Os bastidores do meu primeiro vídeo",
+  "ate": 3.0,
+  "tick": "audio/sfx/tecla.wav"
+ },
+ "cta": {
+  "texto": "o dicionário que investiga · palavras.co",
+  "engajamento": "Comenta: qual palavra você usa sem saber o nome?"
+ },
+ "trilha": {
+  "src": "audio/trilhas/castleshire.mp3",
+  "volume": 0.22
+ },
+ "loop": "temas/palavras/inveja/montagem/c01.mp4",
+ "capa": "capas/montagem-bastidores-inveja__palavras.png",
+ "mix": "completo"
+}

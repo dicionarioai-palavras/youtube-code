@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-22T22:48:26.094Z",
+  "network_calls": 1,
+  "media_downloads": 0,
+  "paid_generation": 0,
+  "status": 200,
+  "query": "Santorini Greece",
+  "total": 665,
+  "rate": {
+    "limit": "50",
+    "remaining": "49"
+  },
+  "results": [
+    {
+      "id": "6N2mSJsKTtA",
+      "width": 3972,
+      "height": 2648,
+      "description": "White buildings on a cliffside in Oia, Greece, illuminated by warm evening light",
+      "author": "James Ting",
+      "author_url": "https://unsplash.com/@jamesting",
+      "page_url": "https://unsplash.com/photos/white-buildings-on-oia-cliffside-6N2mSJsKTtA",
+      "preview_url": "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8MXx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "image_url": "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8MXx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=85",
+      "download_event": "https://api.unsplash.com/photos/6N2mSJsKTtA/download?ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8MXx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA",
+      "attribution_required_by_api": true
+    },
+    {
+      "id": "kYxgm42SQso",
+      "width": 5773,
+      "height": 4000,
+      "description": "santorini, Greece",
+      "author": "Pretty Pink",
+      "author_url": "https://unsplash.com/@infinitexplorer",
+      "page_url": "https://unsplash.com/photos/santorini-greece-kYxgm42SQso",
+      "preview_url": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8Mnx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "image_url": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8Mnx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=85",
+      "download_event": "https://api.unsplash.com/photos/kYxgm42SQso/download?ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8Mnx8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA",
+      "attribution_required_by_api": true
+    },
+    {
+      "id": "MdTtpxGlrz8",
+      "width": 3429,
+      "height": 2571,
+      "description": "white and blue painted building",
+      "author": "Dan",
+      "author_url": "https://unsplash.com/@dgw_unsplash",
+      "page_url": "https://unsplash.com/photos/white-and-blue-painted-building-MdTtpxGlrz8",
+      "preview_url": "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8M3x8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "image_url": "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8M3x8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA&ixlib=rb-4.1.0&q=85",
+      "download_event": "https://api.unsplash.com/photos/MdTtpxGlrz8/download?ixid=M3wxMTEwNjQzfDB8MXxzZWFyY2h8M3x8U2FudG9yaW5pJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3MDkzMDZ8MA",
+      "attribution_required_by_api": true
+    }
+  ]
+}

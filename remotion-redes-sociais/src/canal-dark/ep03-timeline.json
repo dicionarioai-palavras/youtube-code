@@ -1,0 +1,1521 @@
+{
+ "fps": 30,
+ "duracao": 828.38,
+ "pasta": "ep03",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 66.0
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 71.5,
+   "dur": 81.44
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 156.04,
+   "dur": 104.88
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 264.02,
+   "dur": 136.88
+  },
+  {
+   "id": "05-parte-4a",
+   "ini": 404.0,
+   "dur": 153.6
+  },
+  {
+   "id": "05-parte-4b",
+   "ini": 558.2,
+   "dur": 75.44
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 636.74,
+   "dur": 104.4
+  },
+  {
+   "id": "07-fecho",
+   "ini": 741.74,
+   "dur": 66.64
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "video",
+   "src": "v1-cartao-luz",
+   "ini": 0.0,
+   "fim": 5.36
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-caixa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 5.36,
+   "fim": 12.64
+  },
+  {
+   "tipo": "img",
+   "src": "a1b-cartao",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.72
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "ini": 12.64,
+   "fim": 16.1
+  },
+  {
+   "tipo": "img",
+   "src": "c02c-disquete-sombra",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 16.1,
+   "fim": 23.08
+  },
+  {
+   "tipo": "img",
+   "src": "c02x-cartao",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.8
+   ],
+   "escala": [
+    1.5,
+    1.08
+   ],
+   "pista": true,
+   "ini": 23.08,
+   "fim": 27.23
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "WHO",
+     "The killer who called himself \"BTK\""
+    ],
+    [
+     "WHERE",
+     "Wichita, Kansas"
+    ],
+    [
+     "WHEN",
+     "1974–1991"
+    ],
+    [
+     "VICTIMS",
+     "10"
+    ],
+    [
+     "CAUGHT",
+     "February 25, 2005"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 27.23,
+   "fim": 38.78
+  },
+  {
+   "tipo": "img",
+   "src": "c02b-tenente",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 38.78,
+   "fim": 43.28
+  },
+  {
+   "tipo": "img",
+   "src": "a2-rua",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 43.28,
+   "fim": 54.43
+  },
+  {
+   "tipo": "img",
+   "src": "c01-delegacia",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.7
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 54.43,
+   "fim": 66.0
+  },
+  {
+   "tipo": "abertura",
+   "ini": 66.0,
+   "fim": 69.0
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "TEN PEOPLE FIRST",
+   "ini": 69.0,
+   "fim": 71.5
+  },
+  {
+   "tipo": "img",
+   "src": "c03c-velas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 71.5,
+   "fim": 82.06
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-casa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 82.06,
+   "fim": 92.52
+  },
+  {
+   "tipo": "img",
+   "src": "c03-rua",
+   "mov": "desliza",
+   "foco": [
+    0.35,
+    0.6
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.65,
+    0.6
+   ],
+   "ini": 92.52,
+   "fim": 98.31
+  },
+  {
+   "tipo": "img",
+   "src": "c03c-velas",
+   "mov": "descobre",
+   "foco": [
+    0.35,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 98.31,
+   "fim": 112.78
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "c03c-velas",
+   "nomes": [
+    [
+     "Joseph Otero",
+     "1974"
+    ],
+    [
+     "Julie Otero",
+     "1974"
+    ],
+    [
+     "Josephine Otero",
+     "1974"
+    ],
+    [
+     "Joseph Otero Jr.",
+     "1974"
+    ],
+    [
+     "Kathryn Bright",
+     "1974"
+    ],
+    [
+     "Shirley Vian",
+     "1977"
+    ],
+    [
+     "Nancy Fox",
+     "1977"
+    ],
+    [
+     "Marine Hedge",
+     "1985"
+    ],
+    [
+     "Vicki Wegerle",
+     "1986"
+    ],
+    [
+     "Dolores Davis",
+     "1991"
+    ]
+   ],
+   "rotulo": "WICHITA, KANSAS · 1974–1991",
+   "ini": 112.78,
+   "fim": 129.34
+  },
+  {
+   "tipo": "img",
+   "src": "c03c-velas",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 129.34,
+   "fim": 136.7
+  },
+  {
+   "tipo": "img",
+   "src": "c04-tranca",
+   "mov": "descobre",
+   "foco": [
+    0.48,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "corte": true,
+   "ini": 136.7,
+   "fim": 144.88
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-alarme-loja",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 144.88,
+   "fim": 150.94
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-alarme-loja",
+   "mov": "parado",
+   "foco": [
+    0.42,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.48
+   ],
+   "pista": true,
+   "corte": true,
+   "ini": 150.94,
+   "fim": 153.54
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "HE WANTED A NAME",
+   "ini": 153.54,
+   "fim": 156.04
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-telefone",
+   "mov": "descobre",
+   "foco": [
+    0.62,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 156.04,
+   "fim": 166.48
+  },
+  {
+   "tipo": "img",
+   "src": "c05-biblioteca",
+   "mov": "revela",
+   "foco": [
+    0.62,
+    0.5
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 166.48,
+   "fim": 170.46
+  },
+  {
+   "tipo": "img",
+   "src": "c05c-carta",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 170.46,
+   "fim": 179.66
+  },
+  {
+   "tipo": "img",
+   "src": "c05d-marca",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.05,
+    1.12
+   ],
+   "corte": true,
+   "ini": 179.66,
+   "fim": 188.84
+  },
+  {
+   "tipo": "img",
+   "src": "a3-redacao",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.55
+   ],
+   "ini": 188.84,
+   "fim": 203.08
+  },
+  {
+   "tipo": "img",
+   "src": "c06-bandeja",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "pista": true,
+   "ini": 203.08,
+   "fim": 211.92
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-tv",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 211.92,
+   "fim": 217.2
+  },
+  {
+   "tipo": "citacao",
+   "texto": "How many do I have to kill before I get my name in the paper or some national attention?",
+   "autor": "BTK, letter to KAKE-TV, February 1978",
+   "ini": 217.2,
+   "fim": 226.32
+  },
+  {
+   "tipo": "img",
+   "src": "c08c-espelho",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 226.32,
+   "fim": 232.28
+  },
+  {
+   "tipo": "img",
+   "src": "c07-calendario",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 232.28,
+   "fim": 247.88
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-arquivo",
+   "mov": "descobre",
+   "foco": [
+    0.25,
+    0.75
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "ini": 247.88,
+   "fim": 254.46
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-arquivo",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "corte": true,
+   "ini": 254.46,
+   "fim": 261.52
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "THE NEED THAT TURNS ON ITSELF",
+   "ini": 261.52,
+   "fim": 264.02
+  },
+  {
+   "tipo": "img",
+   "src": "c08-pedestal",
+   "mov": "descobre",
+   "foco": [
+    0.65,
+    0.35
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 264.02,
+   "fim": 275.02
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Unraveling the Paradoxes of Narcissism: A Dynamic Self-Regulatory Processing Model",
+   "autor": "Morf & Rhodewalt, Psychological Inquiry, 2001",
+   "estilo": "artigo",
+   "ini": 275.02,
+   "fim": 285.7
+  },
+  {
+   "tipo": "img",
+   "src": "c08-pedestal",
+   "mov": "revela",
+   "foco": [
+    0.65,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 285.7,
+   "fim": 299.78
+  },
+  {
+   "tipo": "img",
+   "src": "c08b-mesa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 299.78,
+   "fim": 315.44
+  },
+  {
+   "tipo": "img",
+   "src": "c08c-espelho",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 315.44,
+   "fim": 329.04
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-policia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 329.04,
+   "fim": 338.2
+  },
+  {
+   "tipo": "img",
+   "src": "a3-redacao",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 338.2,
+   "fim": 347.32
+  },
+  {
+   "tipo": "img",
+   "src": "c05d-marca",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.12,
+    1.2
+   ],
+   "corte": true,
+   "ini": 347.32,
+   "fim": 349.84
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-arquivo",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 349.84,
+   "fim": 362.9
+  },
+  {
+   "tipo": "img",
+   "src": "c09-jornal",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 362.9,
+   "fim": 378.58
+  },
+  {
+   "tipo": "img",
+   "src": "c09b-cadeira",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 378.58,
+   "fim": 388.46
+  },
+  {
+   "tipo": "img",
+   "src": "c09b-cadeira",
+   "mov": "parado",
+   "foco": [
+    0.38,
+    0.5
+   ],
+   "escala": [
+    1.45,
+    1.5
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 388.46,
+   "fim": 392.96
+  },
+  {
+   "tipo": "img",
+   "src": "a4-homem",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.15
+   ],
+   "ini": 392.96,
+   "fim": 401.5
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "HE CAUGHT HIMSELF",
+   "ini": 401.5,
+   "fim": 404.0
+  },
+  {
+   "tipo": "img",
+   "src": "c10x-envelope",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 404.0,
+   "fim": 413.58
+  },
+  {
+   "tipo": "img",
+   "src": "c10x-envelope",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.62
+   ],
+   "escala": [
+    1.5,
+    1.15
+   ],
+   "ini": 413.58,
+   "fim": 424.72
+  },
+  {
+   "tipo": "img",
+   "src": "c10x-envelope",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.65
+   ],
+   "escala": [
+    1.45,
+    1.5
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 424.72,
+   "fim": 428.2
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-policia",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.65,
+    0.55
+   ],
+   "ini": 428.2,
+   "fim": 441.58
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-arquivo",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.75
+   ],
+   "escala": [
+    1.4,
+    1.0
+   ],
+   "ini": 441.58,
+   "fim": 450.6
+  },
+  {
+   "tipo": "img",
+   "src": "c11-mesa-1",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 450.6,
+   "fim": 455.34
+  },
+  {
+   "tipo": "img",
+   "src": "c11-mesa-2",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 455.34,
+   "fim": 458.84
+  },
+  {
+   "tipo": "img",
+   "src": "c11-mesa-3",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 458.84,
+   "fim": 466.18
+  },
+  {
+   "tipo": "img",
+   "src": "c02x-cartao",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.8
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "pista": true,
+   "ini": 466.18,
+   "fim": 477.44
+  },
+  {
+   "tipo": "img",
+   "src": "c12-classificados",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "ini": 477.44,
+   "fim": 482.36
+  },
+  {
+   "tipo": "img",
+   "src": "c12b-impressora",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 482.36,
+   "fim": 484.98
+  },
+  {
+   "tipo": "img",
+   "src": "c12-classificados",
+   "mov": "parado",
+   "foco": [
+    0.47,
+    0.47
+   ],
+   "escala": [
+    1.5,
+    1.55
+   ],
+   "pista": true,
+   "corte": true,
+   "ini": 484.98,
+   "fim": 492.58
+  },
+  {
+   "tipo": "img",
+   "src": "c13-disquete",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "corte": true,
+   "ini": 492.58,
+   "fim": 496.26
+  },
+  {
+   "tipo": "img",
+   "src": "c13b-tela",
+   "mov": "descobre",
+   "foco": [
+    0.66,
+    0.52
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "ini": 496.26,
+   "fim": 504.6
+  },
+  {
+   "tipo": "img",
+   "src": "c13c-igreja",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 504.6,
+   "fim": 511.18
+  },
+  {
+   "tipo": "dados",
+   "titulo": "THE DELETED FILE",
+   "itens": [
+    [
+     "Christ Lutheran Church",
+     "organization in the file data"
+    ],
+    [
+     "Dennis",
+     "user name in the file data"
+    ]
+   ],
+   "fonte": "Forensic examination of the disk, as later reported",
+   "ini": 511.18,
+   "fim": 514.72
+  },
+  {
+   "tipo": "img",
+   "src": "c14-homem",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "corte": true,
+   "ini": 514.72,
+   "fim": 529.52
+  },
+  {
+   "tipo": "img",
+   "src": "c14b-teclado",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "corte": true,
+   "ini": 529.52,
+   "fim": 539.0
+  },
+  {
+   "tipo": "img",
+   "src": "c14x-instalador",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 539.0,
+   "fim": 548.6
+  },
+  {
+   "tipo": "img",
+   "src": "a2-rua",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 548.6,
+   "fim": 551.82
+  },
+  {
+   "tipo": "img",
+   "src": "c14x-instalador",
+   "mov": "parado",
+   "foco": [
+    0.75,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.45
+   ],
+   "corte": true,
+   "ini": 551.82,
+   "fim": 558.2
+  },
+  {
+   "tipo": "img",
+   "src": "c14x-clinica",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.65
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 558.2,
+   "fim": 573.72
+  },
+  {
+   "tipo": "img",
+   "src": "c15-carro",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 573.72,
+   "fim": 577.26
+  },
+  {
+   "tipo": "img",
+   "src": "c15b-sala",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 577.26,
+   "fim": 581.58
+  },
+  {
+   "tipo": "citacao",
+   "texto": "\"How come you lied to me?\"|\"Because I was trying to catch you.\"",
+   "autor": "Dennis Rader and Lt. Ken Landwehr, interview room, February 2005 (as later reported)",
+   "ini": 581.58,
+   "fim": 588.1
+  },
+  {
+   "tipo": "img",
+   "src": "c15b-sala",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.3,
+    1.35
+   ],
+   "ini": 588.1,
+   "fim": 593.82
+  },
+  {
+   "tipo": "dados",
+   "titulo": "THE VERDICT",
+   "itens": [
+    [
+     "Guilty plea",
+     "all ten murders · June 2005"
+    ],
+    [
+     "10 consecutive life sentences",
+     "Kansas · August 2005"
+    ]
+   ],
+   "fonte": "Sedgwick County District Court (2005)",
+   "ini": 593.82,
+   "fim": 603.6
+  },
+  {
+   "tipo": "img",
+   "src": "c16-cabana",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 603.6,
+   "fim": 619.0
+  },
+  {
+   "tipo": "img",
+   "src": "c16-cabana",
+   "mov": "revela",
+   "foco": [
+    0.82,
+    0.85
+   ],
+   "escala": [
+    1.6,
+    1.1
+   ],
+   "ini": 619.0,
+   "fim": 626.7
+  },
+  {
+   "tipo": "img",
+   "src": "c08-pedestal",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.05,
+    1.1
+   ],
+   "ini": 626.7,
+   "fim": 634.24
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "AND YOU?",
+   "ini": 634.24,
+   "fim": 636.74
+  },
+  {
+   "tipo": "img",
+   "src": "c17-jantar",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 636.74,
+   "fim": 644.52
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Disclosing information about the self is intrinsically rewarding",
+   "autor": "Tamir & Mitchell, PNAS, 2012",
+   "estilo": "artigo",
+   "ini": 644.52,
+   "fim": 653.96
+  },
+  {
+   "tipo": "img",
+   "src": "c17-jantar",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.05
+   ],
+   "ini": 653.96,
+   "fim": 661.78
+  },
+  {
+   "tipo": "img",
+   "src": "c17b-cerebro",
+   "mov": "descobre",
+   "foco": [
+    0.42,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 661.78,
+   "fim": 675.54
+  },
+  {
+   "tipo": "img",
+   "src": "c17c-moedas",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 675.54,
+   "fim": 688.2
+  },
+  {
+   "tipo": "dados",
+   "titulo": "THE PRICE OF TALKING ABOUT YOURSELF",
+   "itens": [
+    [
+     "~17%",
+     "of possible earnings given up to talk about themselves"
+    ],
+    [
+     "30–40%",
+     "of what we say is about our own experience"
+    ]
+   ],
+   "fonte": "Tamir & Mitchell (2012), PNAS",
+   "ini": 688.2,
+   "fim": 698.02
+  },
+  {
+   "tipo": "img",
+   "src": "c17b-cerebro",
+   "mov": "revela",
+   "foco": [
+    0.42,
+    0.45
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 698.02,
+   "fim": 702.62
+  },
+  {
+   "tipo": "img",
+   "src": "c08b-mesa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 702.62,
+   "fim": 715.42
+  },
+  {
+   "tipo": "img",
+   "src": "c08-pedestal",
+   "mov": "descobre",
+   "foco": [
+    0.65,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 715.42,
+   "fim": 726.94
+  },
+  {
+   "tipo": "img",
+   "src": "c17-jantar",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 726.94,
+   "fim": 741.74
+  },
+  {
+   "tipo": "img",
+   "src": "c18-cartao-apagado",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 741.74,
+   "fim": 754.64
+  },
+  {
+   "tipo": "img",
+   "src": "c12-classificados",
+   "mov": "revela",
+   "foco": [
+    0.47,
+    0.47
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 754.64,
+   "fim": 768.92
+  },
+  {
+   "tipo": "img",
+   "src": "c18-cartao-apagado",
+   "mov": "parado",
+   "foco": [
+    0.55,
+    0.65
+   ],
+   "escala": [
+    1.3,
+    1.36
+   ],
+   "ini": 768.92,
+   "fim": 777.94
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "c03c-velas",
+   "nomes": [
+    [
+     "Joseph Otero",
+     "1974"
+    ],
+    [
+     "Julie Otero",
+     "1974"
+    ],
+    [
+     "Josephine Otero",
+     "1974"
+    ],
+    [
+     "Joseph Otero Jr.",
+     "1974"
+    ],
+    [
+     "Kathryn Bright",
+     "1974"
+    ],
+    [
+     "Shirley Vian",
+     "1977"
+    ],
+    [
+     "Nancy Fox",
+     "1977"
+    ],
+    [
+     "Marine Hedge",
+     "1985"
+    ],
+    [
+     "Vicki Wegerle",
+     "1986"
+    ],
+    [
+     "Dolores Davis",
+     "1991"
+    ]
+   ],
+   "rotulo": "WICHITA, KANSAS · 1974–1991",
+   "ini": 777.94,
+   "fim": 790.2
+  },
+  {
+   "tipo": "img",
+   "src": "c18b-rua-dia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 790.2,
+   "fim": 798.82
+  },
+  {
+   "tipo": "img",
+   "src": "c03c-velas",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 798.82,
+   "fim": 808.38
+  },
+  {
+   "tipo": "final",
+   "ini": 808.38,
+   "fim": 828.38
+  }
+ ]
+}

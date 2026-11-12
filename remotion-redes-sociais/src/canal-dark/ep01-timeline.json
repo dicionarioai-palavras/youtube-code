@@ -1,0 +1,398 @@
+{
+ "fps": 30,
+ "duracao": 626.386,
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 51.330612
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 56.831,
+   "dur": 59.715918
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 119.647,
+   "dur": 75.154286
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 197.901,
+   "dur": 132.989388
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 333.99,
+   "dur": 114.677551
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 451.768,
+   "dur": 114.050612
+  },
+  {
+   "id": "07-fecho",
+   "ini": 566.418,
+   "dur": 39.967347
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "img",
+   "src": "c01b-cama",
+   "ini": 0.0,
+   "fim": 11.67
+  },
+  {
+   "tipo": "img",
+   "src": "c02-janela",
+   "ini": 11.67,
+   "fim": 14.87
+  },
+  {
+   "tipo": "img",
+   "src": "a1-fachada",
+   "ini": 14.87,
+   "fim": 24.19
+  },
+  {
+   "tipo": "ficha",
+   "ini": 24.19,
+   "fim": 36.77
+  },
+  {
+   "tipo": "img",
+   "src": "c03-livro",
+   "ini": 36.77,
+   "fim": 39.75
+  },
+  {
+   "tipo": "img",
+   "src": "c04-academia",
+   "ini": 39.75,
+   "fim": 42.43
+  },
+  {
+   "tipo": "img",
+   "src": "c05-janelas-apagadas",
+   "ini": 42.43,
+   "fim": 51.331
+  },
+  {
+   "tipo": "abertura",
+   "ini": 51.330612,
+   "fim": 54.330612
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "WHO SHE WAS",
+   "ini": 54.330612,
+   "fim": 56.830612
+  },
+  {
+   "tipo": "img",
+   "src": "a2b-bar",
+   "ini": 56.831,
+   "fim": 66.661
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-cozinha",
+   "ini": 66.661,
+   "fim": 72.141
+  },
+  {
+   "tipo": "img",
+   "src": "c08-carro",
+   "ini": 72.141,
+   "fim": 80.781
+  },
+  {
+   "tipo": "img",
+   "src": "c09-rua-longe",
+   "ini": 80.781,
+   "fim": 96.001
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-viatura",
+   "ini": 96.001,
+   "fim": 102.841
+  },
+  {
+   "tipo": "img",
+   "src": "c11-delegacia",
+   "ini": 102.841,
+   "fim": 105.781
+  },
+  {
+   "tipo": "img",
+   "src": "c12-prisao",
+   "ini": 105.781,
+   "fim": 108.221
+  },
+  {
+   "tipo": "img",
+   "src": "c13-caminhao",
+   "ini": 108.221,
+   "fim": 117.147
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "THE NUMBER",
+   "ini": 117.14653,
+   "fim": 119.64653
+  },
+  {
+   "tipo": "img",
+   "src": "c14b-rotativa",
+   "ini": 119.647,
+   "fim": 126.137
+  },
+  {
+   "tipo": "citacao",
+   "texto": "37 Who Saw Murder Didn't Call the Police",
+   "autor": "The New York Times, March 27, 1964",
+   "ini": 126.137,
+   "fim": 129.617
+  },
+  {
+   "tipo": "img",
+   "src": "c15b-primeira-pagina",
+   "ini": 129.617,
+   "fim": 150.237
+  },
+  {
+   "tipo": "img",
+   "src": "c16-almoco",
+   "ini": 150.237,
+   "fim": 162.117
+  },
+  {
+   "tipo": "img",
+   "src": "c17-livro-vermelho",
+   "ini": 162.117,
+   "fim": 169.957
+  },
+  {
+   "tipo": "img",
+   "src": "c18-sermao",
+   "ini": 169.957,
+   "fim": 175.317
+  },
+  {
+   "tipo": "img",
+   "src": "c19-metro",
+   "ini": 175.317,
+   "fim": 181.917
+  },
+  {
+   "tipo": "img",
+   "src": "c20-espelho",
+   "ini": 181.917,
+   "fim": 195.401
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "THE EXPERIMENT",
+   "ini": 195.400816,
+   "fim": 197.900816
+  },
+  {
+   "tipo": "img",
+   "src": "c21-pesquisadores",
+   "ini": 197.901,
+   "fim": 216.191
+  },
+  {
+   "tipo": "img",
+   "src": "c22-sala-microfone",
+   "ini": 216.191,
+   "fim": 231.871
+  },
+  {
+   "tipo": "img",
+   "src": "c23-interfone",
+   "ini": 231.871,
+   "fim": 240.991
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-cabines",
+   "ini": 240.991,
+   "fim": 252.331
+  },
+  {
+   "tipo": "numero1",
+   "ini": 252.331,
+   "fim": 268.011
+  },
+  {
+   "tipo": "img",
+   "src": "c24-levanta",
+   "ini": 268.011,
+   "fim": 284.131
+  },
+  {
+   "tipo": "img",
+   "src": "c25-fumaca",
+   "ini": 284.131,
+   "fim": 306.111
+  },
+  {
+   "tipo": "img",
+   "src": "c26-multidao-olhares",
+   "ini": 306.111,
+   "fim": 315.771
+  },
+  {
+   "tipo": "img",
+   "src": "c27-livros-pilha",
+   "ini": 315.771,
+   "fim": 331.49
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "WHAT ACTUALLY HAPPENED",
+   "ini": 331.490204,
+   "fim": 333.990204
+  },
+  {
+   "tipo": "linha",
+   "ini": 333.99,
+   "fim": 350.18
+  },
+  {
+   "tipo": "img",
+   "src": "c28-arquivo",
+   "ini": 350.18,
+   "fim": 352.92
+  },
+  {
+   "tipo": "img",
+   "src": "c29-tribunal",
+   "ini": 352.92,
+   "fim": 371.6
+  },
+  {
+   "tipo": "img",
+   "src": "c30-vista-alta",
+   "ini": 371.6,
+   "fim": 385.92
+  },
+  {
+   "tipo": "img",
+   "src": "c31c-grito",
+   "ini": 385.92,
+   "fim": 405.58
+  },
+  {
+   "tipo": "img",
+   "src": "a3b-escada",
+   "ini": 405.58,
+   "fim": 423.34
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Help is on the way.",
+   "autor": "Sophia Farrar, as recalled in The Witness (2015)",
+   "ini": 423.34,
+   "fim": 427.34
+  },
+  {
+   "tipo": "img",
+   "src": "c32-irmao",
+   "ini": 427.34,
+   "fim": 436.24
+  },
+  {
+   "tipo": "img",
+   "src": "c33-redacao",
+   "ini": 436.24,
+   "fim": 449.268
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "SO ARE WE COWARDS?",
+   "ini": 449.267755,
+   "fim": 451.767755
+  },
+  {
+   "tipo": "img",
+   "src": "c26-multidao-olhares",
+   "ini": 451.768,
+   "fim": 458.378
+  },
+  {
+   "tipo": "img",
+   "src": "c21-pesquisadores",
+   "ini": 458.378,
+   "fim": 473.818
+  },
+  {
+   "tipo": "img",
+   "src": "c27-livros-pilha",
+   "ini": 473.818,
+   "fim": 482.998
+  },
+  {
+   "tipo": "img",
+   "src": "c34b-cctv",
+   "ini": 482.998,
+   "fim": 498.418
+  },
+  {
+   "tipo": "numero2",
+   "ini": 498.418,
+   "fim": 509.598
+  },
+  {
+   "tipo": "img",
+   "src": "c35-ajuda-rua",
+   "ini": 509.598,
+   "fim": 522.718
+  },
+  {
+   "tipo": "img",
+   "src": "c30-vista-alta",
+   "ini": 522.718,
+   "fim": 538.678
+  },
+  {
+   "tipo": "img",
+   "src": "c36-apontar",
+   "ini": 538.678,
+   "fim": 555.058
+  },
+  {
+   "tipo": "img",
+   "src": "c37-telefone",
+   "ini": 555.058,
+   "fim": 566.418
+  },
+  {
+   "tipo": "img",
+   "src": "c38-fim-porta",
+   "ini": 566.418,
+   "fim": 586.428
+  },
+  {
+   "tipo": "img",
+   "src": "a1-fachada",
+   "ini": 586.428,
+   "fim": 606.386
+  },
+  {
+   "tipo": "final",
+   "ini": 606.3857140000001,
+   "fim": 626.3857140000001
+  }
+ ]
+}

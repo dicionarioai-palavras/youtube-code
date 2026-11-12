@@ -1,0 +1,10 @@
+{
+  "voz_nome": "Luiz — The Mind Behind",
+  "modelo": "eleven_v4",
+  "estabilidade": 0.5,
+  "similaridade": 0.75,
+  "estilo": 0,
+  "formato": "mp3_44100_192",
+  "max_caracteres_por_bloco": 2900,
+  "nota": "Padrão aprovado por Luiz em 05/11/2026 (testes A/B no site com eleven_v4, estabilidade 0,5, similaridade 0,75)."
+}

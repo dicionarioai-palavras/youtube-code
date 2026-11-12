@@ -1,0 +1,24 @@
+{
+  "consulted": "2026-10-22",
+  "source": "https://docs.dev.runwayml.com/guides/pricing/",
+  "usd_per_credit": 0.01,
+  "images": {
+    "gen4_image": {
+      "720p": 5,
+      "1080p": 8
+    },
+    "gen4_image_turbo": {
+      "720p": 2,
+      "1080p": 2
+    }
+  },
+  "videos_per_second": {
+    "gen4_turbo": 5,
+    "gen4.5": 12,
+    "aleph2": 28
+  },
+  "scope": "Imagem e vídeo MP4 padrão, incluindo Aleph2:28 créditos/s de entrada, mínimo56. Sem formatos adicionais/upscale.",
+  "video_minimum_credits": {
+    "aleph2": 56
+  }
+}

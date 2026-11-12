@@ -1,0 +1,2 @@
+import {loadExternalEnv,credentialStatus} from './config.mjs';
+try{const file=loadExternalEnv();const status=credentialStatus();console.log(JSON.stringify({mode:'local-sem-rede',env_file_present:file.file_present,credential_present:status,remote_authentication:'nao-testada',runway_balance:'nao-consultado',paid_generation:'desabilitada-neste-modulo'},null,2));}catch{console.error('Não foi possível carregar a configuração local. Verifique o formato do .env sem compartilhar seus valores.');process.exitCode=1;}

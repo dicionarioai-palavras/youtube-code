@@ -1,0 +1,73 @@
+{
+  "schema_version": 2,
+  "direction": {
+    "fixed_cast": false,
+    "real_voice": true,
+    "generated_text": false,
+    "real_captures": true,
+    "cut_on_word": "gatilho editorial; continuidade pode atravessar frases",
+    "humor_after_speech": true,
+    "style": {
+      "selected": "direcao-narrativa-por-tema",
+      "approved_reference": null,
+      "candidates": {
+        "H": "Desenho 2D; contorno escuro uniforme, cores chapadas, sem gradientes, fundo creme. Registro local mais recente.",
+        "F": "Caricatura minimalista a traço, linha fluida e cores leves. Registro anterior."
+      },
+      "mode": "narrativa-por-sequencia",
+      "reference_note": "F/H históricos. Referências cinematográficas de Inveja são específicas da produção; ler guia visual e padrão audiovisual."
+    },
+    "typography": {
+      "display": "Bebas Neue",
+      "body": "Inter"
+    },
+    "reference_note": "F/H são referências históricas opcionais. Sem paleta/fundo uniforme obrigatório; referência específica por sequência quando necessária.",
+    "standard": "palavras/youtube/guias/PADRAO-DIRECAO-AUDIOVISUAL.md",
+    "context_before_prompt": true,
+    "sequence_atmosphere_required": true,
+    "real_luiz": true,
+    "face_transformation": false,
+    "remotion_camera_treatment": true
+  },
+  "delivery": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "status": "pilotos-renderizados-importacao-premiere-pendente",
+    "separate_audio": true,
+    "editor": "Premiere",
+    "interchange": null
+  },
+  "audio": {
+    "source": "youtube-audio-library",
+    "paid": false,
+    "curation_stage": "apos-passo-visual",
+    "comic_opening_default": false
+  },
+  "credentials": {
+    "runway_env": "RUNWAYML_API_SECRET",
+    "pixabay_env": "PIXABAY_API_KEY",
+    "unsplash_env": "UNSPLASH_ACCESS_KEY"
+  },
+  "model_candidates": {
+    "image": [
+      "gen4_image",
+      "gen4_image_turbo"
+    ],
+    "video": [
+      "gen4_turbo",
+      "gen4.5"
+    ],
+    "note": "Candidatos; não selecionados/aprovados. Primeiro/último quadro requer perfil compatível separado."
+  },
+  "pricing_snapshot": {
+    "consulted": "2026-10-22",
+    "source": "https://docs.dev.runwayml.com/guides/pricing/",
+    "usd_per_credit": 0.01,
+    "gen4_image_1080": 0.08,
+    "gen4_image_turbo": 0.02,
+    "gen4_turbo_second": 0.05,
+    "gen4_5_second": 0.12,
+    "notes": "Reconfirmar na execução. Impostos, novas tentativas e requisitos do modelo afetam o custo. Não usar como autorização."
+  }
+}

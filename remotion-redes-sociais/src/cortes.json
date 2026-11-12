@@ -1,0 +1,2342 @@
+[
+ {
+  "id": "01-botao-da-foto",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1080,
+  "altura": 1920,
+  "focoX": 0.7,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-botao-da-foto/t1.mp4",
+    "duracao": 6.3,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-botao-da-foto/t2.mp4",
+    "duracao": 1.7,
+    "mudo": false
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.9,
+    "t1": 1.135,
+    "texto": "Mano,"
+   },
+   {
+    "t0": 1.146,
+    "t1": 1.228,
+    "texto": "eu"
+   },
+   {
+    "t0": 1.228,
+    "t1": 1.35,
+    "texto": "fiz"
+   },
+   {
+    "t0": 1.35,
+    "t1": 1.473,
+    "texto": "uma"
+   },
+   {
+    "t0": 1.473,
+    "t1": 1.821,
+    "texto": "gravação"
+   },
+   {
+    "t0": 1.821,
+    "t1": 1.913,
+    "texto": "de"
+   },
+   {
+    "t0": 1.913,
+    "t1": 2.005,
+    "texto": "um"
+   },
+   {
+    "t0": 2.005,
+    "t1": 2.251,
+    "texto": "vídeo"
+   },
+   {
+    "t0": 2.251,
+    "t1": 2.364,
+    "texto": "de"
+   },
+   {
+    "t0": 2.364,
+    "t1": 2.712,
+    "texto": "10"
+   },
+   {
+    "t0": 2.712,
+    "t1": 3.08,
+    "texto": "minutos"
+   },
+   {
+    "t0": 3.08,
+    "t1": 3.16,
+    "texto": "e"
+   },
+   {
+    "t0": 3.16,
+    "t1": 3.331,
+    "texto": "eu"
+   },
+   {
+    "t0": 3.331,
+    "t1": 3.752,
+    "texto": "tinha"
+   },
+   {
+    "t0": 3.752,
+    "t1": 4.424,
+    "texto": "apertado"
+   },
+   {
+    "t0": 4.424,
+    "t1": 4.594,
+    "texto": "na"
+   },
+   {
+    "t0": 4.594,
+    "t1": 5.061,
+    "texto": "bosta"
+   },
+   {
+    "t0": 5.061,
+    "t1": 5.198,
+    "texto": "do"
+   },
+   {
+    "t0": 5.198,
+    "t1": 5.551,
+    "texto": "botão"
+   },
+   {
+    "t0": 5.551,
+    "t1": 5.699,
+    "texto": "da"
+   },
+   {
+    "t0": 5.699,
+    "t1": 6.2,
+    "texto": "foto."
+   },
+   {
+    "t0": 6.74,
+    "t1": 7.1,
+    "texto": "Burro!"
+   }
+  ],
+  "gancho": {
+   "texto": "Bastidor: o erro clássico",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "cta": {
+   "linha": "Sigo mostrando o processo. Me acompanha?"
+  },
+  "duracao": 11.0,
+  "trilha": {
+   "src": "audio/trilhas/silent-film-light.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 5.95,
+    "src": "audio/sfx/corneta.wav",
+    "vol": 0.45
+   },
+   {
+    "t": 7.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   }
+  ],
+  "capa": "capas/botao-da-foto__luiz.png",
+  "mix": "completo"
+ },
+ {
+  "id": "01-botao-da-foto-pb",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1080,
+  "altura": 1920,
+  "focoX": 0.7,
+  "pb": true,
+  "clips": [
+   {
+    "src": "clips/01-botao-da-foto-pb/t1.mp4",
+    "duracao": 6.3,
+    "mudo": true
+   },
+   {
+    "src": "clips/01-botao-da-foto-pb/t2.mp4",
+    "duracao": 1.7,
+    "mudo": true
+   }
+  ],
+  "palavras": [],
+  "gancho": {
+   "texto": "bastidor: sem áudio, só o momento",
+   "ate": 3,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/candy-apple-town.mp3",
+   "volume": 0.55
+  },
+  "duracao": 8.0,
+  "sfx": [
+   {
+    "t": 7.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-frase-escolhida",
+  "marca": "palavras",
+  "layout": "tela",
+  "largura": 1280,
+  "altura": 720,
+  "focoX": 0.5,
+  "regiao": [
+   0.315,
+   0.33,
+   0.42,
+   0.38
+  ],
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-frase-escolhida/t1.mp4",
+    "duracao": 11,
+    "mudo": false
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.35,
+    "t1": 0.615,
+    "texto": "Bom,"
+   },
+   {
+    "t0": 0.781,
+    "t1": 0.847,
+    "texto": "a"
+   },
+   {
+    "t0": 1.057,
+    "t1": 1.333,
+    "texto": "minha"
+   },
+   {
+    "t0": 1.333,
+    "t1": 2.006,
+    "texto": "escolha"
+   },
+   {
+    "t0": 2.006,
+    "t1": 2.051,
+    "texto": "foi"
+   },
+   {
+    "t0": 2.426,
+    "t1": 2.426,
+    "texto": "a"
+   },
+   {
+    "t0": 2.548,
+    "t1": 2.945,
+    "texto": "opção"
+   },
+   {
+    "t0": 2.967,
+    "t1": 3.321,
+    "texto": "1."
+   },
+   {
+    "t0": 3.321,
+    "t1": 3.806,
+    "texto": "Gostei"
+   },
+   {
+    "t0": 3.906,
+    "t1": 4.027,
+    "texto": "mais"
+   },
+   {
+    "t0": 4.038,
+    "t1": 4.48,
+    "texto": "dela."
+   },
+   {
+    "t0": 5.02,
+    "t1": 5.02,
+    "texto": "A"
+   },
+   {
+    "t0": 5.064,
+    "t1": 5.284,
+    "texto": "inveja"
+   },
+   {
+    "t0": 5.284,
+    "t1": 5.361,
+    "texto": "nem"
+   },
+   {
+    "t0": 5.745,
+    "t1": 6.119,
+    "texto": "sempre"
+   },
+   {
+    "t0": 6.119,
+    "t1": 6.481,
+    "texto": "abre"
+   },
+   {
+    "t0": 6.481,
+    "t1": 6.569,
+    "texto": "a"
+   },
+   {
+    "t0": 6.569,
+    "t1": 7.426,
+    "texto": "ferida."
+   },
+   {
+    "t0": 7.503,
+    "t1": 7.612,
+    "texto": "Às"
+   },
+   {
+    "t0": 7.612,
+    "t1": 8.239,
+    "texto": "vezes,"
+   },
+   {
+    "t0": 8.337,
+    "t1": 8.414,
+    "texto": "só"
+   },
+   {
+    "t0": 8.414,
+    "t1": 9.019,
+    "texto": "encosta"
+   },
+   {
+    "t0": 9.019,
+    "t1": 9.117,
+    "texto": "o"
+   },
+   {
+    "t0": 9.117,
+    "t1": 9.469,
+    "texto": "dedo"
+   },
+   {
+    "t0": 9.535,
+    "t1": 10.15,
+    "texto": "nela."
+   }
+  ],
+  "gancho": {
+   "texto": "inveja: pedi ajuda à minha IA",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "cta": {
+   "linha": "o dicionário que investiga · palavras.co",
+   "engajamento": "Comenta: qual frase você escolheria?"
+  },
+  "trilha": {
+   "src": "audio/trilhas/tiptoe.mp3",
+   "volume": 0.2
+  },
+  "duracao": 13.5,
+  "sfx": [
+   {
+    "t": 2.95,
+    "src": "audio/sfx/clique.wav",
+    "vol": 0.6
+   },
+   {
+    "t": 10.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-aquecendo-a-voz-pb",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1920,
+  "altura": 1080,
+  "focoX": 0.3,
+  "pb": true,
+  "clips": [
+   {
+    "src": "clips/01-aquecendo-a-voz-pb/t1.mp4",
+    "duracao": 17,
+    "mudo": true
+   },
+   {
+    "src": "clips/01-aquecendo-a-voz-pb/t2.mp4",
+    "duracao": 10,
+    "mudo": true
+   }
+  ],
+  "palavras": [],
+  "duracao": 27,
+  "gancho": {
+   "texto": "aquecendo a voz…",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/candy-apple-town.mp3",
+   "volume": 0.55
+  },
+  "sfx": [
+   {
+    "t": 16.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-cantando-sem-audio-pb",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1080,
+  "altura": 1920,
+  "focoX": 0.58,
+  "pb": true,
+  "clips": [
+   {
+    "src": "clips/01-cantando-sem-audio-pb/t1.mp4",
+    "duracao": 15,
+    "mudo": true
+   }
+  ],
+  "palavras": [],
+  "duracao": 15,
+  "gancho": {
+   "texto": "entre uma tomada e outra…",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/cattle.mp3",
+   "volume": 0.55
+  },
+  "sfx": [],
+  "mix": "completo"
+ },
+ {
+  "id": "01-aqui-e-bastidor",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1080,
+  "altura": 1920,
+  "focoX": 0.75,
+  "pb": true,
+  "clips": [
+   {
+    "src": "clips/01-aqui-e-bastidor/t1.mp4",
+    "duracao": 10,
+    "mudo": true
+   },
+   {
+    "src": "clips/01-aqui-e-bastidor/t2.mp4",
+    "duracao": 5.333,
+    "mudo": true
+   }
+  ],
+  "palavras": [],
+  "duracao": 15.333,
+  "gancho": {
+   "texto": "aqui é bastidor.",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/silent-film-light.mp3",
+   "volume": 0.55
+  },
+  "sfx": [
+   {
+    "t": 6.0,
+    "src": "audio/sfx/corneta.wav",
+    "vol": 0.45
+   },
+   {
+    "t": 9.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-nao-conhecia-anafora",
+  "marca": "luiz",
+  "layout": "tela",
+  "largura": 1280,
+  "altura": 720,
+  "focoX": 0.5,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-nao-conhecia-anafora/t1.mp4",
+    "duracao": 7.9,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t2.mp4",
+    "duracao": 11,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t3.mp4",
+    "duracao": 11,
+    "mudo": false,
+    "regiao": [
+     0.22,
+     0.3,
+     0.48,
+     0.6
+    ]
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t4.mp4",
+    "duracao": 9,
+    "mudo": false,
+    "regiao": [
+     0.22,
+     0.3,
+     0.48,
+     0.6
+    ]
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.6,
+    "t1": 0.913,
+    "texto": "Isso"
+   },
+   {
+    "t0": 0.913,
+    "t1": 0.969,
+    "texto": "é"
+   },
+   {
+    "t0": 1.304,
+    "t1": 3.36,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 4.09,
+    "t1": 4.09,
+    "texto": "Não"
+   },
+   {
+    "t0": 4.121,
+    "t1": 4.3,
+    "texto": "faço"
+   },
+   {
+    "t0": 4.3,
+    "t1": 4.446,
+    "texto": "ideia"
+   },
+   {
+    "t0": 4.782,
+    "t1": 4.803,
+    "texto": "do"
+   },
+   {
+    "t0": 4.803,
+    "t1": 5.013,
+    "texto": "que"
+   },
+   {
+    "t0": 5.013,
+    "t1": 5.076,
+    "texto": "é"
+   },
+   {
+    "t0": 5.076,
+    "t1": 5.82,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 6.42,
+    "t1": 6.735,
+    "texto": "Recurso"
+   },
+   {
+    "t0": 7.07,
+    "t1": 7.68,
+    "texto": "forte."
+   },
+   {
+    "t0": 7.68,
+    "t1": 7.9,
+    "texto": "Mas"
+   },
+   {
+    "t0": 8.09,
+    "t1": 8.09,
+    "texto": "Quer"
+   },
+   {
+    "t0": 8.12,
+    "t1": 8.26,
+    "texto": "que"
+   },
+   {
+    "t0": 8.26,
+    "t1": 8.38,
+    "texto": "eu"
+   },
+   {
+    "t0": 8.38,
+    "t1": 8.86,
+    "texto": "analise"
+   },
+   {
+    "t0": 8.86,
+    "t1": 8.93,
+    "texto": "a"
+   },
+   {
+    "t0": 8.93,
+    "t1": 9.47,
+    "texto": "cadência"
+   },
+   {
+    "t0": 9.47,
+    "t1": 9.6,
+    "texto": "do"
+   },
+   {
+    "t0": 9.6,
+    "t1": 10.15,
+    "texto": "parágrafo"
+   },
+   {
+    "t0": 10.2,
+    "t1": 10.99,
+    "texto": "inteiro?"
+   },
+   {
+    "t0": 11.11,
+    "t1": 11.81,
+    "texto": "Não."
+   },
+   {
+    "t0": 11.99,
+    "t1": 11.99,
+    "texto": "Eu"
+   },
+   {
+    "t0": 12.023,
+    "t1": 12.144,
+    "texto": "quero"
+   },
+   {
+    "t0": 12.144,
+    "t1": 12.342,
+    "texto": "entender"
+   },
+   {
+    "t0": 12.54,
+    "t1": 12.573,
+    "texto": "o"
+   },
+   {
+    "t0": 12.715,
+    "t1": 12.748,
+    "texto": "que"
+   },
+   {
+    "t0": 12.748,
+    "t1": 12.792,
+    "texto": "é"
+   },
+   {
+    "t0": 12.792,
+    "t1": 13.21,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 13.87,
+    "t1": 14.384,
+    "texto": "Quero"
+   },
+   {
+    "t0": 14.384,
+    "t1": 14.682,
+    "texto": "entender"
+   },
+   {
+    "t0": 15.52,
+    "t1": 15.52,
+    "texto": "o"
+   },
+   {
+    "t0": 15.601,
+    "t1": 15.899,
+    "texto": "que"
+   },
+   {
+    "t0": 15.899,
+    "t1": 15.98,
+    "texto": "é"
+   },
+   {
+    "t0": 16.007,
+    "t1": 17.36,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 17.42,
+    "t1": 17.481,
+    "texto": "Não"
+   },
+   {
+    "t0": 17.481,
+    "t1": 17.758,
+    "texto": "conhecia"
+   },
+   {
+    "t0": 18.065,
+    "t1": 18.117,
+    "texto": "essa"
+   },
+   {
+    "t0": 18.117,
+    "t1": 18.68,
+    "texto": "palavra."
+   },
+   {
+    "t0": 19.78,
+    "t1": 20.3,
+    "texto": "Anáfora."
+   },
+   {
+    "t0": 20.3,
+    "t1": 20.664,
+    "texto": "Figura"
+   },
+   {
+    "t0": 21.016,
+    "t1": 21.084,
+    "texto": "de"
+   },
+   {
+    "t0": 21.084,
+    "t1": 22.016,
+    "texto": "linguagem"
+   },
+   {
+    "t0": 22.016,
+    "t1": 22.221,
+    "texto": "que"
+   },
+   {
+    "t0": 22.596,
+    "t1": 23.119,
+    "texto": "consiste"
+   },
+   {
+    "t0": 23.562,
+    "t1": 23.665,
+    "texto": "na"
+   },
+   {
+    "t0": 23.665,
+    "t1": 24.619,
+    "texto": "repetição"
+   },
+   {
+    "t0": 24.892,
+    "t1": 25.063,
+    "texto": "de"
+   },
+   {
+    "t0": 25.063,
+    "t1": 25.438,
+    "texto": "uma"
+   },
+   {
+    "t0": 25.642,
+    "t1": 26.381,
+    "texto": "palavra"
+   },
+   {
+    "t0": 26.381,
+    "t1": 26.506,
+    "texto": "ou"
+   },
+   {
+    "t0": 26.654,
+    "t1": 27.518,
+    "texto": "expressão"
+   },
+   {
+    "t0": 27.518,
+    "t1": 27.575,
+    "texto": "em"
+   },
+   {
+    "t0": 27.779,
+    "t1": 28.484,
+    "texto": "diferentes"
+   },
+   {
+    "t0": 28.484,
+    "t1": 28.78,
+    "texto": "partes"
+   },
+   {
+    "t0": 28.973,
+    "t1": 28.973,
+    "texto": "de"
+   },
+   {
+    "t0": 29.234,
+    "t1": 29.291,
+    "texto": "um"
+   },
+   {
+    "t0": 29.291,
+    "t1": 29.78,
+    "texto": "texto."
+   },
+   {
+    "t0": 30.01,
+    "t1": 30.32,
+    "texto": "Substantivo"
+   },
+   {
+    "t0": 30.67,
+    "t1": 31.02,
+    "texto": "feminino,"
+   },
+   {
+    "t0": 31.02,
+    "t1": 31.61,
+    "texto": "outros."
+   },
+   {
+    "t0": 31.83,
+    "t1": 33.263,
+    "texto": "Referência,"
+   },
+   {
+    "t0": 33.263,
+    "t1": 34.484,
+    "texto": "coesão,"
+   },
+   {
+    "t0": 34.484,
+    "t1": 36.52,
+    "texto": "etimologia."
+   },
+   {
+    "t0": 36.94,
+    "t1": 36.94,
+    "texto": "A"
+   },
+   {
+    "t0": 36.94,
+    "t1": 37.244,
+    "texto": "etimologia"
+   },
+   {
+    "t0": 37.244,
+    "t1": 37.284,
+    "texto": "seria"
+   },
+   {
+    "t0": 37.618,
+    "t1": 38.66,
+    "texto": "interessante."
+   }
+  ],
+  "duracao": 38.9,
+  "regiao": [
+   0.31,
+   0.17,
+   0.6,
+   0.62
+  ],
+  "gancho": {
+   "texto": "a IA leu meu texto sobre inveja…",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/tiptoe.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 7.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 18.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 29.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 19.15,
+    "src": "audio/sfx/lapis.wav",
+    "vol": 0.5
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-nao-conhecia-anafora-palavras",
+  "marca": "palavras",
+  "layout": "tela",
+  "largura": 1280,
+  "altura": 720,
+  "focoX": 0.5,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-nao-conhecia-anafora/t1.mp4",
+    "duracao": 7.9,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t2.mp4",
+    "duracao": 11,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t3.mp4",
+    "duracao": 11,
+    "mudo": false,
+    "regiao": [
+     0.22,
+     0.3,
+     0.48,
+     0.6
+    ]
+   },
+   {
+    "src": "clips/01-nao-conhecia-anafora/t4.mp4",
+    "duracao": 9,
+    "mudo": false,
+    "regiao": [
+     0.22,
+     0.3,
+     0.48,
+     0.6
+    ]
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.6,
+    "t1": 0.913,
+    "texto": "Isso"
+   },
+   {
+    "t0": 0.913,
+    "t1": 0.969,
+    "texto": "é"
+   },
+   {
+    "t0": 1.304,
+    "t1": 3.36,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 4.09,
+    "t1": 4.09,
+    "texto": "Não"
+   },
+   {
+    "t0": 4.121,
+    "t1": 4.3,
+    "texto": "faço"
+   },
+   {
+    "t0": 4.3,
+    "t1": 4.446,
+    "texto": "ideia"
+   },
+   {
+    "t0": 4.782,
+    "t1": 4.803,
+    "texto": "do"
+   },
+   {
+    "t0": 4.803,
+    "t1": 5.013,
+    "texto": "que"
+   },
+   {
+    "t0": 5.013,
+    "t1": 5.076,
+    "texto": "é"
+   },
+   {
+    "t0": 5.076,
+    "t1": 5.82,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 6.42,
+    "t1": 6.735,
+    "texto": "Recurso"
+   },
+   {
+    "t0": 7.07,
+    "t1": 7.68,
+    "texto": "forte."
+   },
+   {
+    "t0": 7.68,
+    "t1": 7.9,
+    "texto": "Mas"
+   },
+   {
+    "t0": 8.09,
+    "t1": 8.09,
+    "texto": "Quer"
+   },
+   {
+    "t0": 8.12,
+    "t1": 8.26,
+    "texto": "que"
+   },
+   {
+    "t0": 8.26,
+    "t1": 8.38,
+    "texto": "eu"
+   },
+   {
+    "t0": 8.38,
+    "t1": 8.86,
+    "texto": "analise"
+   },
+   {
+    "t0": 8.86,
+    "t1": 8.93,
+    "texto": "a"
+   },
+   {
+    "t0": 8.93,
+    "t1": 9.47,
+    "texto": "cadência"
+   },
+   {
+    "t0": 9.47,
+    "t1": 9.6,
+    "texto": "do"
+   },
+   {
+    "t0": 9.6,
+    "t1": 10.15,
+    "texto": "parágrafo"
+   },
+   {
+    "t0": 10.2,
+    "t1": 10.99,
+    "texto": "inteiro?"
+   },
+   {
+    "t0": 11.11,
+    "t1": 11.81,
+    "texto": "Não."
+   },
+   {
+    "t0": 11.99,
+    "t1": 11.99,
+    "texto": "Eu"
+   },
+   {
+    "t0": 12.023,
+    "t1": 12.144,
+    "texto": "quero"
+   },
+   {
+    "t0": 12.144,
+    "t1": 12.342,
+    "texto": "entender"
+   },
+   {
+    "t0": 12.54,
+    "t1": 12.573,
+    "texto": "o"
+   },
+   {
+    "t0": 12.715,
+    "t1": 12.748,
+    "texto": "que"
+   },
+   {
+    "t0": 12.748,
+    "t1": 12.792,
+    "texto": "é"
+   },
+   {
+    "t0": 12.792,
+    "t1": 13.21,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 13.87,
+    "t1": 14.384,
+    "texto": "Quero"
+   },
+   {
+    "t0": 14.384,
+    "t1": 14.682,
+    "texto": "entender"
+   },
+   {
+    "t0": 15.52,
+    "t1": 15.52,
+    "texto": "o"
+   },
+   {
+    "t0": 15.601,
+    "t1": 15.899,
+    "texto": "que"
+   },
+   {
+    "t0": 15.899,
+    "t1": 15.98,
+    "texto": "é"
+   },
+   {
+    "t0": 16.007,
+    "t1": 17.36,
+    "texto": "anáfora."
+   },
+   {
+    "t0": 17.42,
+    "t1": 17.481,
+    "texto": "Não"
+   },
+   {
+    "t0": 17.481,
+    "t1": 17.758,
+    "texto": "conhecia"
+   },
+   {
+    "t0": 18.065,
+    "t1": 18.117,
+    "texto": "essa"
+   },
+   {
+    "t0": 18.117,
+    "t1": 18.68,
+    "texto": "palavra."
+   },
+   {
+    "t0": 19.78,
+    "t1": 20.3,
+    "texto": "Anáfora."
+   },
+   {
+    "t0": 20.3,
+    "t1": 20.664,
+    "texto": "Figura"
+   },
+   {
+    "t0": 21.016,
+    "t1": 21.084,
+    "texto": "de"
+   },
+   {
+    "t0": 21.084,
+    "t1": 22.016,
+    "texto": "linguagem"
+   },
+   {
+    "t0": 22.016,
+    "t1": 22.221,
+    "texto": "que"
+   },
+   {
+    "t0": 22.596,
+    "t1": 23.119,
+    "texto": "consiste"
+   },
+   {
+    "t0": 23.562,
+    "t1": 23.665,
+    "texto": "na"
+   },
+   {
+    "t0": 23.665,
+    "t1": 24.619,
+    "texto": "repetição"
+   },
+   {
+    "t0": 24.892,
+    "t1": 25.063,
+    "texto": "de"
+   },
+   {
+    "t0": 25.063,
+    "t1": 25.438,
+    "texto": "uma"
+   },
+   {
+    "t0": 25.642,
+    "t1": 26.381,
+    "texto": "palavra"
+   },
+   {
+    "t0": 26.381,
+    "t1": 26.506,
+    "texto": "ou"
+   },
+   {
+    "t0": 26.654,
+    "t1": 27.518,
+    "texto": "expressão"
+   },
+   {
+    "t0": 27.518,
+    "t1": 27.575,
+    "texto": "em"
+   },
+   {
+    "t0": 27.779,
+    "t1": 28.484,
+    "texto": "diferentes"
+   },
+   {
+    "t0": 28.484,
+    "t1": 28.78,
+    "texto": "partes"
+   },
+   {
+    "t0": 28.973,
+    "t1": 28.973,
+    "texto": "de"
+   },
+   {
+    "t0": 29.234,
+    "t1": 29.291,
+    "texto": "um"
+   },
+   {
+    "t0": 29.291,
+    "t1": 29.78,
+    "texto": "texto."
+   },
+   {
+    "t0": 30.01,
+    "t1": 30.32,
+    "texto": "Substantivo"
+   },
+   {
+    "t0": 30.67,
+    "t1": 31.02,
+    "texto": "feminino,"
+   },
+   {
+    "t0": 31.02,
+    "t1": 31.61,
+    "texto": "outros."
+   },
+   {
+    "t0": 31.83,
+    "t1": 33.263,
+    "texto": "Referência,"
+   },
+   {
+    "t0": 33.263,
+    "t1": 34.484,
+    "texto": "coesão,"
+   },
+   {
+    "t0": 34.484,
+    "t1": 36.52,
+    "texto": "etimologia."
+   },
+   {
+    "t0": 36.94,
+    "t1": 36.94,
+    "texto": "A"
+   },
+   {
+    "t0": 36.94,
+    "t1": 37.244,
+    "texto": "etimologia"
+   },
+   {
+    "t0": 37.244,
+    "t1": 37.284,
+    "texto": "seria"
+   },
+   {
+    "t0": 37.618,
+    "t1": 38.66,
+    "texto": "interessante."
+   }
+  ],
+  "cta": {
+   "linha": "o dicionário que investiga · palavras.co",
+   "engajamento": "Que recurso você usa sem saber o nome?"
+  },
+  "duracao": 41.4,
+  "regiao": [
+   0.31,
+   0.17,
+   0.6,
+   0.62
+  ],
+  "gancho": {
+   "texto": "a IA leu meu texto sobre inveja…",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/tiptoe.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 7.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 18.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 29.85,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 19.15,
+    "src": "audio/sfx/lapis.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 38.85,
+    "src": "audio/sfx/clique.wav",
+    "vol": 0.6
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-desejo-mesquinho",
+  "marca": "luiz",
+  "layout": "camera",
+  "largura": 1080,
+  "altura": 1920,
+  "focoX": 0.6,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-desejo-mesquinho/t1.mp4",
+    "duracao": 19.7,
+    "mudo": false
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.18,
+    "t1": 0.18,
+    "texto": "Nesse"
+   },
+   {
+    "t0": 0.2,
+    "t1": 0.62,
+    "texto": "momento,"
+   },
+   {
+    "t0": 0.85,
+    "t1": 1.13,
+    "texto": "surge"
+   },
+   {
+    "t0": 1.14,
+    "t1": 1.31,
+    "texto": "um"
+   },
+   {
+    "t0": 1.31,
+    "t1": 1.83,
+    "texto": "desejo"
+   },
+   {
+    "t0": 1.83,
+    "t1": 2.94,
+    "texto": "mesquinho."
+   },
+   {
+    "t0": 4.45,
+    "t1": 4.45,
+    "texto": "Tomara"
+   },
+   {
+    "t0": 4.47,
+    "t1": 4.52,
+    "texto": "que"
+   },
+   {
+    "t0": 4.52,
+    "t1": 4.58,
+    "texto": "o"
+   },
+   {
+    "t0": 4.59,
+    "t1": 4.85,
+    "texto": "vale"
+   },
+   {
+    "t0": 4.92,
+    "t1": 5,
+    "texto": "a"
+   },
+   {
+    "t0": 5.12,
+    "t1": 5.67,
+    "texto": "refeição"
+   },
+   {
+    "t0": 5.67,
+    "t1": 5.85,
+    "texto": "dele"
+   },
+   {
+    "t0": 6.03,
+    "t1": 6.33,
+    "texto": "seja"
+   },
+   {
+    "t0": 6.33,
+    "t1": 6.57,
+    "texto": "uma"
+   },
+   {
+    "t0": 6.57,
+    "t1": 7.33,
+    "texto": "****."
+   },
+   {
+    "t0": 10.88,
+    "t1": 10.9,
+    "texto": "Não,"
+   },
+   {
+    "t0": 10.9,
+    "t1": 11.21,
+    "texto": "seja"
+   },
+   {
+    "t0": 11.21,
+    "t1": 11.67,
+    "texto": "ruim,"
+   },
+   {
+    "t0": 11.67,
+    "t1": 12.1,
+    "texto": "né?"
+   },
+   {
+    "t0": 12.22,
+    "t1": 12.3,
+    "texto": "Seja"
+   },
+   {
+    "t0": 12.3,
+    "t1": 12.45,
+    "texto": "uma"
+   },
+   {
+    "t0": 12.45,
+    "t1": 12.68,
+    "texto": "****"
+   },
+   {
+    "t0": 12.85,
+    "t1": 12.95,
+    "texto": "não,"
+   },
+   {
+    "t0": 12.95,
+    "t1": 13.13,
+    "texto": "seja"
+   },
+   {
+    "t0": 13.16,
+    "t1": 13.52,
+    "texto": "ruim."
+   },
+   {
+    "t0": 14.56,
+    "t1": 14.56,
+    "texto": "Só"
+   },
+   {
+    "t0": 14.56,
+    "t1": 14.56,
+    "texto": "pra"
+   },
+   {
+    "t0": 14.581,
+    "t1": 14.697,
+    "texto": "dar"
+   },
+   {
+    "t0": 14.729,
+    "t1": 14.94,
+    "texto": "uma"
+   },
+   {
+    "t0": 14.94,
+    "t1": 15.858,
+    "texto": "equilibrada,"
+   },
+   {
+    "t0": 15.858,
+    "t1": 16.27,
+    "texto": "né?"
+   },
+   {
+    "t0": 16.27,
+    "t1": 16.646,
+    "texto": "Não,"
+   },
+   {
+    "t0": 16.646,
+    "t1": 16.667,
+    "texto": "mas"
+   },
+   {
+    "t0": 16.95,
+    "t1": 17.211,
+    "texto": "aqui"
+   },
+   {
+    "t0": 17.211,
+    "t1": 17.368,
+    "texto": "no"
+   },
+   {
+    "t0": 17.368,
+    "t1": 17.702,
+    "texto": "texto"
+   },
+   {
+    "t0": 17.901,
+    "t1": 17.932,
+    "texto": "tá"
+   },
+   {
+    "t0": 17.932,
+    "t1": 18.089,
+    "texto": "só"
+   },
+   {
+    "t0": 18.089,
+    "t1": 18.319,
+    "texto": "pra"
+   },
+   {
+    "t0": 18.319,
+    "t1": 19.49,
+    "texto": "equilibrar."
+   }
+  ],
+  "duracao": 19.7,
+  "gancho": {
+   "texto": "me peguei com inveja…",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/batty-slower.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 11.77,
+    "src": "audio/sfx/corneta.wav",
+    "vol": 0.45
+   }
+  ],
+  "mix": "completo",
+  "censura": [
+   [
+    6.49,
+    7.38
+   ],
+   [
+    12.37,
+    12.73
+   ]
+  ]
+ },
+ {
+  "id": "02-ela-nao-fere-ela-localiza",
+  "marca": "palavras",
+  "layout": "tela",
+  "largura": 1280,
+  "altura": 720,
+  "focoX": 0.5,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/02-ela-nao-fere-ela-localiza/t1.mp4",
+    "duracao": 17,
+    "mudo": false
+   },
+   {
+    "src": "clips/02-ela-nao-fere-ela-localiza/t2.mp4",
+    "duracao": 10,
+    "mudo": false
+   },
+   {
+    "src": "clips/02-ela-nao-fere-ela-localiza/t3.mp4",
+    "duracao": 3.2,
+    "mudo": false
+   },
+   {
+    "src": "clips/02-ela-nao-fere-ela-localiza/t4.mp4",
+    "duracao": 5,
+    "mudo": false
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.68,
+    "t1": 0.84,
+    "texto": "Aqui,"
+   },
+   {
+    "t0": 0.84,
+    "t1": 0.93,
+    "texto": "a"
+   },
+   {
+    "t0": 0.93,
+    "t1": 1.52,
+    "texto": "inveja"
+   },
+   {
+    "t0": 1.52,
+    "t1": 1.62,
+    "texto": "é"
+   },
+   {
+    "t0": 1.62,
+    "t1": 2.38,
+    "texto": "cirúrgica"
+   },
+   {
+    "t0": 2.38,
+    "t1": 2.5,
+    "texto": "e"
+   },
+   {
+    "t0": 2.73,
+    "t1": 3.74,
+    "texto": "discreta."
+   },
+   {
+    "t0": 3.74,
+    "t1": 4.387,
+    "texto": "Ela"
+   },
+   {
+    "t0": 4.387,
+    "t1": 4.602,
+    "texto": "não"
+   },
+   {
+    "t0": 5.411,
+    "t1": 6.65,
+    "texto": "fere."
+   },
+   {
+    "t0": 7.5,
+    "t1": 7.5,
+    "texto": "Ela"
+   },
+   {
+    "t0": 7.53,
+    "t1": 8.76,
+    "texto": "localiza."
+   },
+   {
+    "t0": 9.89,
+    "t1": 9.89,
+    "texto": "É"
+   },
+   {
+    "t0": 9.921,
+    "t1": 10.085,
+    "texto": "quase"
+   },
+   {
+    "t0": 10.085,
+    "t1": 10.219,
+    "texto": "um"
+   },
+   {
+    "t0": 10.569,
+    "t1": 10.816,
+    "texto": "gesto"
+   },
+   {
+    "t0": 10.816,
+    "t1": 11.022,
+    "texto": "de"
+   },
+   {
+    "t0": 11.022,
+    "t1": 11.433,
+    "texto": "dedo"
+   },
+   {
+    "t0": 11.433,
+    "t1": 12.452,
+    "texto": "esticado,"
+   },
+   {
+    "t0": 12.452,
+    "t1": 12.483,
+    "texto": "sem"
+   },
+   {
+    "t0": 12.915,
+    "t1": 13.81,
+    "texto": "contato."
+   },
+   {
+    "t0": 14.43,
+    "t1": 14.43,
+    "texto": "A"
+   },
+   {
+    "t0": 14.46,
+    "t1": 14.74,
+    "texto": "força"
+   },
+   {
+    "t0": 15.09,
+    "t1": 15.23,
+    "texto": "está"
+   },
+   {
+    "t0": 15.23,
+    "t1": 15.45,
+    "texto": "na"
+   },
+   {
+    "t0": 15.45,
+    "t1": 16.79,
+    "texto": "contenção."
+   },
+   {
+    "t0": 17.69,
+    "t1": 17.69,
+    "texto": "A"
+   },
+   {
+    "t0": 17.72,
+    "t1": 18.041,
+    "texto": "inveja"
+   },
+   {
+    "t0": 18.352,
+    "t1": 18.392,
+    "texto": "é"
+   },
+   {
+    "t0": 18.392,
+    "t1": 18.532,
+    "texto": "o"
+   },
+   {
+    "t0": 18.532,
+    "t1": 18.953,
+    "texto": "que"
+   },
+   {
+    "t0": 18.953,
+    "t1": 19.234,
+    "texto": "te"
+   },
+   {
+    "t0": 19.234,
+    "t1": 19.414,
+    "texto": "faz"
+   },
+   {
+    "t0": 19.745,
+    "t1": 20.076,
+    "texto": "ver"
+   },
+   {
+    "t0": 20.076,
+    "t1": 20.197,
+    "texto": "a"
+   },
+   {
+    "t0": 20.598,
+    "t1": 21.53,
+    "texto": "ferida."
+   },
+   {
+    "t0": 22.64,
+    "t1": 22.739,
+    "texto": "Não"
+   },
+   {
+    "t0": 22.739,
+    "t1": 22.924,
+    "texto": "o"
+   },
+   {
+    "t0": 22.924,
+    "t1": 23.543,
+    "texto": "que"
+   },
+   {
+    "t0": 23.543,
+    "t1": 23.938,
+    "texto": "te"
+   },
+   {
+    "t0": 23.938,
+    "t1": 24.544,
+    "texto": "faz"
+   },
+   {
+    "t0": 24.544,
+    "t1": 26.77,
+    "texto": "senti-la."
+   },
+   {
+    "t0": 27.89,
+    "t1": 27.89,
+    "texto": "Ele"
+   },
+   {
+    "t0": 27.925,
+    "t1": 28.685,
+    "texto": "diagnostica"
+   },
+   {
+    "t0": 28.685,
+    "t1": 28.973,
+    "texto": "sem"
+   },
+   {
+    "t0": 28.973,
+    "t1": 29.93,
+    "texto": "dramatizar."
+   },
+   {
+    "t0": 30.3,
+    "t1": 30.3,
+    "texto": "Se"
+   },
+   {
+    "t0": 30.333,
+    "t1": 30.478,
+    "texto": "você"
+   },
+   {
+    "t0": 30.478,
+    "t1": 31.332,
+    "texto": "trocar,"
+   },
+   {
+    "t0": 31.332,
+    "t1": 31.865,
+    "texto": "ganha"
+   },
+   {
+    "t0": 31.865,
+    "t1": 33.052,
+    "texto": "intensidade"
+   },
+   {
+    "t0": 33.052,
+    "t1": 33.074,
+    "texto": "e"
+   },
+   {
+    "t0": 33.518,
+    "t1": 33.696,
+    "texto": "perde"
+   },
+   {
+    "t0": 33.696,
+    "t1": 34.95,
+    "texto": "sutileza."
+   }
+  ],
+  "cta": {
+   "linha": "o dicionário que investiga · palavras.co",
+   "engajamento": "A inveja fere ou localiza?"
+  },
+  "duracao": 37.7,
+  "regiao": [
+   0.31,
+   0.16,
+   0.6,
+   0.5
+  ],
+  "gancho": {
+   "texto": "inveja: ela não fere.",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/como-vamos.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 16.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 26.95,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 30.15,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 35.15,
+    "src": "audio/sfx/clique.wav",
+    "vol": 0.6
+   }
+  ],
+  "mix": "completo"
+ },
+ {
+  "id": "01-entre-ele-e-mim",
+  "marca": "palavras",
+  "layout": "tela",
+  "largura": 1280,
+  "altura": 720,
+  "focoX": 0.5,
+  "pb": false,
+  "clips": [
+   {
+    "src": "clips/01-entre-ele-e-mim/t1.mp4",
+    "duracao": 19.7,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-entre-ele-e-mim/t2.mp4",
+    "duracao": 8,
+    "mudo": false
+   },
+   {
+    "src": "clips/01-entre-ele-e-mim/t3.mp4",
+    "duracao": 12.9,
+    "mudo": false
+   }
+  ],
+  "palavras": [
+   {
+    "t0": 0.97,
+    "t1": 1.089,
+    "texto": "A"
+   },
+   {
+    "t0": 1.089,
+    "t1": 1.682,
+    "texto": "ordem"
+   },
+   {
+    "t0": 1.682,
+    "t1": 2.038,
+    "texto": "dos"
+   },
+   {
+    "t0": 2.038,
+    "t1": 2.739,
+    "texto": "termos"
+   },
+   {
+    "t0": 2.751,
+    "t1": 3.178,
+    "texto": "muda"
+   },
+   {
+    "t0": 3.297,
+    "t1": 3.7,
+    "texto": "onde"
+   },
+   {
+    "t0": 3.7,
+    "t1": 3.819,
+    "texto": "o"
+   },
+   {
+    "t0": 3.843,
+    "t1": 4.282,
+    "texto": "peso"
+   },
+   {
+    "t0": 4.294,
+    "t1": 5.03,
+    "texto": "cai."
+   },
+   {
+    "t0": 5.5,
+    "t1": 5.807,
+    "texto": "Entre"
+   },
+   {
+    "t0": 5.807,
+    "t1": 6.349,
+    "texto": "ele"
+   },
+   {
+    "t0": 6.349,
+    "t1": 6.514,
+    "texto": "e"
+   },
+   {
+    "t0": 6.514,
+    "t1": 7.316,
+    "texto": "mim,"
+   },
+   {
+    "t0": 7.387,
+    "t1": 7.576,
+    "texto": "o"
+   },
+   {
+    "t0": 7.576,
+    "t1": 8.496,
+    "texto": "texto"
+   },
+   {
+    "t0": 8.496,
+    "t1": 9.746,
+    "texto": "termina"
+   },
+   {
+    "t0": 9.793,
+    "t1": 9.864,
+    "texto": "em"
+   },
+   {
+    "t0": 10.123,
+    "t1": 11.35,
+    "texto": "mim."
+   },
+   {
+    "t0": 11.67,
+    "t1": 11.67,
+    "texto": "O"
+   },
+   {
+    "t0": 11.67,
+    "t1": 12.052,
+    "texto": "último"
+   },
+   {
+    "t0": 12.052,
+    "t1": 12.354,
+    "texto": "som"
+   },
+   {
+    "t0": 12.354,
+    "t1": 12.445,
+    "texto": "é"
+   },
+   {
+    "t0": 12.455,
+    "t1": 13.27,
+    "texto": "nasal."
+   },
+   {
+    "t0": 13.61,
+    "t1": 13.99,
+    "texto": "Fechado,"
+   },
+   {
+    "t0": 13.99,
+    "t1": 15.01,
+    "texto": "recolhido."
+   },
+   {
+    "t0": 18.24,
+    "t1": 18.24,
+    "texto": "A"
+   },
+   {
+    "t0": 18.24,
+    "t1": 18.487,
+    "texto": "frase"
+   },
+   {
+    "t0": 18.487,
+    "t1": 19.49,
+    "texto": "desce."
+   },
+   {
+    "t0": 19.67,
+    "t1": 19.7,
+    "texto": "Isso"
+   },
+   {
+    "t0": 19.96,
+    "t1": 19.96,
+    "texto": "O"
+   },
+   {
+    "t0": 19.96,
+    "t1": 20.209,
+    "texto": "mim"
+   },
+   {
+    "t0": 20.209,
+    "t1": 20.741,
+    "texto": "fica"
+   },
+   {
+    "t0": 20.741,
+    "t1": 21.681,
+    "texto": "exposto"
+   },
+   {
+    "t0": 21.681,
+    "t1": 21.953,
+    "texto": "no"
+   },
+   {
+    "t0": 22.021,
+    "t1": 22.78,
+    "texto": "fim."
+   },
+   {
+    "t0": 27,
+    "t1": 27.48,
+    "texto": "Sobra."
+   },
+   {
+    "t0": 28.38,
+    "t1": 28.38,
+    "texto": "A"
+   },
+   {
+    "t0": 28.38,
+    "t1": 28.739,
+    "texto": "primeira"
+   },
+   {
+    "t0": 28.787,
+    "t1": 29.59,
+    "texto": "hipótese."
+   },
+   {
+    "t0": 29.95,
+    "t1": 30.118,
+    "texto": "Entre"
+   },
+   {
+    "t0": 30.118,
+    "t1": 30.391,
+    "texto": "ele"
+   },
+   {
+    "t0": 30.391,
+    "t1": 30.475,
+    "texto": "e"
+   },
+   {
+    "t0": 30.475,
+    "t1": 31.01,
+    "texto": "mim."
+   },
+   {
+    "t0": 31.42,
+    "t1": 31.42,
+    "texto": "É"
+   },
+   {
+    "t0": 31.42,
+    "t1": 32.135,
+    "texto": "literariamente"
+   },
+   {
+    "t0": 32.135,
+    "t1": 32.455,
+    "texto": "mais"
+   },
+   {
+    "t0": 32.476,
+    "t1": 33.18,
+    "texto": "forte."
+   },
+   {
+    "t0": 33.62,
+    "t1": 33.62,
+    "texto": "Ela"
+   },
+   {
+    "t0": 33.62,
+    "t1": 33.77,
+    "texto": "deixa"
+   },
+   {
+    "t0": 33.77,
+    "t1": 33.83,
+    "texto": "o"
+   },
+   {
+    "t0": 33.83,
+    "t1": 34.33,
+    "texto": "narrador"
+   },
+   {
+    "t0": 34.33,
+    "t1": 35.04,
+    "texto": "sozinho."
+   },
+   {
+    "t0": 35.2,
+    "t1": 35.276,
+    "texto": "No"
+   },
+   {
+    "t0": 35.276,
+    "t1": 35.654,
+    "texto": "fim"
+   },
+   {
+    "t0": 35.654,
+    "t1": 35.902,
+    "texto": "da"
+   },
+   {
+    "t0": 35.902,
+    "t1": 36.94,
+    "texto": "frase."
+   },
+   {
+    "t0": 37.1,
+    "t1": 37.856,
+    "texto": "Exatamente"
+   },
+   {
+    "t0": 37.856,
+    "t1": 38.132,
+    "texto": "como"
+   },
+   {
+    "t0": 38.234,
+    "t1": 38.5,
+    "texto": "ele"
+   },
+   {
+    "t0": 38.5,
+    "t1": 38.858,
+    "texto": "está"
+   },
+   {
+    "t0": 38.888,
+    "t1": 39.501,
+    "texto": "sozinho"
+   },
+   {
+    "t0": 39.511,
+    "t1": 39.695,
+    "texto": "na"
+   },
+   {
+    "t0": 39.695,
+    "t1": 40.38,
+    "texto": "cena."
+   }
+  ],
+  "cta": {
+   "linha": "o dicionário que investiga · palavras.co",
+   "engajamento": "Qual das duas dói mais?"
+  },
+  "duracao": 43.1,
+  "regiao": [
+   0.31,
+   0.2,
+   0.61,
+   0.58
+  ],
+  "gancho": {
+   "texto": "inveja: entre ele e mim?",
+   "ate": 2.5,
+   "tick": "audio/sfx/tecla.wav"
+  },
+  "trilha": {
+   "src": "audio/trilhas/argonne.mp3",
+   "volume": 0.2
+  },
+  "sfx": [
+   {
+    "t": 19.65,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 27.65,
+    "src": "audio/sfx/whoosh.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 5.5,
+    "src": "audio/sfx/lapis.wav",
+    "vol": 0.5
+   },
+   {
+    "t": 40.55,
+    "src": "audio/sfx/clique.wav",
+    "vol": 0.6
+   }
+  ],
+  "mix": "completo"
+ }
+]

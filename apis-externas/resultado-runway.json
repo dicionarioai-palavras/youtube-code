@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-10-22T23:02:24.832Z",
+  "generations": 0,
+  "credits_spent": 0,
+  "pricing_source": "https://docs.dev.runwayml.com/guides/pricing/",
+  "account": {
+    "ok": true,
+    "status": 200,
+    "credit_balance": 1000,
+    "usd_equivalent": 10,
+    "limits": {
+      "gen4_image": {
+        "max_concurrent": 2,
+        "max_daily": 200,
+        "daily_generations": 0,
+        "note": "null significa não informado ou ilimitado; conferir portal antes de escalar."
+      },
+      "gen4_image_turbo": {
+        "max_concurrent": 2,
+        "max_daily": 200,
+        "daily_generations": 0,
+        "note": "null significa não informado ou ilimitado; conferir portal antes de escalar."
+      },
+      "gen4_turbo": {
+        "max_concurrent": 1,
+        "max_daily": 50,
+        "daily_generations": 0,
+        "note": "null significa não informado ou ilimitado; conferir portal antes de escalar."
+      },
+      "gen4.5": {
+        "max_concurrent": 1,
+        "max_daily": 50,
+        "daily_generations": 0,
+        "note": "null significa não informado ou ilimitado; conferir portal antes de escalar."
+      }
+    },
+    "checked_at": "2026-10-22T23:02:25.455Z",
+    "scope": "API organization da chave usada; não é saldo do app web",
+    "generations": 0
+  },
+  "unit_examples": [
+    {
+      "model": "gen4_image_turbo",
+      "resolution": "1080p",
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 2,
+      "credits": 2,
+      "usd": 0.02,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4_image",
+      "resolution": "720p",
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 5,
+      "credits": 5,
+      "usd": 0.05,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4_image",
+      "resolution": "1080p",
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 8,
+      "credits": 8,
+      "usd": 0.08,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4_turbo",
+      "seconds": 5,
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 25,
+      "credits": 25,
+      "usd": 0.25,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4.5",
+      "seconds": 5,
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 60,
+      "credits": 60,
+      "usd": 0.6,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4_turbo",
+      "seconds": 10,
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 50,
+      "credits": 50,
+      "usd": 0.5,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    {
+      "model": "gen4.5",
+      "seconds": 10,
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 120,
+      "credits": 120,
+      "usd": 1.2,
+      "status": "estimativa-local-nao-cobranca-medida"
+    }
+  ],
+  "pilot": {
+    "stage1": {
+      "model": "gen4_image",
+      "resolution": "1080p",
+      "quantity": 3,
+      "attempts": 1,
+      "unit_credits": 8,
+      "credits": 24,
+      "usd": 0.24,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    "stage2_conditional": {
+      "model": "gen4_turbo",
+      "seconds": 10,
+      "quantity": 1,
+      "attempts": 1,
+      "unit_credits": 50,
+      "credits": 50,
+      "usd": 0.5,
+      "status": "estimativa-local-nao-cobranca-medida"
+    },
+    "base_credits": 74,
+    "max_with_one_retry_each": 148,
+    "max_usd": 1.48,
+    "spend_authorized": false,
+    "note": "Começar com 3 imagens; vídeo somente após avaliar imagens. Segunda tentativa não automática. Sem geração nesta consulta.",
+    "base_fits_balance": true,
+    "max_fits_balance": true,
+    "balance_share_percent": 14.8
+  }
+}

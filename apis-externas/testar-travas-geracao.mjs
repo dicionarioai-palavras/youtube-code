@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';
+const {runwayJob}=await import('./src/runway-gerar.mjs');
+const base=path.resolve('work/testes-travas-'+Date.now());fs.mkdirSync(base,{recursive:true});
+let calls=0;globalThis.fetch=async()=>{calls++;throw Error('Rede proibida neste teste');};
+const body={model:'gen4_image',ratio:'1920:1080',promptText:'Teste local'};const job={name:'teste',endpoint:'text_to_image',body,expectedCredits:8};
+await assert.rejects(()=>runwayJob({...job,dir:base+'/preco',expectedCredits:1}),/Preço/);
+fs.mkdirSync(base+'/teto');fs.writeFileSync(base+'/teto/runway-ledger.json',JSON.stringify({ceiling:150,jobs:[{name:'anterior',expected_credits:150}]}));await assert.rejects(()=>runwayJob({...job,dir:base+'/teto'}),/Teto/);
+fs.mkdirSync(base+'/incerto');const hash=crypto.createHash('sha256').update(JSON.stringify({endpoint:job.endpoint,body})).digest('hex');fs.writeFileSync(base+'/incerto/runway-ledger.json',JSON.stringify({ceiling:150,jobs:[{name:job.name,hash,state:'SUBMISSION_UNCERTAIN',expected_credits:8}]}));await assert.rejects(()=>runwayJob({...job,dir:base+'/incerto'}),/Envio anterior incerto/);
+fs.mkdirSync(base+'/concorrencia');fs.writeFileSync(base+'/concorrencia/.runway-executor.lock','');await assert.rejects(()=>runwayJob({...job,dir:base+'/concorrencia'}),/Executor já ativo/);
+assert.equal(calls,0);console.log('4 travas passaram; zero requisições e zero créditos.');

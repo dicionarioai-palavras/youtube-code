@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "services": {
+    "runway": {
+      "credential_env": "RUNWAYML_API_SECRET",
+      "purpose": "Geração de imagem/vídeo",
+      "portal": "https://dev.runwayml.com/",
+      "documentation": "https://docs.dev.runwayml.com/guides/setup/",
+      "state": "autenticado-saldo-consultado-sem-geracao",
+      "paid_requests_enabled": false,
+      "balance_checked": "2026-10-22"
+    },
+    "pexels": {
+      "credential_env": "PEXELS_API_KEY",
+      "purpose": "Busca de imagens e vídeos",
+      "portal": "https://www.pexels.com/api/",
+      "documentation": "https://www.pexels.com/api/documentation/",
+      "state": "fora-do-fluxo-ativo-por-decisao-do-usuario",
+      "key_issuance_note": "Em 22/10/2026 o suporte oficial informa pausa na emissão de novas chaves; chave existente pode ser configurada.",
+      "note": "Usuário informou descontinuação; evidência oficial anterior indicava pausa de novas chaves. Não tratar afirmação de encerramento global como verificada."
+    },
+    "unsplash": {
+      "credential_env": "UNSPLASH_ACCESS_KEY",
+      "purpose": "Pesquisa assistida de fotos",
+      "portal": "https://unsplash.com/developers",
+      "documentation": "https://unsplash.com/documentation",
+      "state": "integracao-de-busca-em-teste",
+      "supports_video": false,
+      "bulk_download_enabled": false,
+      "compliance": "Hotlinks nas prévias, atribuição e rastreamento de download; uso totalmente automático exige esclarecer aderência com fornecedor."
+    },
+    "pixabay": {
+      "credential_env": "PIXABAY_API_KEY",
+      "purpose": "Fotos e vídeos; alternativa recomendada para cenas do projeto",
+      "portal": "https://pixabay.com/api/docs/",
+      "documentation": "https://pixabay.com/api/docs/",
+      "state": "busca-foto-video-testada-http-200",
+      "cache_hours": 24,
+      "bulk_download_enabled": false,
+      "compliance": "Busca dirigida às cenas, com revisão humana; sem mineração nem downloads sistemáticos em massa.",
+      "tested_on": "2026-10-22"
+    },
+    "elevenlabs": {
+      "credential_env": "ELEVENLABS_API_KEY",
+      "purpose": "Narração TTS com o clone de voz de Luiz (canal The Mind Behind)",
+      "portal": "https://elevenlabs.io/app/developers/api-keys",
+      "documentation": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+      "state": "integracao-criada-aguardando-chave",
+      "paid_requests_enabled": true
+    }
+  },
+  "note": "Estado de credencial real é calculado pelo diagnóstico, não por este registro. Não contém segredos."
+}

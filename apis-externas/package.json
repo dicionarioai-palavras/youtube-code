@@ -1,0 +1,17 @@
+{
+  "name": "palavras-apis-externas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "status": "node src/status.mjs",
+    "executar": "node src/executar.mjs",
+    "test": "node --test src/config.test.mjs src/pixabay.test.mjs src/runway.test.mjs",
+    "testar:unsplash": "node src/testar-unsplash.mjs",
+    "testar:pixabay": "node src/testar-pixabay.mjs",
+    "testar:runway": "node src/testar-runway.mjs"
+  }
+}

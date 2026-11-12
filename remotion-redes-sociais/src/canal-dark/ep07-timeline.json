@@ -1,0 +1,1429 @@
+{
+ "fps": 30,
+ "duracao": 765.76,
+ "pasta": "ep07",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 66.0
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 71.5,
+   "dur": 115.6
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 190.2,
+   "dur": 114.16
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 307.46,
+   "dur": 97.28
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 407.84,
+   "dur": 108.24
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 519.18,
+   "dur": 79.6
+  },
+  {
+   "id": "07-parte-6",
+   "ini": 601.88,
+   "dur": 114.0
+  },
+  {
+   "id": "08-fecho",
+   "ini": 716.48,
+   "dur": 29.28
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "img",
+   "src": "c06-cidade",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 0.0,
+   "fim": 8.0
+  },
+  {
+   "tipo": "img",
+   "src": "c24-pao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 8.0,
+   "fim": 12.46
+  },
+  {
+   "tipo": "video",
+   "src": "v1-danca",
+   "corte": true,
+   "ini": 12.46,
+   "fim": 19.46
+  },
+  {
+   "tipo": "img",
+   "src": "c02-marido",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 19.46,
+   "fim": 23.08
+  },
+  {
+   "tipo": "img",
+   "src": "c07-troffea",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 23.08,
+   "fim": 28.86
+  },
+  {
+   "tipo": "img",
+   "src": "c03-vizinhos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 28.86,
+   "fim": 33.12
+  },
+  {
+   "tipo": "img",
+   "src": "c04-palco",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 33.12,
+   "fim": 40.48
+  },
+  {
+   "tipo": "img",
+   "src": "c05-pes",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 40.48,
+   "fim": 47.0
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "CASE",
+     "The dancing plague"
+    ],
+    [
+     "WHERE",
+     "Strasbourg, Holy Roman Empire"
+    ],
+    [
+     "WHEN",
+     "July–September 1518"
+    ],
+    [
+     "DANCERS",
+     "dozens to 400 (estimates vary)"
+    ],
+    [
+     "CAUSE",
+     "still debated"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 47.0,
+   "fim": 52.76
+  },
+  {
+   "tipo": "img",
+   "src": "c29-centeio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 52.76,
+   "fim": 57.42
+  },
+  {
+   "tipo": "img",
+   "src": "c15-palco-mercado",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 57.42,
+   "fim": 60.22
+  },
+  {
+   "tipo": "img",
+   "src": "c34-arquivo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 60.22,
+   "fim": 62.38
+  },
+  {
+   "tipo": "img",
+   "src": "c38-reflexo",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 62.38,
+   "fim": 66.0
+  },
+  {
+   "tipo": "abertura",
+   "ini": 66.0,
+   "fim": 69.0
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "THE WOMAN ON THE STREET",
+   "ini": 69.0,
+   "fim": 71.5
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-olhos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 71.5,
+   "fim": 80.52
+  },
+  {
+   "tipo": "img",
+   "src": "c01-rua-danca",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 80.52,
+   "fim": 88.58
+  },
+  {
+   "tipo": "img",
+   "src": "c33-cronista",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 88.58,
+   "fim": 95.76
+  },
+  {
+   "tipo": "img",
+   "src": "c02-marido",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 95.76,
+   "fim": 103.34
+  },
+  {
+   "tipo": "img",
+   "src": "c01-rua-danca",
+   "mov": "revela",
+   "foco": [
+    0.15,
+    0.5
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 103.34,
+   "fim": 111.82
+  },
+  {
+   "tipo": "img",
+   "src": "c08-gravura",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.6
+   ],
+   "ini": 111.82,
+   "fim": 125.26
+  },
+  {
+   "tipo": "img",
+   "src": "c09-sao-vito",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 125.26,
+   "fim": 138.04
+  },
+  {
+   "tipo": "img",
+   "src": "c10-carroca",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 138.04,
+   "fim": 147.24
+  },
+  {
+   "tipo": "img",
+   "src": "c11-multidao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 147.24,
+   "fim": 158.84
+  },
+  {
+   "tipo": "dados",
+   "titulo": "STRASBOURG, SUMMER 1518",
+   "itens": [
+    [
+     "+34",
+     "dancers in the first week"
+    ],
+    [
+     "\"400\"",
+     "by August (one chronicle)"
+    ],
+    [
+     "~50",
+     "other estimates"
+    ]
+   ],
+   "fonte": "Waller, Endeavour, 2008; History.com",
+   "ini": 158.84,
+   "fim": 166.96
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-cansaco",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 166.96,
+   "fim": 174.12
+  },
+  {
+   "tipo": "img",
+   "src": "c27-transe",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 174.12,
+   "fim": 187.7
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "THE CURE: MORE MUSIC",
+   "ini": 187.7,
+   "fim": 190.2
+  },
+  {
+   "tipo": "img",
+   "src": "c12-medicos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 190.2,
+   "fim": 201.88
+  },
+  {
+   "tipo": "img",
+   "src": "c12-medicos",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.35
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "corte": true,
+   "ini": 201.88,
+   "fim": 210.34
+  },
+  {
+   "tipo": "img",
+   "src": "c13-conselho",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 210.34,
+   "fim": 214.06
+  },
+  {
+   "tipo": "img",
+   "src": "c14-guilda",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 214.06,
+   "fim": 218.78
+  },
+  {
+   "tipo": "video",
+   "src": "v2-palco",
+   "ini": 218.78,
+   "fim": 226.18
+  },
+  {
+   "tipo": "img",
+   "src": "c16-segurar",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 226.18,
+   "fim": 234.04
+  },
+  {
+   "tipo": "img",
+   "src": "c18-chegando",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 234.04,
+   "fim": 237.16
+  },
+  {
+   "tipo": "img",
+   "src": "c17-musicos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 237.16,
+   "fim": 248.66
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-cansaco",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 248.66,
+   "fim": 256.34
+  },
+  {
+   "tipo": "img",
+   "src": "c15-palco-mercado",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.45
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "corte": true,
+   "ini": 256.34,
+   "fim": 262.56
+  },
+  {
+   "tipo": "citacao",
+   "texto": "They clearly realized that what they'd been doing before was causing harm.",
+   "autor": "John Waller, historian, on the Strasbourg council (Popular Science)",
+   "ini": 262.56,
+   "fim": 270.12
+  },
+  {
+   "tipo": "img",
+   "src": "c19-desmonta",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 270.12,
+   "fim": 276.82
+  },
+  {
+   "tipo": "img",
+   "src": "c20-santuario",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 276.82,
+   "fim": 289.9
+  },
+  {
+   "tipo": "img",
+   "src": "c09-sao-vito",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.35
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 289.9,
+   "fim": 295.38
+  },
+  {
+   "tipo": "video",
+   "src": "v3-agua",
+   "ini": 295.38,
+   "fim": 300.26
+  },
+  {
+   "tipo": "img",
+   "src": "c22-setembro",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 300.26,
+   "fim": 304.96
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "A CITY AT THE EDGE",
+   "ini": 304.96,
+   "fim": 307.46
+  },
+  {
+   "tipo": "img",
+   "src": "c06-cidade",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 307.46,
+   "fim": 314.58
+  },
+  {
+   "tipo": "img",
+   "src": "c24-pao",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 314.58,
+   "fim": 327.64
+  },
+  {
+   "tipo": "img",
+   "src": "c25-doenca",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 327.64,
+   "fim": 332.86
+  },
+  {
+   "tipo": "img",
+   "src": "c26-igreja",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 332.86,
+   "fim": 344.86
+  },
+  {
+   "tipo": "dados",
+   "titulo": "WALLER'S TWO HALVES",
+   "itens": [
+    [
+     "1",
+     "Desperation: years of hunger and disease"
+    ],
+    [
+     "2",
+     "Pious fear: a saint who could curse you"
+    ]
+   ],
+   "fonte": "Waller, A Time to Dance, A Time to Die (2008)",
+   "ini": 344.86,
+   "fim": 350.5
+  },
+  {
+   "tipo": "img",
+   "src": "c25-doenca",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 350.5,
+   "fim": 356.76
+  },
+  {
+   "tipo": "img",
+   "src": "c26-igreja",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 356.76,
+   "fim": 363.54
+  },
+  {
+   "tipo": "img",
+   "src": "c27-transe",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 363.54,
+   "fim": 379.0
+  },
+  {
+   "tipo": "img",
+   "src": "c28-sombra",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 379.0,
+   "fim": 383.68
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Our expression of severe distress can be culturally conditioned and channeled.",
+   "autor": "John Waller, historian (Popular Science)",
+   "ini": 383.68,
+   "fim": 392.44
+  },
+  {
+   "tipo": "img",
+   "src": "c09-sao-vito",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 392.44,
+   "fim": 397.82
+  },
+  {
+   "tipo": "img",
+   "src": "c03-vizinhos",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 397.82,
+   "fim": 405.34
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "WASN'T IT POISON?",
+   "ini": 405.34,
+   "fim": 407.84
+  },
+  {
+   "tipo": "img",
+   "src": "c29-centeio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 407.84,
+   "fim": 422.84
+  },
+  {
+   "tipo": "img",
+   "src": "c24-pao",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 422.84,
+   "fim": 428.9
+  },
+  {
+   "tipo": "img",
+   "src": "c29-centeio",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 428.9,
+   "fim": 441.4
+  },
+  {
+   "tipo": "img",
+   "src": "c30-mapa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 441.4,
+   "fim": 449.4
+  },
+  {
+   "tipo": "img",
+   "src": "c31-barco",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "corte": true,
+   "ini": 449.4,
+   "fim": 461.92
+  },
+  {
+   "tipo": "img",
+   "src": "c33-cronista",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 461.92,
+   "fim": 475.66
+  },
+  {
+   "tipo": "img",
+   "src": "c34-arquivo",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 475.66,
+   "fim": 479.44
+  },
+  {
+   "tipo": "img",
+   "src": "c32-convento",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 479.44,
+   "fim": 485.5
+  },
+  {
+   "tipo": "img",
+   "src": "c26-igreja",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 485.5,
+   "fim": 496.42
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Outbreaks mirror prominent social concerns.",
+   "autor": "Bartholomew & Wessely, British Journal of Psychiatry, 2002",
+   "estilo": "artigo",
+   "ini": 496.42,
+   "fim": 501.32
+  },
+  {
+   "tipo": "img",
+   "src": "c32-convento",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 501.32,
+   "fim": 512.0
+  },
+  {
+   "tipo": "img",
+   "src": "c28-sombra",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 512.0,
+   "fim": 516.68
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "DID THEY REALLY DIE?",
+   "ini": 516.68,
+   "fim": 519.18
+  },
+  {
+   "tipo": "img",
+   "src": "c39-palco-vazio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 519.18,
+   "fim": 530.6
+  },
+  {
+   "tipo": "img",
+   "src": "c33-cronista",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 530.6,
+   "fim": 539.38
+  },
+  {
+   "tipo": "img",
+   "src": "c34-arquivo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 539.38,
+   "fim": 551.24
+  },
+  {
+   "tipo": "dados",
+   "titulo": "WHAT WE KNOW",
+   "itens": [
+    [
+     "\"15 a day\"",
+     "in one later chronicle"
+    ],
+    [
+     "0",
+     "deaths in the city records of 1518"
+    ],
+    [
+     "50–\"400\"",
+     "dancers, depending on the source"
+    ]
+   ],
+   "fonte": "Waller, The Lancet, 2009; Clementz, Revue d'Alsace, 2016",
+   "ini": 551.24,
+   "fim": 554.06
+  },
+  {
+   "tipo": "img",
+   "src": "c35-descanso",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 554.06,
+   "fim": 567.98
+  },
+  {
+   "tipo": "img",
+   "src": "c34-arquivo",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 567.98,
+   "fim": 581.36
+  },
+  {
+   "tipo": "img",
+   "src": "c11-multidao",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 581.36,
+   "fim": 590.6
+  },
+  {
+   "tipo": "img",
+   "src": "c35-descanso",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 590.6,
+   "fim": 599.38
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VI",
+   "titulo": "AND YOU?",
+   "ini": 599.38,
+   "fim": 601.88
+  },
+  {
+   "tipo": "img",
+   "src": "c36-escola",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 601.88,
+   "fim": 614.08
+  },
+  {
+   "tipo": "dados",
+   "titulo": "TANGANYIKA, 1962",
+   "itens": [
+    [
+     "95 of 159",
+     "pupils affected"
+    ],
+    [
+     "14",
+     "schools closed"
+    ],
+    [
+     "~1,000",
+     "people affected"
+    ]
+   ],
+   "fonte": "Rankin & Philip, 1963; Bartholomew, 2001",
+   "ini": 614.08,
+   "fim": 623.12
+  },
+  {
+   "tipo": "img",
+   "src": "c36-escola",
+   "mov": "parado",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 623.12,
+   "fim": 631.78
+  },
+  {
+   "tipo": "img",
+   "src": "c36-escola",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 631.78,
+   "fim": 639.32
+  },
+  {
+   "tipo": "img",
+   "src": "c37-quarto",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 639.32,
+   "fim": 648.46
+  },
+  {
+   "tipo": "img",
+   "src": "c37-quarto",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 648.46,
+   "fim": 654.54
+  },
+  {
+   "tipo": "img",
+   "src": "c38-reflexo",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 654.54,
+   "fim": 661.62
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Mass social media-induced illness.",
+   "autor": "Müller-Vahl et al., Brain, 2022",
+   "estilo": "artigo",
+   "ini": 661.62,
+   "fim": 668.26
+  },
+  {
+   "tipo": "img",
+   "src": "c38-reflexo",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 668.26,
+   "fim": 681.6
+  },
+  {
+   "tipo": "img",
+   "src": "c05-pes",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 681.6,
+   "fim": 689.7
+  },
+  {
+   "tipo": "img",
+   "src": "c18-chegando",
+   "mov": "revela",
+   "foco": [
+    0.75,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 689.7,
+   "fim": 704.94
+  },
+  {
+   "tipo": "img",
+   "src": "c27-transe",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 704.94,
+   "fim": 716.48
+  },
+  {
+   "tipo": "img",
+   "src": "c39-palco-vazio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 716.48,
+   "fim": 721.32
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-olhos",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.15,
+    1.25
+   ],
+   "ini": 721.32,
+   "fim": 732.6
+  },
+  {
+   "tipo": "img",
+   "src": "c39-palco-vazio",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.75
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 732.6,
+   "fim": 740.68
+  },
+  {
+   "tipo": "img",
+   "src": "c04-palco",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 740.68,
+   "fim": 745.76
+  },
+  {
+   "tipo": "final",
+   "ini": 745.76,
+   "fim": 765.76
+  }
+ ]
+}

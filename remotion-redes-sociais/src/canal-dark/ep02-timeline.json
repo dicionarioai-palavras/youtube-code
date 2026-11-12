@@ -1,0 +1,1788 @@
+{
+ "fps": 30,
+ "duracao": 912.26,
+ "pasta": "ep02",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 69.68
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 75.18,
+   "dur": 89.44
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 167.72,
+   "dur": 147.36
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 318.18,
+   "dur": 180.24
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 501.52,
+   "dur": 169.84
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 674.46,
+   "dur": 159.76
+  },
+  {
+   "id": "07-fecho",
+   "ini": 834.82,
+   "dur": 57.44
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "video",
+   "src": "v1-barraca-vento",
+   "ini": 0.0,
+   "fim": 4.3
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-dentro",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.72
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "ini": 4.3,
+   "fim": 11.0
+  },
+  {
+   "tipo": "img",
+   "src": "c02-botas",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.72
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 11.0,
+   "fim": 13.12
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "descobre",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "pista": true,
+   "corte": true,
+   "ini": 13.12,
+   "fim": 19.36
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "parado",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.55,
+    1.55
+   ],
+   "corte": true,
+   "ini": 19.36,
+   "fim": 22.3
+  },
+  {
+   "tipo": "img",
+   "src": "c03-pegadas",
+   "mov": "desliza",
+   "foco": [
+    0.7,
+    0.3
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.35,
+    0.75
+   ],
+   "ini": 22.3,
+   "fim": 32.88
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-encosta-vazia",
+   "mov": "descobre",
+   "foco": [
+    0.47,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "corte": true,
+   "ini": 32.88,
+   "fim": 34.62
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "WHO",
+     "9 hikers, Ural Polytechnic Institute"
+    ],
+    [
+     "WHEN",
+     "Night of Feb 1–2, 1959"
+    ],
+    [
+     "WHERE",
+     "Kholat Syakhl, northern Urals, USSR"
+    ],
+    [
+     "OFFICIAL CAUSE",
+     "\"A compelling natural force\" (1959)"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 34.62,
+   "fim": 42.58
+  },
+  {
+   "tipo": "img",
+   "src": "c05-esferas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 42.58,
+   "fim": 45.52
+  },
+  {
+   "tipo": "img",
+   "src": "c06c-mente-recorte",
+   "mov": "descobre",
+   "foco": [
+    0.62,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.12
+   ],
+   "ini": 45.52,
+   "fim": 60.24
+  },
+  {
+   "tipo": "img",
+   "src": "a1b-barraca",
+   "mov": "revela",
+   "foco": [
+    0.62,
+    0.5
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "ini": 60.24,
+   "fim": 69.68
+  },
+  {
+   "tipo": "abertura",
+   "ini": 69.68,
+   "fim": 72.68
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "WHO THEY WERE",
+   "ini": 72.68,
+   "fim": 75.18
+  },
+  {
+   "tipo": "img",
+   "src": "c07-plataforma",
+   "mov": "desliza",
+   "foco": [
+    0.25,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.6
+   ],
+   "ini": 75.18,
+   "fim": 79.6
+  },
+  {
+   "tipo": "img",
+   "src": "c08b-instituto",
+   "mov": "desliza",
+   "foco": [
+    0.38,
+    0.66
+   ],
+   "escala": [
+    1.45,
+    1.45
+   ],
+   "destino": [
+    0.62,
+    0.66
+   ],
+   "ini": 79.6,
+   "fim": 87.0
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "a2b-grupo",
+   "nomes": [
+    [
+     "Igor Dyatlov",
+     "23"
+    ],
+    [
+     "Zinaida Kolmogorova",
+     "22"
+    ],
+    [
+     "Lyudmila Dubinina",
+     "20"
+    ],
+    [
+     "Yuri Doroshenko",
+     "21"
+    ],
+    [
+     "Alexander Kolevatov",
+     "24"
+    ],
+    [
+     "Rustem Slobodin",
+     "23"
+    ],
+    [
+     "Yuri Krivonishenko",
+     "23"
+    ],
+    [
+     "Nikolai Thibeaux-Brignolle",
+     "23"
+    ],
+    [
+     "Semyon Zolotaryov",
+     "38"
+    ]
+   ],
+   "ini": 87.0,
+   "fim": 113.76
+  },
+  {
+   "tipo": "img",
+   "src": "a2b-grupo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "escala": [
+    1.05,
+    1.35
+   ],
+   "ini": 113.76,
+   "fim": 119.08
+  },
+  {
+   "tipo": "img",
+   "src": "c09-cordilheira",
+   "mov": "descobre",
+   "foco": [
+    0.2,
+    0.72
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "ini": 119.08,
+   "fim": 130.3
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-yudin",
+   "mov": "descobre",
+   "foco": [
+    0.7,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "ini": 130.3,
+   "fim": 140.68
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-yudin",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "corte": true,
+   "ini": 140.68,
+   "fim": 147.66
+  },
+  {
+   "tipo": "img",
+   "src": "c11-cavando",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.65,
+    0.55
+   ],
+   "ini": 147.66,
+   "fim": 159.74
+  },
+  {
+   "tipo": "img",
+   "src": "c12b-corte-encosta",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "corte": true,
+   "ini": 159.74,
+   "fim": 165.22
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "WHAT THE SEARCHERS FOUND",
+   "ini": 165.22,
+   "fim": 167.72
+  },
+  {
+   "tipo": "img",
+   "src": "c13-telegrafo",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.65
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 167.72,
+   "fim": 178.62
+  },
+  {
+   "tipo": "img",
+   "src": "c14-familias",
+   "mov": "revela",
+   "foco": [
+    0.33,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 178.62,
+   "fim": 181.88
+  },
+  {
+   "tipo": "img",
+   "src": "c15-busca",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 181.88,
+   "fim": 188.44
+  },
+  {
+   "tipo": "img",
+   "src": "c16-barraca-achada",
+   "mov": "descobre",
+   "foco": [
+    0.75,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "pista": true,
+   "ini": 188.44,
+   "fim": 199.1
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "parado",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.5
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 199.1,
+   "fim": 203.56
+  },
+  {
+   "tipo": "img",
+   "src": "c17-pegadas-perto",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 203.56,
+   "fim": 211.58
+  },
+  {
+   "tipo": "mapa",
+   "pontos": [
+    "TENT",
+    "LARGE CEDAR",
+    "RAVINE"
+   ],
+   "distancia": "≈ 1.5 km",
+   "nota": "Simplified, not to scale",
+   "ini": 211.58,
+   "fim": 216.46
+  },
+  {
+   "tipo": "img",
+   "src": "a3-cedro",
+   "mov": "descobre",
+   "foco": [
+    0.33,
+    0.78
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "ini": 216.46,
+   "fim": 227.74
+  },
+  {
+   "tipo": "img",
+   "src": "c18-tres-trilhas",
+   "mov": "desliza",
+   "foco": [
+    0.42,
+    0.8
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.5,
+    0.3
+   ],
+   "ini": 227.74,
+   "fim": 239.66
+  },
+  {
+   "tipo": "img",
+   "src": "c19b-ravina",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "ini": 239.66,
+   "fim": 252.12
+  },
+  {
+   "tipo": "img",
+   "src": "c51-calma",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 252.12,
+   "fim": 262.24
+  },
+  {
+   "tipo": "img",
+   "src": "c18-tres-trilhas",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "ini": 262.24,
+   "fim": 270.76
+  },
+  {
+   "tipo": "img",
+   "src": "c20-arquivo",
+   "mov": "descobre",
+   "foco": [
+    0.74,
+    0.66
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "ini": 270.76,
+   "fim": 280.46
+  },
+  {
+   "tipo": "img",
+   "src": "c47b-parede",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 280.46,
+   "fim": 293.3
+  },
+  {
+   "tipo": "img",
+   "src": "c49-multidao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 293.3,
+   "fim": 297.24
+  },
+  {
+   "tipo": "img",
+   "src": "c05-esferas",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "ini": 297.24,
+   "fim": 300.94
+  },
+  {
+   "tipo": "img",
+   "src": "c21-radiacao",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.7
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 300.94,
+   "fim": 304.18
+  },
+  {
+   "tipo": "img",
+   "src": "c22-sombra",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.55
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 304.18,
+   "fim": 307.46
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-dentro",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 307.46,
+   "fim": 313.78
+  },
+  {
+   "tipo": "img",
+   "src": "c23c-faca",
+   "mov": "descobre",
+   "foco": [
+    0.52,
+    0.55
+   ],
+   "escala": [
+    1.1,
+    1.5
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 313.78,
+   "fim": 315.68
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "THE FIRST SECONDS",
+   "ini": 315.68,
+   "fim": 318.18
+  },
+  {
+   "tipo": "video",
+   "src": "v2-nevasca",
+   "ini": 318.18,
+   "fim": 320.44
+  },
+  {
+   "tipo": "img",
+   "src": "c24-nevasca",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 320.44,
+   "fim": 328.66
+  },
+  {
+   "tipo": "dados",
+   "titulo": "THAT NIGHT",
+   "itens": [
+    [
+     "−25 to −30 °C",
+     "temperature · 1959 estimate"
+    ],
+    [
+     "20–30 m/s",
+     "wind · later Russian review"
+    ],
+    [
+     "6–16 m",
+     "visibility · 2020 reconstruction"
+    ]
+   ],
+   "fonte": "1959 case report · Russian Investigative Committee review · Prosecutor General reconstruction (RBTH, 2020)",
+   "ini": 328.66,
+   "fim": 342.86
+  },
+  {
+   "tipo": "img",
+   "src": "c25-peso",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "corte": true,
+   "ini": 342.86,
+   "fim": 346.18
+  },
+  {
+   "tipo": "img",
+   "src": "c39-placa",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 346.18,
+   "fim": 354.74
+  },
+  {
+   "tipo": "img",
+   "src": "c25-peso",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "escala": [
+    1.05,
+    1.35
+   ],
+   "corte": true,
+   "ini": 354.74,
+   "fim": 363.34
+  },
+  {
+   "tipo": "img",
+   "src": "c26b-psicologo",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.38
+   ],
+   "escala": [
+    1.3,
+    1.6
+   ],
+   "ini": 363.34,
+   "fim": 369.7
+  },
+  {
+   "tipo": "img",
+   "src": "c27-foco",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "ini": 369.7,
+   "fim": 380.4
+  },
+  {
+   "tipo": "img",
+   "src": "c26b-psicologo",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.4
+   ],
+   "escala": [
+    1.6,
+    1.3
+   ],
+   "ini": 380.4,
+   "fim": 387.58
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "descobre",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "pista": true,
+   "ini": 387.58,
+   "fim": 398.08
+  },
+  {
+   "tipo": "img",
+   "src": "c02-botas",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.65
+   ],
+   "escala": [
+    1.1,
+    1.1
+   ],
+   "ini": 398.08,
+   "fim": 402.8
+  },
+  {
+   "tipo": "img",
+   "src": "c06c-mente-recorte",
+   "mov": "parado",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.04,
+    1.04
+   ],
+   "ini": 402.8,
+   "fim": 408.98
+  },
+  {
+   "tipo": "img",
+   "src": "c28-descida",
+   "mov": "desliza",
+   "foco": [
+    0.8,
+    0.25
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.45,
+    0.65
+   ],
+   "ini": 408.98,
+   "fim": 421.02
+  },
+  {
+   "tipo": "img",
+   "src": "a3-cedro",
+   "mov": "desliza",
+   "foco": [
+    0.7,
+    0.45
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.35,
+    0.6
+   ],
+   "ini": 421.02,
+   "fim": 425.1
+  },
+  {
+   "tipo": "video",
+   "src": "v3-fogueira",
+   "ini": 425.1,
+   "fim": 429.3
+  },
+  {
+   "tipo": "img",
+   "src": "c30-abrigo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.65
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 429.3,
+   "fim": 431.34
+  },
+  {
+   "tipo": "img",
+   "src": "c29-fogueira",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 431.34,
+   "fim": 436.26
+  },
+  {
+   "tipo": "img",
+   "src": "c31-subida",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.75
+   ],
+   "escala": [
+    1.3,
+    1.3
+   ],
+   "destino": [
+    0.75,
+    0.25
+   ],
+   "ini": 436.26,
+   "fim": 445.78
+  },
+  {
+   "tipo": "img",
+   "src": "c32b-procuradoria",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 445.78,
+   "fim": 453.96
+  },
+  {
+   "tipo": "citacao",
+   "texto": "It was a heroic struggle. There was no panic, but they had no chance to save themselves under the circumstances.",
+   "autor": "Andrei Kuryakov, Russian Prosecutor General's Office, July 11, 2020 (TASS)",
+   "ini": 453.96,
+   "fim": 461.12
+  },
+  {
+   "tipo": "img",
+   "src": "c28-descida",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.05
+   ],
+   "ini": 461.12,
+   "fim": 466.38
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.15,
+    1.2
+   ],
+   "corte": true,
+   "ini": 466.38,
+   "fim": 472.92
+  },
+  {
+   "tipo": "img",
+   "src": "c29-fogueira",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 472.92,
+   "fim": 478.96
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "parado",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.55,
+    1.55
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 478.96,
+   "fim": 480.68
+  },
+  {
+   "tipo": "img",
+   "src": "c31-subida",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 480.68,
+   "fim": 485.38
+  },
+  {
+   "tipo": "img",
+   "src": "a1b-barraca",
+   "mov": "revela",
+   "foco": [
+    0.62,
+    0.5
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 485.38,
+   "fim": 499.02
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "THE SLAB",
+   "ini": 499.02,
+   "fim": 501.52
+  },
+  {
+   "tipo": "img",
+   "src": "c33-encosta-suave",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.65
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.4
+   ],
+   "ini": 501.52,
+   "fim": 517.02
+  },
+  {
+   "tipo": "img",
+   "src": "c34-cabana",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 517.02,
+   "fim": 526.94
+  },
+  {
+   "tipo": "img",
+   "src": "c35-gaveta",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 526.94,
+   "fim": 535.38
+  },
+  {
+   "tipo": "img",
+   "src": "c36b-laboratorio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 535.38,
+   "fim": 548.36
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Mechanisms of slab avalanche release and impact in the Dyatlov Pass incident in 1959",
+   "autor": "Gaume & Puzrin, Communications Earth & Environment, 2021",
+   "estilo": "artigo",
+   "ini": 548.36,
+   "fim": 552.62
+  },
+  {
+   "tipo": "img",
+   "src": "c12b-corte-encosta",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.5
+   ],
+   "pista": true,
+   "ini": 552.62,
+   "fim": 562.66
+  },
+  {
+   "tipo": "video",
+   "src": "v4-vento-catabatico",
+   "ini": 562.66,
+   "fim": 571.5
+  },
+  {
+   "tipo": "img",
+   "src": "c37-vento",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.35
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 571.5,
+   "fim": 573.44
+  },
+  {
+   "tipo": "img",
+   "src": "c38-corte-transversal",
+   "mov": "descobre",
+   "foco": [
+    0.57,
+    0.35
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "pista": true,
+   "ini": 573.44,
+   "fim": 580.8
+  },
+  {
+   "tipo": "img",
+   "src": "c39-placa",
+   "mov": "descobre",
+   "foco": [
+    0.38,
+    0.62
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "corte": true,
+   "ini": 580.8,
+   "fim": 590.52
+  },
+  {
+   "tipo": "img",
+   "src": "c40-teste",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 590.52,
+   "fim": 599.58
+  },
+  {
+   "tipo": "img",
+   "src": "c41-simulacao",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "ini": 599.58,
+   "fim": 605.1
+  },
+  {
+   "tipo": "img",
+   "src": "c39-placa",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 605.1,
+   "fim": 615.8
+  },
+  {
+   "tipo": "citacao",
+   "texto": "If they hadn't made a cut in the slope, nothing would have happened.",
+   "autor": "Alexander Puzrin, ETH Zurich (EPFL, 2021)",
+   "ini": 615.8,
+   "fim": 619.38
+  },
+  {
+   "tipo": "img",
+   "src": "c36b-laboratorio",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "corte": true,
+   "ini": 619.38,
+   "fim": 631.54
+  },
+  {
+   "tipo": "img",
+   "src": "c42-memorial",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "ini": 631.54,
+   "fim": 639.38
+  },
+  {
+   "tipo": "img",
+   "src": "c43-drone",
+   "mov": "descobre",
+   "foco": [
+    0.62,
+    0.3
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 639.38,
+   "fim": 647.88
+  },
+  {
+   "tipo": "img",
+   "src": "c44-expedicao",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 647.88,
+   "fim": 652.18
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-encosta-vazia",
+   "mov": "descobre",
+   "foco": [
+    0.47,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 652.18,
+   "fim": 666.84
+  },
+  {
+   "tipo": "citacao",
+   "texto": "The truth, of course, is that no one really knows what happened that night.",
+   "autor": "Alexander Puzrin (EPFL, 2021)",
+   "ini": 666.84,
+   "fim": 671.96
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "TOO NORMAL",
+   "ini": 671.96,
+   "fim": 674.46
+  },
+  {
+   "tipo": "img",
+   "src": "c49-multidao",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.72
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.6,
+    0.45
+   ],
+   "ini": 674.46,
+   "fim": 682.0
+  },
+  {
+   "tipo": "citacao",
+   "texto": "People don't want it to be an avalanche.|It's too normal.",
+   "autor": "Johan Gaume, National Geographic, 2021",
+   "ini": 682.0,
+   "fim": 690.34
+  },
+  {
+   "tipo": "img",
+   "src": "c06c-mente-recorte",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.58
+   ],
+   "escala": [
+    1.0,
+    1.1
+   ],
+   "ini": 690.34,
+   "fim": 693.66
+  },
+  {
+   "tipo": "img",
+   "src": "c45b-jornais",
+   "mov": "parado",
+   "foco": [
+    0.76,
+    0.5
+   ],
+   "escala": [
+    1.62,
+    1.62
+   ],
+   "ini": 693.66,
+   "fim": 706.8
+  },
+  {
+   "tipo": "img",
+   "src": "c47b-parede",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 706.8,
+   "fim": 716.6
+  },
+  {
+   "tipo": "img",
+   "src": "c46-balanca",
+   "mov": "descobre",
+   "foco": [
+    0.32,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "pista": true,
+   "ini": 716.6,
+   "fim": 730.14
+  },
+  {
+   "tipo": "img",
+   "src": "c26b-psicologo",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.4
+   ],
+   "escala": [
+    1.3,
+    1.55
+   ],
+   "ini": 730.14,
+   "fim": 737.26
+  },
+  {
+   "tipo": "img",
+   "src": "c47b-parede",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.35
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 737.26,
+   "fim": 747.08
+  },
+  {
+   "tipo": "img",
+   "src": "c49-multidao",
+   "mov": "descobre",
+   "foco": [
+    0.56,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 747.08,
+   "fim": 757.56
+  },
+  {
+   "tipo": "img",
+   "src": "c27-foco",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.5,
+    1.0
+   ],
+   "ini": 757.56,
+   "fim": 763.82
+  },
+  {
+   "tipo": "img",
+   "src": "c36b-laboratorio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 763.82,
+   "fim": 777.22
+  },
+  {
+   "tipo": "img",
+   "src": "c35-gaveta",
+   "mov": "revela",
+   "foco": [
+    0.33,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 777.22,
+   "fim": 788.46
+  },
+  {
+   "tipo": "img",
+   "src": "c48b-cozinha",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.42
+   ],
+   "escala": [
+    1.25,
+    1.5
+   ],
+   "ini": 788.46,
+   "fim": 797.26
+  },
+  {
+   "tipo": "img",
+   "src": "c20-arquivo",
+   "mov": "descobre",
+   "foco": [
+    0.74,
+    0.66
+   ],
+   "escala": [
+    1.1,
+    1.5
+   ],
+   "pista": true,
+   "ini": 797.26,
+   "fim": 806.1
+  },
+  {
+   "tipo": "img",
+   "src": "c46-balanca",
+   "mov": "revela",
+   "foco": [
+    0.32,
+    0.6
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 806.1,
+   "fim": 813.06
+  },
+  {
+   "tipo": "img",
+   "src": "c06c-mente-recorte",
+   "mov": "parado",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.03,
+    1.06
+   ],
+   "ini": 813.06,
+   "fim": 825.0
+  },
+  {
+   "tipo": "img",
+   "src": "a4b-corte",
+   "mov": "descobre",
+   "foco": [
+    0.73,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.45
+   ],
+   "pista": true,
+   "ini": 825.0,
+   "fim": 831.32
+  },
+  {
+   "tipo": "img",
+   "src": "c29-fogueira",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 831.32,
+   "fim": 834.82
+  },
+  {
+   "tipo": "img",
+   "src": "c50b-crepusculo",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.35
+   ],
+   "escala": [
+    1.6,
+    1.66
+   ],
+   "ini": 834.82,
+   "fim": 844.98
+  },
+  {
+   "tipo": "img",
+   "src": "c29-fogueira",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "ini": 844.98,
+   "fim": 855.44
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-encosta-vazia",
+   "mov": "descobre",
+   "foco": [
+    0.47,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 855.44,
+   "fim": 859.92
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-yudin",
+   "mov": "revela",
+   "foco": [
+    0.7,
+    0.55
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 859.92,
+   "fim": 865.42
+  },
+  {
+   "tipo": "citacao",
+   "texto": "If I had a chance to ask God just one question, it would be: what really happened to my friends that night?",
+   "autor": "Yuri Yudin (The Moscow Times, 2013)",
+   "ini": 865.42,
+   "fim": 872.3
+  },
+  {
+   "tipo": "img",
+   "src": "c51-calma",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 872.3,
+   "fim": 883.1
+  },
+  {
+   "tipo": "img",
+   "src": "a1b-barraca",
+   "mov": "revela",
+   "foco": [
+    0.62,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.0
+   ],
+   "ini": 883.1,
+   "fim": 892.26
+  },
+  {
+   "tipo": "final",
+   "ini": 892.26,
+   "fim": 912.26
+  }
+ ]
+}

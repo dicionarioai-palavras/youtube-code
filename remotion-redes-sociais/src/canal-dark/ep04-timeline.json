@@ -1,0 +1,1393 @@
+{
+ "fps": 30,
+ "duracao": 777.68,
+ "pasta": "ep04",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 43.04
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 48.54,
+   "dur": 116.48
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 168.12,
+   "dur": 132.24
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 303.46,
+   "dur": 99.12
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 405.68,
+   "dur": 122.72
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 531.5,
+   "dur": 117.12
+  },
+  {
+   "id": "07-parte-6",
+   "ini": 651.72,
+   "dur": 58.16
+  },
+  {
+   "id": "08-fecho",
+   "ini": 710.48,
+   "dur": 47.2
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "video",
+   "src": "v1-vapor",
+   "ini": 0.0,
+   "fim": 9.34
+  },
+  {
+   "tipo": "img",
+   "src": "c01-lenda",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 9.34,
+   "fim": 14.54
+  },
+  {
+   "tipo": "img",
+   "src": "c01-lenda",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 14.54,
+   "fim": 21.84
+  },
+  {
+   "tipo": "img",
+   "src": "c02-gravura",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.04,
+    1.1
+   ],
+   "corte": true,
+   "ini": 21.84,
+   "fim": 30.6
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "SHIP",
+     "Mary Celeste (brigantine)"
+    ],
+    [
+     "FROM",
+     "New York, Nov 7, 1872"
+    ],
+    [
+     "TO",
+     "Genoa, Italy"
+    ],
+    [
+     "ABOARD",
+     "10"
+    ],
+    [
+     "FOUND",
+     "Adrift, December 4, 1872"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 30.6,
+   "fim": 43.04
+  },
+  {
+   "tipo": "abertura",
+   "ini": 43.04,
+   "fim": 46.04
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "WHAT THEY ACTUALLY FOUND",
+   "ini": 46.04,
+   "fim": 48.54
+  },
+  {
+   "tipo": "img",
+   "src": "c03-porto",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.55
+   ],
+   "ini": 48.54,
+   "fim": 58.94
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-familia",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 58.94,
+   "fim": 63.68
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-familia",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.1
+   ],
+   "ini": 63.68,
+   "fim": 72.46
+  },
+  {
+   "tipo": "img",
+   "src": "c03-porto",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 72.46,
+   "fim": 76.4
+  },
+  {
+   "tipo": "img",
+   "src": "c04-atlantico",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 76.4,
+   "fim": 86.52
+  },
+  {
+   "tipo": "img",
+   "src": "a1-navio",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 86.52,
+   "fim": 89.78
+  },
+  {
+   "tipo": "img",
+   "src": "c04-atlantico",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 89.78,
+   "fim": 93.92
+  },
+  {
+   "tipo": "img",
+   "src": "c05-abordagem",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 93.92,
+   "fim": 98.52
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-convés",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 98.52,
+   "fim": 109.62
+  },
+  {
+   "tipo": "img",
+   "src": "c17-porao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.65
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 109.62,
+   "fim": 118.2
+  },
+  {
+   "tipo": "img",
+   "src": "c06-cabine-real",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 118.2,
+   "fim": 129.08
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-lousa",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 129.08,
+   "fim": 138.14
+  },
+  {
+   "tipo": "img",
+   "src": "c07-bote-vazio",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.5,
+    1.08
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 138.14,
+   "fim": 141.64
+  },
+  {
+   "tipo": "img",
+   "src": "a1-navio",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 141.64,
+   "fim": 156.68
+  },
+  {
+   "tipo": "img",
+   "src": "c18-bote",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 156.68,
+   "fim": 165.62
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "HOW A MYSTERY WAS BUILT",
+   "ini": 165.62,
+   "fim": 168.12
+  },
+  {
+   "tipo": "img",
+   "src": "c08x-tribunal",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 168.12,
+   "fim": 181.96
+  },
+  {
+   "tipo": "img",
+   "src": "c08x-tribunal",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.7
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "ini": 181.96,
+   "fim": 187.38
+  },
+  {
+   "tipo": "img",
+   "src": "c08x-tribunal",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 187.38,
+   "fim": 198.14
+  },
+  {
+   "tipo": "img",
+   "src": "c09-prensa",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.6,
+    0.55
+   ],
+   "ini": 198.14,
+   "fim": 207.92
+  },
+  {
+   "tipo": "citacao",
+   "texto": "The dinner was standing untasted and scarcely cold.",
+   "autor": "Los Angeles Times, June 1883 (invented detail)",
+   "ini": 207.92,
+   "fim": 212.8
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-lenda-perto",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.1,
+    1.15
+   ],
+   "ini": 212.8,
+   "fim": 219.58
+  },
+  {
+   "tipo": "img",
+   "src": "a3-papel",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.65
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 219.58,
+   "fim": 233.36
+  },
+  {
+   "tipo": "img",
+   "src": "c10-doyle",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 233.36,
+   "fim": 240.32
+  },
+  {
+   "tipo": "citacao",
+   "texto": "The boats were intact, and slung upon the davits.",
+   "autor": "A. Conan Doyle, \"J. Habakuk Jephson's Statement\" (fiction), 1884",
+   "ini": 240.32,
+   "fim": 252.1
+  },
+  {
+   "tipo": "img",
+   "src": "c07-bote-vazio",
+   "mov": "parado",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.4,
+    1.45
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 252.1,
+   "fim": 259.0
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-revista",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 259.0,
+   "fim": 272.12
+  },
+  {
+   "tipo": "img",
+   "src": "c11-espalhando",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 272.12,
+   "fim": 280.12
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-revista",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 280.12,
+   "fim": 282.16
+  },
+  {
+   "tipo": "img",
+   "src": "c11-espalhando",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 282.16,
+   "fim": 288.56
+  },
+  {
+   "tipo": "img",
+   "src": "c02-gravura",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 288.56,
+   "fim": 300.96
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "WHY YOUR BRAIN KEPT THE FICTION",
+   "ini": 300.96,
+   "fim": 303.46
+  },
+  {
+   "tipo": "img",
+   "src": "c12-leitura",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 303.46,
+   "fim": 312.98
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Learning facts from fiction",
+   "autor": "Marsh, Meade & Roediger, Journal of Memory and Language, 2003",
+   "estilo": "artigo",
+   "ini": 312.98,
+   "fim": 316.8
+  },
+  {
+   "tipo": "img",
+   "src": "c12-leitura",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 316.8,
+   "fim": 326.92
+  },
+  {
+   "tipo": "img",
+   "src": "c13-teste",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "pista": true,
+   "ini": 326.92,
+   "fim": 341.02
+  },
+  {
+   "tipo": "dados",
+   "titulo": "WARNED IN ADVANCE",
+   "itens": [
+    [
+     "Warnings",
+     "barely reduced the errors"
+    ],
+    [
+     "Flag every error",
+     "reduced, not eliminated"
+    ],
+    [
+     "Slower reading",
+     "more errors, not fewer"
+    ]
+   ],
+   "fonte": "Marsh & Fazio (2006), Memory & Cognition · Fazio & Marsh (2008), Psychonomic Bulletin & Review",
+   "ini": 341.02,
+   "fim": 352.66
+  },
+  {
+   "tipo": "img",
+   "src": "c13-teste",
+   "mov": "revela",
+   "foco": [
+    0.55,
+    0.6
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 352.66,
+   "fim": 361.18
+  },
+  {
+   "tipo": "img",
+   "src": "c14x-mente",
+   "mov": "descobre",
+   "foco": [
+    0.42,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 361.18,
+   "fim": 366.46
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-lenda-perto",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 366.46,
+   "fim": 376.28
+  },
+  {
+   "tipo": "img",
+   "src": "c12-leitura",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.55
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 376.28,
+   "fim": 382.42
+  },
+  {
+   "tipo": "img",
+   "src": "c07-bote-vazio",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 382.42,
+   "fim": 387.28
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-lenda-perto",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.1,
+    1.15
+   ],
+   "corte": true,
+   "ini": 387.28,
+   "fim": 394.24
+  },
+  {
+   "tipo": "img",
+   "src": "a1-navio",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 394.24,
+   "fim": 403.18
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "WHAT PROBABLY HAPPENED",
+   "ini": 403.18,
+   "fim": 405.68
+  },
+  {
+   "tipo": "img",
+   "src": "c15-mapa",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 405.68,
+   "fim": 413.24
+  },
+  {
+   "tipo": "img",
+   "src": "a4-hoje",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 413.24,
+   "fim": 421.96
+  },
+  {
+   "tipo": "img",
+   "src": "c16-cronometro",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "pista": true,
+   "ini": 421.96,
+   "fim": 433.8
+  },
+  {
+   "tipo": "img",
+   "src": "c15-mapa",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.45,
+    1.1
+   ],
+   "ini": 433.8,
+   "fim": 441.22
+  },
+  {
+   "tipo": "img",
+   "src": "c17-porao",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.7
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 441.22,
+   "fim": 448.88
+  },
+  {
+   "tipo": "img",
+   "src": "c17-porao",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.7
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 448.88,
+   "fim": 455.8
+  },
+  {
+   "tipo": "img",
+   "src": "c06-cabine-real",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 455.8,
+   "fim": 460.42
+  },
+  {
+   "tipo": "img",
+   "src": "c04-atlantico",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 460.42,
+   "fim": 467.8
+  },
+  {
+   "tipo": "img",
+   "src": "c18-bote",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 467.8,
+   "fim": 479.56
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-convés",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 479.56,
+   "fim": 488.72
+  },
+  {
+   "tipo": "img",
+   "src": "a1-navio",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 488.72,
+   "fim": 494.84
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-lousa",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.15,
+    1.2
+   ],
+   "ini": 494.84,
+   "fim": 499.96
+  },
+  {
+   "tipo": "video",
+   "src": "v2-navio",
+   "ini": 499.96,
+   "fim": 505.56
+  },
+  {
+   "tipo": "img",
+   "src": "c19-sozinho",
+   "mov": "desliza",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.65,
+    0.5
+   ],
+   "ini": 505.56,
+   "fim": 515.32
+  },
+  {
+   "tipo": "img",
+   "src": "c19a-recife",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 515.32,
+   "fim": 523.1
+  },
+  {
+   "tipo": "img",
+   "src": "c18-bote",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.3
+   ],
+   "corte": true,
+   "ini": 523.1,
+   "fim": 529.0
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "SHIPS THAT OUTLIVE THEIR CREWS",
+   "ini": 529.0,
+   "fim": 531.5
+  },
+  {
+   "tipo": "img",
+   "src": "c19bx-carta",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 531.5,
+   "fim": 547.88
+  },
+  {
+   "tipo": "dados",
+   "titulo": "NORTH ATLANTIC, 1887–1893",
+   "itens": [
+    [
+     "1,628",
+     "derelict sightings"
+    ],
+    [
+     "19+",
+     "afloat at any moment"
+    ],
+    [
+     "~1,100 days",
+     "one schooner adrift"
+    ]
+   ],
+   "fonte": "Richardson (1985), Progress in Oceanography; Richardson (1984), Eos",
+   "ini": 547.88,
+   "fim": 565.36
+  },
+  {
+   "tipo": "img",
+   "src": "c19-sozinho",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 565.36,
+   "fim": 568.8
+  },
+  {
+   "tipo": "img",
+   "src": "c19c-fastnet",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 568.8,
+   "fim": 580.72
+  },
+  {
+   "tipo": "img",
+   "src": "c19c2-boiando",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 580.72,
+   "fim": 592.06
+  },
+  {
+   "tipo": "citacao",
+   "texto": "If your boat is still floating, it is your best life raft.",
+   "autor": "Lesson of the 1979 Fastnet Race Inquiry (RYA–RORC), as sailors repeat it",
+   "estilo": "artigo",
+   "ini": 592.06,
+   "fim": 608.02
+  },
+  {
+   "tipo": "img",
+   "src": "c19d-kaz",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 608.02,
+   "fim": 617.36
+  },
+  {
+   "tipo": "img",
+   "src": "c19d-kaz",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 617.36,
+   "fim": 626.04
+  },
+  {
+   "tipo": "img",
+   "src": "c19d-kaz",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 626.04,
+   "fim": 635.74
+  },
+  {
+   "tipo": "img",
+   "src": "c18-bote",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 635.74,
+   "fim": 649.22
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VI",
+   "titulo": "AND YOU?",
+   "ini": 649.22,
+   "fim": 651.72
+  },
+  {
+   "tipo": "img",
+   "src": "c20x-sofa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 651.72,
+   "fim": 659.32
+  },
+  {
+   "tipo": "img",
+   "src": "c11-espalhando",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 659.32,
+   "fim": 666.62
+  },
+  {
+   "tipo": "img",
+   "src": "c20x-sofa",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 666.62,
+   "fim": 674.64
+  },
+  {
+   "tipo": "img",
+   "src": "c21-estante",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 674.64,
+   "fim": 682.88
+  },
+  {
+   "tipo": "img",
+   "src": "c21-estante",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 682.88,
+   "fim": 690.82
+  },
+  {
+   "tipo": "img",
+   "src": "c14x-mente",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 690.82,
+   "fim": 699.94
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-lousa",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 699.94,
+   "fim": 710.48
+  },
+  {
+   "tipo": "img",
+   "src": "c22-convés-manhã",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 710.48,
+   "fim": 722.76
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "c22b-mesa-vazia",
+   "nomes": [
+    [
+     "Benjamin Briggs",
+     "captain"
+    ],
+    [
+     "Sarah Briggs",
+     "his wife"
+    ],
+    [
+     "Sophia Briggs",
+     "2 years old"
+    ],
+    [
+     "Albert Richardson",
+     "first mate"
+    ],
+    [
+     "Andrew Gilling",
+     "second mate"
+    ],
+    [
+     "William Head",
+     "steward"
+    ],
+    [
+     "Gottleib Gouldschaal",
+     "seaman"
+    ],
+    [
+     "Arian Martens",
+     "seaman"
+    ],
+    [
+     "Boz Lorenzen",
+     "seaman"
+    ],
+    [
+     "Volkert Lorenzen",
+     "seaman"
+    ]
+   ],
+   "rotulo": "MARY CELESTE · NOVEMBER 1872",
+   "ini": 722.76,
+   "fim": 738.54
+  },
+  {
+   "tipo": "img",
+   "src": "c22b-mesa-vazia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 738.54,
+   "fim": 748.18
+  },
+  {
+   "tipo": "img",
+   "src": "c19-sozinho",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.0
+   ],
+   "ini": 748.18,
+   "fim": 757.68
+  },
+  {
+   "tipo": "final",
+   "ini": 757.68,
+   "fim": 777.68
+  }
+ ]
+}

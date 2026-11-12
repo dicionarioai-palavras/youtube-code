@@ -1,0 +1,1582 @@
+{
+ "fps": 30,
+ "duracao": 751.1,
+ "pasta": "ep06",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 67.92
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 73.42,
+   "dur": 67.28
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 143.8,
+   "dur": 137.44
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 284.34,
+   "dur": 70.96
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 358.4,
+   "dur": 129.2
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 490.7,
+   "dur": 107.12
+  },
+  {
+   "id": "07-parte-6",
+   "ini": 600.92,
+   "dur": 76.16
+  },
+  {
+   "id": "08-parte-7",
+   "ini": 680.18,
+   "dur": 34.56
+  },
+  {
+   "id": "09-fecho",
+   "ini": 715.34,
+   "dur": 15.76
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "img",
+   "src": "c01-sala",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 0.0,
+   "fim": 6.36
+  },
+  {
+   "tipo": "img",
+   "src": "c07-taxi",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 6.36,
+   "fim": 12.08
+  },
+  {
+   "tipo": "video",
+   "src": "v1-picos",
+   "corte": true,
+   "ini": 12.08,
+   "fim": 15.7
+  },
+  {
+   "tipo": "img",
+   "src": "c09-banca",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 15.7,
+   "fim": 24.34
+  },
+  {
+   "tipo": "img",
+   "src": "c11-balcao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 24.34,
+   "fim": 32.26
+  },
+  {
+   "tipo": "img",
+   "src": "c03-linha",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 32.26,
+   "fim": 34.66
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 34.66,
+   "fim": 36.7
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "revela",
+   "foco": [
+    0.78,
+    0.4
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "corte": true,
+   "ini": 36.7,
+   "fim": 42.04
+  },
+  {
+   "tipo": "img",
+   "src": "c12-cadeiras",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 42.04,
+   "fim": 49.04
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "CASE",
+     "The Green River killings"
+    ],
+    [
+     "WHERE",
+     "King County, Washington"
+    ],
+    [
+     "WHEN",
+     "1982–1998"
+    ],
+    [
+     "CONVICTED",
+     "49 murders"
+    ],
+    [
+     "POLYGRAPH",
+     "Passed, 1984"
+    ],
+    [
+     "ARRESTED",
+     "2001"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 49.04,
+   "fim": 58.82
+  },
+  {
+   "tipo": "img",
+   "src": "c16b-moeda",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 58.82,
+   "fim": 64.8
+  },
+  {
+   "tipo": "img",
+   "src": "c23-gaze",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 64.8,
+   "fim": 67.92
+  },
+  {
+   "tipo": "abertura",
+   "ini": 67.92,
+   "fim": 70.92
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "THE RIVER",
+   "ini": 70.92,
+   "fim": 73.42
+  },
+  {
+   "tipo": "img",
+   "src": "c04-rio",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 73.42,
+   "fim": 84.66
+  },
+  {
+   "tipo": "img",
+   "src": "c04b-margem",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 84.66,
+   "fim": 98.42
+  },
+  {
+   "tipo": "img",
+   "src": "c05-quadro",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 98.42,
+   "fim": 103.3
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-jornal",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 103.3,
+   "fim": 109.96
+  },
+  {
+   "tipo": "video",
+   "src": "v2-chuva",
+   "ini": 109.96,
+   "fim": 115.24
+  },
+  {
+   "tipo": "img",
+   "src": "c06-strip",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.6
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 115.24,
+   "fim": 121.6
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "c06b-motel",
+   "nomes": [
+    [
+     "Wendy Coffield",
+     "16"
+    ],
+    [
+     "Opal Mills",
+     "16"
+    ],
+    [
+     "Marcia Chapman",
+     "31"
+    ],
+    [
+     "Cynthia Hinds",
+     "17"
+    ],
+    [
+     "Marie Malvar",
+     "18"
+    ]
+   ],
+   "rotulo": "AMONG THE FIRST VICTIMS · 1982–1983",
+   "ini": 121.6,
+   "fim": 129.44
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-motel",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 129.44,
+   "fim": 137.48
+  },
+  {
+   "tipo": "img",
+   "src": "c11-balcao",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "corte": true,
+   "ini": 137.48,
+   "fim": 141.3
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "TWO MEN, ONE MACHINE",
+   "ini": 141.3,
+   "fim": 143.8
+  },
+  {
+   "tipo": "img",
+   "src": "c07-taxi",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 143.8,
+   "fim": 150.6
+  },
+  {
+   "tipo": "img",
+   "src": "c07b-telefone",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 150.6,
+   "fim": 157.74
+  },
+  {
+   "tipo": "img",
+   "src": "c05-quadro",
+   "mov": "revela",
+   "foco": [
+    0.7,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 157.74,
+   "fim": 164.02
+  },
+  {
+   "tipo": "img",
+   "src": "c08-teste",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 164.02,
+   "fim": 171.54
+  },
+  {
+   "tipo": "img",
+   "src": "c02-picos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 171.54,
+   "fim": 175.12
+  },
+  {
+   "tipo": "img",
+   "src": "c08b-busca",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 175.12,
+   "fim": 181.46
+  },
+  {
+   "tipo": "img",
+   "src": "c09-banca",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 181.46,
+   "fim": 187.48
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Lay an egg or get off the nest.",
+   "autor": "Melvin Foster, daring the police (The Seattle Times)",
+   "ini": 187.48,
+   "fim": 194.28
+  },
+  {
+   "tipo": "img",
+   "src": "c08-teste",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.25,
+    1.3
+   ],
+   "corte": true,
+   "ini": 194.28,
+   "fim": 202.66
+  },
+  {
+   "tipo": "img",
+   "src": "c06-strip",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 202.66,
+   "fim": 212.5
+  },
+  {
+   "tipo": "img",
+   "src": "c10-casa",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 212.5,
+   "fim": 220.14
+  },
+  {
+   "tipo": "img",
+   "src": "c10-casa",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.7
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "corte": true,
+   "ini": 220.14,
+   "fim": 222.86
+  },
+  {
+   "tipo": "img",
+   "src": "c10b-porta",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 222.86,
+   "fim": 229.42
+  },
+  {
+   "tipo": "img",
+   "src": "c11-balcao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 229.42,
+   "fim": 239.68
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-calmo",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 239.68,
+   "fim": 241.76
+  },
+  {
+   "tipo": "img",
+   "src": "c03-linha",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "corte": true,
+   "ini": 241.76,
+   "fim": 244.14
+  },
+  {
+   "tipo": "img",
+   "src": "c12b-saida",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 244.14,
+   "fim": 251.44
+  },
+  {
+   "tipo": "img",
+   "src": "c12-cadeiras",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 251.44,
+   "fim": 260.38
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-calmo",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.4
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 260.38,
+   "fim": 269.6
+  },
+  {
+   "tipo": "img",
+   "src": "c13-maquina",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 269.6,
+   "fim": 281.84
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "WHAT THE MACHINE MEASURES",
+   "ini": 281.84,
+   "fim": 284.34
+  },
+  {
+   "tipo": "img",
+   "src": "c13-maquina",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 284.34,
+   "fim": 290.28
+  },
+  {
+   "tipo": "video",
+   "src": "v1-picos",
+   "ini": 290.28,
+   "fim": 296.4
+  },
+  {
+   "tipo": "img",
+   "src": "c02-picos",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 296.4,
+   "fim": 301.46
+  },
+  {
+   "tipo": "img",
+   "src": "c08-teste",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 301.46,
+   "fim": 308.92
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-calmo",
+   "mov": "parado",
+   "foco": [
+    0.4,
+    0.4
+   ],
+   "escala": [
+    1.25,
+    1.3
+   ],
+   "ini": 308.92,
+   "fim": 313.62
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Overall, the evidence is scanty and scientifically weak.",
+   "autor": "National Research Council, The Polygraph and Lie Detection (2003)",
+   "estilo": "artigo",
+   "ini": 313.62,
+   "fim": 321.0
+  },
+  {
+   "tipo": "img",
+   "src": "c13-maquina",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 321.0,
+   "fim": 327.38
+  },
+  {
+   "tipo": "img",
+   "src": "c15-gaveta",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 327.38,
+   "fim": 334.06
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 334.06,
+   "fim": 342.41
+  },
+  {
+   "tipo": "img",
+   "src": "c12-cadeiras",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 342.41,
+   "fim": 347.52
+  },
+  {
+   "tipo": "img",
+   "src": "c31-fim",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 347.52,
+   "fim": 354.32
+  },
+  {
+   "tipo": "img",
+   "src": "c31-fim",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.3,
+    1.35
+   ],
+   "corte": true,
+   "ini": 354.32,
+   "fim": 355.9
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "THE DETECTOR IN YOUR HEAD",
+   "ini": 355.9,
+   "fim": 358.4
+  },
+  {
+   "tipo": "img",
+   "src": "c17-shopping",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 358.4,
+   "fim": 363.88
+  },
+  {
+   "tipo": "img",
+   "src": "c30-copa",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 363.88,
+   "fim": 366.72
+  },
+  {
+   "tipo": "img",
+   "src": "c16-lab",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 366.72,
+   "fim": 380.24
+  },
+  {
+   "tipo": "img",
+   "src": "c16-lab",
+   "mov": "revela",
+   "foco": [
+    0.75,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 380.24,
+   "fim": 386.72
+  },
+  {
+   "tipo": "dados",
+   "titulo": "ACCURACY OF DECEPTION JUDGMENTS (2006)",
+   "itens": [
+    [
+     "54%",
+     "correct overall"
+    ],
+    [
+     "47%",
+     "of lies caught"
+    ],
+    [
+     "50%",
+     "a coin toss"
+    ]
+   ],
+   "fonte": "Bond & DePaulo, Personality and Social Psychology Review, 2006 · 206 documents, 24,483 judges",
+   "ini": 386.72,
+   "fim": 396.02
+  },
+  {
+   "tipo": "img",
+   "src": "c16b-moeda",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 396.02,
+   "fim": 402.14
+  },
+  {
+   "tipo": "img",
+   "src": "c17-shopping",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 402.14,
+   "fim": 409.14
+  },
+  {
+   "tipo": "img",
+   "src": "c30-copa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 409.14,
+   "fim": 418.34
+  },
+  {
+   "tipo": "img",
+   "src": "c17-shopping",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 418.34,
+   "fim": 429.44
+  },
+  {
+   "tipo": "img",
+   "src": "c18-retratos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 429.44,
+   "fim": 440.62
+  },
+  {
+   "tipo": "img",
+   "src": "c18-retratos",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 440.62,
+   "fim": 446.7
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 446.7,
+   "fim": 453.64
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "revela",
+   "foco": [
+    0.78,
+    0.4
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "corte": true,
+   "ini": 453.64,
+   "fim": 456.92
+  },
+  {
+   "tipo": "img",
+   "src": "c19-churrasco",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 456.92,
+   "fim": 468.12
+  },
+  {
+   "tipo": "img",
+   "src": "c19-churrasco",
+   "mov": "revela",
+   "foco": [
+    0.8,
+    0.4
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 468.12,
+   "fim": 471.64
+  },
+  {
+   "tipo": "img",
+   "src": "c20b-carteira",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 471.64,
+   "fim": 479.24
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-calmo",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 479.24,
+   "fim": 488.2
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "THE GAUZE",
+   "ini": 488.2,
+   "fim": 490.7
+  },
+  {
+   "tipo": "img",
+   "src": "c21-quadro-anos",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 490.7,
+   "fim": 503.62
+  },
+  {
+   "tipo": "img",
+   "src": "c21-quadro-anos",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.6
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 503.62,
+   "fim": 510.56
+  },
+  {
+   "tipo": "img",
+   "src": "c05-quadro",
+   "mov": "parado",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "corte": true,
+   "ini": 510.56,
+   "fim": 512.7
+  },
+  {
+   "tipo": "img",
+   "src": "c22-revista",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 512.7,
+   "fim": 519.42
+  },
+  {
+   "tipo": "img",
+   "src": "c23-gaze",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 519.42,
+   "fim": 527.8
+  },
+  {
+   "tipo": "img",
+   "src": "c23b-freezer",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 527.8,
+   "fim": 531.84
+  },
+  {
+   "tipo": "img",
+   "src": "c24-escritorio",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 531.84,
+   "fim": 545.6
+  },
+  {
+   "tipo": "img",
+   "src": "c25-dna",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 545.6,
+   "fim": 556.78
+  },
+  {
+   "tipo": "img",
+   "src": "c25-dna",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 556.78,
+   "fim": 568.06
+  },
+  {
+   "tipo": "img",
+   "src": "c25b-match",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "corte": true,
+   "ini": 568.06,
+   "fim": 572.28
+  },
+  {
+   "tipo": "img",
+   "src": "c26-fabrica",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 572.28,
+   "fim": 579.92
+  },
+  {
+   "tipo": "img",
+   "src": "c26b-tinta",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 579.92,
+   "fim": 589.6
+  },
+  {
+   "tipo": "img",
+   "src": "c23-gaze",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 589.6,
+   "fim": 598.42
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VI",
+   "titulo": "WHAT HE TOLD THEM",
+   "ini": 598.42,
+   "fim": 600.92
+  },
+  {
+   "tipo": "img",
+   "src": "c27-mapas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 600.92,
+   "fim": 613.62
+  },
+  {
+   "tipo": "img",
+   "src": "c27-mapas",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 613.62,
+   "fim": 617.0
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-calmo",
+   "mov": "parado",
+   "foco": [
+    0.4,
+    0.4
+   ],
+   "escala": [
+    1.25,
+    1.3
+   ],
+   "ini": 617.0,
+   "fim": 624.18
+  },
+  {
+   "tipo": "citacao",
+   "texto": "I do not remember their faces.",
+   "autor": "Gary Ridgway, written plea statement, Nov. 5, 2003 (The Seattle Times)",
+   "ini": 624.18,
+   "fim": 632.6
+  },
+  {
+   "tipo": "img",
+   "src": "c28-tribunal",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 632.6,
+   "fim": 641.7
+  },
+  {
+   "tipo": "img",
+   "src": "c28-tribunal",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.15,
+    1.2
+   ],
+   "ini": 641.7,
+   "fim": 643.76
+  },
+  {
+   "tipo": "img",
+   "src": "c28b-mae",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 643.76,
+   "fim": 651.08
+  },
+  {
+   "tipo": "img",
+   "src": "c28-tribunal",
+   "mov": "revela",
+   "foco": [
+    0.48,
+    0.85
+   ],
+   "escala": [
+    1.6,
+    1.1
+   ],
+   "corte": true,
+   "ini": 651.08,
+   "fim": 658.62
+  },
+  {
+   "tipo": "video",
+   "src": "v3-rio",
+   "ini": 658.62,
+   "fim": 664.66
+  },
+  {
+   "tipo": "img",
+   "src": "c29-amanhecer",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 664.66,
+   "fim": 677.68
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VII",
+   "titulo": "AND YOU?",
+   "ini": 677.68,
+   "fim": 680.18
+  },
+  {
+   "tipo": "img",
+   "src": "c30-copa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 680.18,
+   "fim": 689.2
+  },
+  {
+   "tipo": "img",
+   "src": "c18-retratos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 689.2,
+   "fim": 703.88
+  },
+  {
+   "tipo": "img",
+   "src": "c23-gaze",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 703.88,
+   "fim": 715.34
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-dois",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 715.34,
+   "fim": 724.36
+  },
+  {
+   "tipo": "img",
+   "src": "c31-fim",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 724.36,
+   "fim": 731.1
+  },
+  {
+   "tipo": "final",
+   "ini": 731.1,
+   "fim": 751.1
+  }
+ ]
+}

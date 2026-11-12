@@ -1,0 +1,229 @@
+{
+  "checked_at": "2026-10-22T22:57:58.324Z",
+  "media_downloads": 0,
+  "paid_generation": 0,
+  "searches": [
+    {
+      "schema_version": 1,
+      "status": 200,
+      "fetched_at": "2026-10-22T22:57:24.394Z",
+      "criteria": {
+        "kind": "image",
+        "query": "luxury house",
+        "perPage": 3,
+        "safesearch": true
+      },
+      "total": 17353,
+      "total_accessible": 500,
+      "rate": {
+        "limit": "100",
+        "remaining": "99",
+        "reset": "60"
+      },
+      "results": [
+        {
+          "id": 2219972,
+          "type": "photo",
+          "tags": "residence, property, house, real estate, residential, architecture, building, villa, protaras, cyprus, modern, white, property, house, house, house, house, house, real estate, real estate, real estate, villa",
+          "page_url": "https://pixabay.com/photos/residence-property-house-2219972/",
+          "author": "dimitrisvetsikas1969",
+          "author_id": 1857980,
+          "width": 6000,
+          "height": 4000,
+          "preview_url": "https://pixabay.com/get/g0d1375f9f7b745ae7f24cc35779c29ebad7696c6221ca2686e52372bc16256d628faea37c54eceef83e552a0551ab5dd73b363590318db4204c90d18edefa8ce_640.jpg",
+          "download_url": "https://pixabay.com/get/g8c63a06cab861ff1bf6d68e6b94e99e4a6d1e2644fa7bd08ac36cefae90271f50fcd382cf7ddc3bcd57dbe8f3e3bcc8099e339c3a1225ae2015d271082e772b4_1280.jpg",
+          "download_full_resolution": false,
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        },
+        {
+          "id": 1477041,
+          "type": "photo",
+          "tags": "house, pool, interior design, architecture, 3d, design, style, minimalist, interior, modular, housing, prefabricated, modular home, house, house, house, house, house",
+          "page_url": "https://pixabay.com/photos/house-pool-interior-design-1477041/",
+          "author": "Giovanni_cg",
+          "author_id": 1760325,
+          "width": 1920,
+          "height": 1080,
+          "preview_url": "https://pixabay.com/get/g5e61b2b521a19472a6a27dfd0d88a5389c6ded3eea761bc2eea659f51af3838e94785322421d23b6d8c30b241fe67be8f537476e5550f79fb89c921b8af6fe1e_640.jpg",
+          "download_url": "https://pixabay.com/get/g42b9e3d78b84dc017ad81c3d97837c35b218b1d67f08adbc8a8e55651e2577e0c4a434470caa69848402cf044b9b02cd5220ec01e9728d01c3cd151915e7eb91_1280.jpg",
+          "download_full_resolution": false,
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        },
+        {
+          "id": 389271,
+          "type": "photo",
+          "tags": "large home, residential, house, architecture, modern, luxury, swimming pool, facade, house facade, exteriors, house exteriors, luxury house, real estate, expensive, upscale, design, lifestyle, house, house, house, house, house, real estate, real estate",
+          "page_url": "https://pixabay.com/photos/large-home-residential-house-389271/",
+          "author": "GregoryButler",
+          "author_id": 331410,
+          "width": 1920,
+          "height": 1280,
+          "preview_url": "https://pixabay.com/get/gb4c216f8ab7c802dd3c3780b9f8898421ee2107517430df1969aa1fd256d37f5b6a8e2f0788e360529be53736cce6a0f_640.jpg",
+          "download_url": "https://pixabay.com/get/gf1c3afe3b3185f24182238cdff73e2c35137f047135127a3a045b73344aa20097fff5b40a689b87350d4d2ef03908b878cf6fceab37422f69d901458482c2910_1280.jpg",
+          "download_full_resolution": false,
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        }
+      ],
+      "cache_hit": true,
+      "network_calls": 0,
+      "scenes": [
+        33,
+        47
+      ]
+    },
+    {
+      "schema_version": 1,
+      "status": 200,
+      "fetched_at": "2026-10-22T22:57:24.617Z",
+      "criteria": {
+        "kind": "video",
+        "query": "Santorini",
+        "perPage": 3,
+        "safesearch": true
+      },
+      "total": 12,
+      "total_accessible": 12,
+      "rate": {
+        "limit": "100",
+        "remaining": "98",
+        "reset": "60"
+      },
+      "results": [
+        {
+          "id": 43232,
+          "type": "film",
+          "tags": "santorini, oia, island, travel, blue, sea, architecture, mediterranean, greek, tourism, vacation, europe, landscape, water, sky, boat",
+          "page_url": "https://pixabay.com/videos/id-43232/",
+          "author": "TheTaikun",
+          "author_id": 5320251,
+          "duration_s": 40,
+          "variants": {
+            "large": {
+              "url": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_large.mp4",
+              "width": 3840,
+              "height": 2160,
+              "bytes": 112477065,
+              "thumbnail": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_large.jpg"
+            },
+            "medium": {
+              "url": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_medium.mp4",
+              "width": 2560,
+              "height": 1440,
+              "bytes": 47046289,
+              "thumbnail": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_medium.jpg"
+            },
+            "small": {
+              "url": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_small.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 26345507,
+              "thumbnail": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_small.jpg"
+            },
+            "tiny": {
+              "url": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_tiny.mp4",
+              "width": 1280,
+              "height": 720,
+              "bytes": 10237977,
+              "thumbnail": "https://cdn.pixabay.com/video/2020/06/27/43232-435970476_tiny.jpg"
+            }
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        },
+        {
+          "id": 124393,
+          "type": "film",
+          "tags": "port, santorini, sea, caldera",
+          "page_url": "https://pixabay.com/videos/id-124393/",
+          "author": "gstathis",
+          "author_id": 1411555,
+          "duration_s": 19,
+          "variants": {
+            "large": {
+              "url": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_large.mp4",
+              "width": 3840,
+              "height": 2160,
+              "bytes": 55257334,
+              "thumbnail": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_large.jpg"
+            },
+            "medium": {
+              "url": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_medium.mp4",
+              "width": 2560,
+              "height": 1440,
+              "bytes": 30985984,
+              "thumbnail": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_medium.jpg"
+            },
+            "small": {
+              "url": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_small.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 14200438,
+              "thumbnail": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_small.jpg"
+            },
+            "tiny": {
+              "url": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_tiny.mp4",
+              "width": 1280,
+              "height": 720,
+              "bytes": 7338794,
+              "thumbnail": "https://cdn.pixabay.com/video/2022/07/16/124393-730756809_tiny.jpg"
+            }
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        },
+        {
+          "id": 82344,
+          "type": "film",
+          "tags": "santorini, greece, island, travel, 4k, aerial, holiday, relax, vacation",
+          "page_url": "https://pixabay.com/videos/id-82344/",
+          "author": "alexman89",
+          "author_id": 10638719,
+          "duration_s": 41,
+          "variants": {
+            "large": {
+              "url": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 29709004,
+              "thumbnail": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_large.jpg"
+            },
+            "medium": {
+              "url": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "bytes": 15609294,
+              "thumbnail": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_medium.jpg"
+            },
+            "small": {
+              "url": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_small.mp4",
+              "width": 960,
+              "height": 540,
+              "bytes": 8507513,
+              "thumbnail": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_small.jpg"
+            },
+            "tiny": {
+              "url": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "bytes": 3228495,
+              "thumbnail": "https://cdn.pixabay.com/video/2021/07/21/82344-577813613_tiny.jpg"
+            }
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "review_status": "candidato-nao-revisado"
+        }
+      ],
+      "cache_hit": true,
+      "network_calls": 0,
+      "scenes": [
+        118,
+        124
+      ]
+    }
+  ],
+  "ok": true,
+  "network_calls": 0
+}

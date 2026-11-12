@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import {loadExternalEnv,credentialStatus,projectRoot} from './config.mjs';import {getRunwayBalance} from './runway-saldo.mjs';import {estimate,fitsBalance} from './runway-custos.mjs';
+const report={checked_at:new Date().toISOString(),generations:0,credits_spent:0,pricing_source:'https://docs.dev.runwayml.com/guides/pricing/'};
+try{loadExternalEnv();if(!credentialStatus().runway){report.account={ok:false,reason:'RUNWAYML_API_SECRET não preenchida; saldo não consultado',credit_balance:null};}else {try{report.account={ok:true,...await getRunwayBalance()};}catch(e){report.account={ok:false,status:Number.isInteger(e.status)?e.status:null,reason:'Falha de autenticação/conexão/resposta; segredos omitidos',credit_balance:null};}}}catch{report.account={ok:false,reason:'Configuração inválida; valores omitidos',credit_balance:null};}
+report.unit_examples=[estimate({model:'gen4_image_turbo'}),estimate({model:'gen4_image',resolution:'720p'}),estimate({model:'gen4_image'}),...[5,10].flatMap(seconds=>['gen4_turbo','gen4.5'].map(model=>estimate({model,seconds})))];
+const images=estimate({model:'gen4_image',quantity:3});const video=estimate({model:'gen4_turbo',seconds:10});
+report.pilot={stage1:images,stage2_conditional:video,base_credits:images.credits+video.credits,max_with_one_retry_each:2*(images.credits+video.credits),max_usd:2*(images.usd+video.usd),spend_authorized:false,note:'Começar com 3 imagens; vídeo somente após avaliar imagens. Segunda tentativa não automática. Sem geração nesta consulta.'};
+report.pilot.base_fits_balance=fitsBalance({credits:report.pilot.base_credits},report.account.credit_balance);
+report.pilot.max_fits_balance=fitsBalance({credits:report.pilot.max_with_one_retry_each},report.account.credit_balance);
+report.pilot.balance_share_percent=report.account.credit_balance>0?Number((report.pilot.max_with_one_retry_each/report.account.credit_balance*100).toFixed(2)):null;
+fs.writeFileSync(path.join(projectRoot,'code/apis-externas/resultado-runway.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));

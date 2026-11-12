@@ -1,0 +1,1369 @@
+{
+ "fps": 30,
+ "duracao": 689.72,
+ "pasta": "ep08",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 74.32
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 80.32,
+   "dur": 78.96
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 162.88,
+   "dur": 100.24
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 266.72,
+   "dur": 78.72
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 349.04,
+   "dur": 66.64
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 419.28,
+   "dur": 103.6
+  },
+  {
+   "id": "07-parte-6",
+   "ini": 526.48,
+   "dur": 76.72
+  },
+  {
+   "id": "08-fecho",
+   "ini": 603.8,
+   "dur": 65.92
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "video",
+   "src": "v1-relogio",
+   "ini": 0.0,
+   "fim": 5.4
+  },
+  {
+   "tipo": "img",
+   "src": "c02-mesa",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 5.4,
+   "fim": 12.84
+  },
+  {
+   "tipo": "img",
+   "src": "c04-exausto",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 12.84,
+   "fim": 17.9
+  },
+  {
+   "tipo": "img",
+   "src": "c03-inclina",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 17.9,
+   "fim": 29.5
+  },
+  {
+   "tipo": "img",
+   "src": "c03-inclina",
+   "mov": "revela",
+   "foco": [
+    0.65,
+    0.5
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "corte": true,
+   "ini": 29.5,
+   "fim": 32.66
+  },
+  {
+   "tipo": "img",
+   "src": "atm-parque",
+   "mov": "desliza",
+   "foco": [
+    0.35,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.2
+   ],
+   "destino": [
+    0.65,
+    0.5
+   ],
+   "ini": 32.66,
+   "fim": 43.38
+  },
+  {
+   "tipo": "video",
+   "src": "v2-camera",
+   "corte": true,
+   "ini": 43.38,
+   "fim": 45.9
+  },
+  {
+   "tipo": "img",
+   "src": "c05-camera",
+   "mov": "revela",
+   "foco": [
+    0.7,
+    0.45
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "pista": true,
+   "ini": 45.9,
+   "fim": 48.7
+  },
+  {
+   "tipo": "img",
+   "src": "c06-tubos",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 48.7,
+   "fim": 53.02
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "CASE",
+     "The Central Park jogger case"
+    ],
+    [
+     "WHERE",
+     "New York City"
+    ],
+    [
+     "WHEN",
+     "April 19, 1989"
+    ],
+    [
+     "CONVICTED",
+     "5 teenagers, ages 14–16"
+    ],
+    [
+     "VERDICT",
+     "all convictions vacated, 2002"
+    ]
+   ],
+   "carimbo": "EXONERATED",
+   "ini": 53.02,
+   "fim": 61.36
+  },
+  {
+   "tipo": "img",
+   "src": "c21-caneta",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 61.36,
+   "fim": 74.32
+  },
+  {
+   "tipo": "abertura",
+   "ini": 74.32,
+   "fim": 77.32
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "THE NIGHT",
+   "ini": 77.32,
+   "fim": 80.32,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c07-grupo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 80.32,
+   "fim": 90.28
+  },
+  {
+   "tipo": "img",
+   "src": "c08-lanternas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 90.28,
+   "fim": 98.0
+  },
+  {
+   "tipo": "img",
+   "src": "c09-ambulancia",
+   "mov": "descobre",
+   "foco": [
+    0.35,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 98.0,
+   "fim": 107.28
+  },
+  {
+   "tipo": "img",
+   "src": "c10-hospital",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 107.28,
+   "fim": 120.02
+  },
+  {
+   "tipo": "img",
+   "src": "c11-tvs",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 120.02,
+   "fim": 129.56
+  },
+  {
+   "tipo": "nomes",
+   "nomes": [
+    [
+     "Raymond Santana",
+     "14"
+    ],
+    [
+     "Kevin Richardson",
+     "14"
+    ],
+    [
+     "Antron McCray",
+     "15"
+    ],
+    [
+     "Yusef Salaam",
+     "15"
+    ],
+    [
+     "Korey Wise",
+     "16"
+    ]
+   ],
+   "fundo": "c07-grupo",
+   "rotulo": "NEW YORK · APRIL 1989",
+   "ini": 129.56,
+   "fim": 141.42
+  },
+  {
+   "tipo": "img",
+   "src": "c12-amigos",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "escala": [
+    1.15,
+    1.35
+   ],
+   "ini": 141.42,
+   "fim": 150.08
+  },
+  {
+   "tipo": "img",
+   "src": "atm-sala",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "pista": true,
+   "ini": 150.08,
+   "fim": 159.88
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "THE ROOM",
+   "ini": 159.88,
+   "fim": 162.88,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c13-manual",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 162.88,
+   "fim": 169.06
+  },
+  {
+   "tipo": "img",
+   "src": "c13-manual",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 169.06,
+   "fim": 180.76
+  },
+  {
+   "tipo": "img",
+   "src": "c02-mesa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 180.76,
+   "fim": 185.26
+  },
+  {
+   "tipo": "img",
+   "src": "c13-manual",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.45
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "corte": true,
+   "ini": 185.26,
+   "fim": 187.98
+  },
+  {
+   "tipo": "img",
+   "src": "c14-maos",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 187.98,
+   "fim": 199.96
+  },
+  {
+   "tipo": "img",
+   "src": "c04-exausto",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 199.96,
+   "fim": 203.72
+  },
+  {
+   "tipo": "img",
+   "src": "c15-moeda",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 203.72,
+   "fim": 211.72
+  },
+  {
+   "tipo": "img",
+   "src": "c02-mesa",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 211.72,
+   "fim": 219.94
+  },
+  {
+   "tipo": "img",
+   "src": "c16-pasta",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.4
+   ],
+   "corte": true,
+   "ini": 219.94,
+   "fim": 229.56
+  },
+  {
+   "tipo": "img",
+   "src": "c16-pasta",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.45
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 229.56,
+   "fim": 236.16
+  },
+  {
+   "tipo": "img",
+   "src": "c17-duas-salas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 236.16,
+   "fim": 246.76
+  },
+  {
+   "tipo": "img",
+   "src": "c18-tempo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 246.76,
+   "fim": 254.7
+  },
+  {
+   "tipo": "dados",
+   "titulo": "125 PROVEN FALSE CONFESSIONS",
+   "itens": [
+    [
+     "84%",
+     "came after 6+ hours of interrogation"
+    ],
+    [
+     "16 h",
+     "average length"
+    ],
+    [
+     "14–30 h",
+     "the Central Park five"
+    ]
+   ],
+   "fonte": "Drizin & Leo, N.C. Law Review, 2004; Kassin",
+   "ini": 254.7,
+   "fim": 263.72
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "THE WAY OUT",
+   "ini": 263.72,
+   "fim": 266.72,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c19-cafe",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 266.72,
+   "fim": 277.24
+  },
+  {
+   "tipo": "img",
+   "src": "c19-cafe",
+   "mov": "revela",
+   "foco": [
+    0.65,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 277.24,
+   "fim": 287.68
+  },
+  {
+   "tipo": "img",
+   "src": "c21-caneta",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 287.68,
+   "fim": 299.16
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Each of them was led to believe he would go home if he confessed.",
+   "autor": "paraphrasing Saul Kassin, psychologist",
+   "ini": 299.16,
+   "fim": 304.1
+  },
+  {
+   "tipo": "img",
+   "src": "c04-exausto",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 304.1,
+   "fim": 314.06
+  },
+  {
+   "tipo": "img",
+   "src": "c22-janela",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 314.06,
+   "fim": 320.28
+  },
+  {
+   "tipo": "img",
+   "src": "c23-cabeca",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 320.28,
+   "fim": 329.4
+  },
+  {
+   "tipo": "dados",
+   "titulo": "WHO FALSELY CONFESSES",
+   "itens": [
+    [
+     "1 in 3",
+     "was under 18"
+    ],
+    [
+     "92%",
+     "were under 40"
+    ]
+   ],
+   "fonte": "Drizin & Leo, 2004",
+   "ini": 329.4,
+   "fim": 335.54
+  },
+  {
+   "tipo": "img",
+   "src": "c05-camera",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 335.54,
+   "fim": 346.04
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "THE TAPE",
+   "ini": 346.04,
+   "fim": 349.04,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c24-gravacao",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 349.04,
+   "fim": 356.72
+  },
+  {
+   "tipo": "img",
+   "src": "c24-gravacao",
+   "mov": "revela",
+   "foco": [
+    0.25,
+    0.55
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 356.72,
+   "fim": 361.64
+  },
+  {
+   "tipo": "img",
+   "src": "c01-relogio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 361.64,
+   "fim": 369.12
+  },
+  {
+   "tipo": "img",
+   "src": "atm-sala",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.35,
+    1.0
+   ],
+   "corte": true,
+   "ini": 369.12,
+   "fim": 370.78
+  },
+  {
+   "tipo": "img",
+   "src": "c25-fitas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 370.78,
+   "fim": 374.3
+  },
+  {
+   "tipo": "img",
+   "src": "c26-mapa",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 374.3,
+   "fim": 379.88
+  },
+  {
+   "tipo": "img",
+   "src": "c17-duas-salas",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 379.88,
+   "fim": 385.06
+  },
+  {
+   "tipo": "img",
+   "src": "c27-carro",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 385.06,
+   "fim": 390.32
+  },
+  {
+   "tipo": "img",
+   "src": "c28-laboratorio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "escala": [
+    1.15,
+    1.35
+   ],
+   "ini": 390.32,
+   "fim": 398.02
+  },
+  {
+   "tipo": "img",
+   "src": "c29-juri",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 398.02,
+   "fim": 404.94
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Confession trumps innocence. It even trumps DNA.",
+   "autor": "paraphrasing Saul Kassin",
+   "ini": 404.94,
+   "fim": 416.28
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "WOULD YOU?",
+   "ini": 416.28,
+   "fim": 419.28,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c22-janela",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 419.28,
+   "fim": 428.92
+  },
+  {
+   "tipo": "img",
+   "src": "c30-computador",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 428.92,
+   "fim": 438.32
+  },
+  {
+   "tipo": "img",
+   "src": "c30-computador",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "corte": true,
+   "ini": 438.32,
+   "fim": 446.06
+  },
+  {
+   "tipo": "img",
+   "src": "c31-testemunha",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 446.06,
+   "fim": 452.78
+  },
+  {
+   "tipo": "dados",
+   "titulo": "THE CRASHED COMPUTER · 1996",
+   "itens": [
+    [
+     "69%",
+     "signed a confession"
+    ],
+    [
+     "0",
+     "had pressed the key"
+    ]
+   ],
+   "fonte": "Kassin & Kiechel, Psychological Science, 1996",
+   "ini": 452.78,
+   "fim": 463.48
+  },
+  {
+   "tipo": "img",
+   "src": "c31-testemunha",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "pista": true,
+   "ini": 463.48,
+   "fim": 467.04
+  },
+  {
+   "tipo": "img",
+   "src": "c33-dupla",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 467.04,
+   "fim": 476.62
+  },
+  {
+   "tipo": "img",
+   "src": "c33-dupla",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "ini": 476.62,
+   "fim": 484.84
+  },
+  {
+   "tipo": "img",
+   "src": "c32-assina",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 484.84,
+   "fim": 487.24
+  },
+  {
+   "tipo": "dados",
+   "titulo": "INNOCENT STUDENTS WHO SIGNED",
+   "itens": [
+    [
+     "6%",
+     "simple accusation"
+    ],
+    [
+     "18%",
+     "+ sympathy (\"minimization\")"
+    ],
+    [
+     "43%",
+     "+ sympathy + a deal"
+    ]
+   ],
+   "fonte": "Russano, Meissner, Narchet & Kassin, Psychological Science, 2005",
+   "ini": 487.24,
+   "fim": 508.5
+  },
+  {
+   "tipo": "img",
+   "src": "c32-assina",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.6
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "corte": true,
+   "ini": 508.5,
+   "fim": 516.76
+  },
+  {
+   "tipo": "img",
+   "src": "c04-exausto",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.42
+   ],
+   "escala": [
+    1.6,
+    1.1
+   ],
+   "ini": 516.76,
+   "fim": 523.48
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VI",
+   "titulo": "THE STRANGER IN THE YARD",
+   "ini": 523.48,
+   "fim": 526.48,
+   "digita": true
+  },
+  {
+   "tipo": "img",
+   "src": "c34-prisao",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.2
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 526.48,
+   "fim": 536.18
+  },
+  {
+   "tipo": "img",
+   "src": "c39-cela",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 536.18,
+   "fim": 543.1
+  },
+  {
+   "tipo": "img",
+   "src": "c35-patio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 543.1,
+   "fim": 553.88
+  },
+  {
+   "tipo": "img",
+   "src": "c36-carta",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 553.88,
+   "fim": 566.42
+  },
+  {
+   "tipo": "img",
+   "src": "c36-carta",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.5,
+    1.05
+   ],
+   "corte": true,
+   "pista": true,
+   "ini": 566.42,
+   "fim": 573.22
+  },
+  {
+   "tipo": "img",
+   "src": "c37-dna-2002",
+   "mov": "descobre",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.35
+   ],
+   "ini": 573.22,
+   "fim": 579.02
+  },
+  {
+   "tipo": "img",
+   "src": "c38-tribunal",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.65
+   ],
+   "escala": [
+    1.2,
+    1.35
+   ],
+   "ini": 579.02,
+   "fim": 587.0
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "2002",
+     "all five convictions vacated"
+    ],
+    [
+     "2014",
+     "$41 million settlement with New York City"
+    ],
+    [
+     "THE CITY",
+     "admitted no wrongdoing"
+    ],
+    [
+     "TIME LOST",
+     "5 to 13 years each"
+    ]
+   ],
+   "carimbo": "CLOSED",
+   "ini": 587.0,
+   "fim": 592.52
+  },
+  {
+   "tipo": "img",
+   "src": "c39-cela",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 592.52,
+   "fim": 603.8
+  },
+  {
+   "tipo": "img",
+   "src": "atm-sala",
+   "mov": "desliza",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.15,
+    1.15
+   ],
+   "destino": [
+    0.6,
+    0.5
+   ],
+   "ini": 603.8,
+   "fim": 607.26
+  },
+  {
+   "tipo": "img",
+   "src": "c03-inclina",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 607.26,
+   "fim": 622.28
+  },
+  {
+   "tipo": "img",
+   "src": "c40-camera-moderna",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 622.28,
+   "fim": 633.16
+  },
+  {
+   "tipo": "img",
+   "src": "c02-mesa",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.55
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 633.16,
+   "fim": 639.0
+  },
+  {
+   "tipo": "dados",
+   "titulo": "ILLINOIS · 2021",
+   "itens": [
+    [
+     "1st",
+     "state to ban police from lying to minors in interrogations"
+    ],
+    [
+     "32",
+     "years after Central Park"
+    ]
+   ],
+   "fonte": "Innocence Project; NPR, July 2021",
+   "ini": 639.0,
+   "fim": 648.72
+  },
+  {
+   "tipo": "img",
+   "src": "c41-parque-dia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 648.72,
+   "fim": 652.56
+  },
+  {
+   "tipo": "img",
+   "src": "c04-exausto",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 652.56,
+   "fim": 661.93
+  },
+  {
+   "tipo": "img",
+   "src": "c41-parque-dia",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 661.93,
+   "fim": 669.72
+  },
+  {
+   "tipo": "final",
+   "ini": 669.72,
+   "fim": 689.72
+  }
+ ]
+}

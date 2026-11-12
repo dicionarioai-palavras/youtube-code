@@ -1,0 +1,1366 @@
+{
+ "fps": 30,
+ "duracao": 757.2,
+ "pasta": "ep05",
+ "blocos": [
+  {
+   "id": "01-abertura",
+   "ini": 0.0,
+   "dur": 49.76
+  },
+  {
+   "id": "02-parte-1",
+   "ini": 55.26,
+   "dur": 126.16
+  },
+  {
+   "id": "03-parte-2",
+   "ini": 184.52,
+   "dur": 87.44
+  },
+  {
+   "id": "04-parte-3",
+   "ini": 275.06,
+   "dur": 133.2
+  },
+  {
+   "id": "05-parte-4",
+   "ini": 411.36,
+   "dur": 115.6
+  },
+  {
+   "id": "06-parte-5",
+   "ini": 530.06,
+   "dur": 123.92
+  },
+  {
+   "id": "07-parte-6",
+   "ini": 657.08,
+   "dur": 57.2
+  },
+  {
+   "id": "08-fecho",
+   "ini": 714.88,
+   "dur": 22.32
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "img",
+   "src": "c01-cofre",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 0.0,
+   "fim": 4.46
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-kristin",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 4.46,
+   "fim": 17.14
+  },
+  {
+   "tipo": "img",
+   "src": "c01-cofre",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.75
+   ],
+   "escala": [
+    1.5,
+    1.1
+   ],
+   "ini": 17.14,
+   "fim": 22.68
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-kristin",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.2,
+    1.3
+   ],
+   "ini": 22.68,
+   "fim": 28.22
+  },
+  {
+   "tipo": "video",
+   "src": "v1-fio",
+   "corte": true,
+   "ini": 28.22,
+   "fim": 30.8
+  },
+  {
+   "tipo": "img",
+   "src": "c02-fone",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.7
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "pista": true,
+   "ini": 30.8,
+   "fim": 37.46
+  },
+  {
+   "tipo": "ficha",
+   "campos": [
+    [
+     "CASE",
+     "Norrmalmstorg robbery"
+    ],
+    [
+     "WHERE",
+     "Kreditbanken, Stockholm"
+    ],
+    [
+     "WHEN",
+     "August 23–28, 1973"
+    ],
+    [
+     "HOSTAGES",
+     "4"
+    ],
+    [
+     "LENGTH",
+     "6 days"
+    ]
+   ],
+   "carimbo": "CASE FILE",
+   "ini": 37.46,
+   "fim": 49.76
+  },
+  {
+   "tipo": "abertura",
+   "ini": 49.76,
+   "fim": 52.76
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "I",
+   "titulo": "SIX DAYS IN A VAULT",
+   "ini": 52.76,
+   "fim": 55.26
+  },
+  {
+   "tipo": "img",
+   "src": "c03b-praca",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.55
+   ],
+   "ini": 55.26,
+   "fim": 68.12
+  },
+  {
+   "tipo": "img",
+   "src": "c04-entrada",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 68.12,
+   "fim": 75.26
+  },
+  {
+   "tipo": "img",
+   "src": "c04c-refens",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "corte": true,
+   "ini": 75.26,
+   "fim": 84.64
+  },
+  {
+   "tipo": "img",
+   "src": "c06-multidao",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 84.64,
+   "fim": 95.0
+  },
+  {
+   "tipo": "nomes",
+   "fundo": "c04c-refens",
+   "nomes": [
+    [
+     "Birgitta Lundblad",
+     "31"
+    ],
+    [
+     "Elisabeth Oldgren",
+     "21"
+    ],
+    [
+     "Kristin Enmark",
+     "23"
+    ],
+    [
+     "Sven Säfström",
+     "25"
+    ]
+   ],
+   "rotulo": "THE HOSTAGES · AUGUST 1973",
+   "ini": 95.0,
+   "fim": 102.7
+  },
+  {
+   "tipo": "img",
+   "src": "c04-entrada",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 102.7,
+   "fim": 109.2
+  },
+  {
+   "tipo": "img",
+   "src": "c05-carro",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 109.2,
+   "fim": 117.8
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-chegada",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 117.8,
+   "fim": 123.3
+  },
+  {
+   "tipo": "img",
+   "src": "c05b-chegada",
+   "mov": "revela",
+   "foco": [
+    0.75,
+    0.5
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 123.3,
+   "fim": 138.1
+  },
+  {
+   "tipo": "img",
+   "src": "c06b-tv",
+   "mov": "descobre",
+   "foco": [
+    0.35,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 138.1,
+   "fim": 142.08
+  },
+  {
+   "tipo": "img",
+   "src": "c06-multidao",
+   "mov": "desliza",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.25,
+    1.25
+   ],
+   "destino": [
+    0.7,
+    0.5
+   ],
+   "ini": 142.08,
+   "fim": 144.68
+  },
+  {
+   "tipo": "img",
+   "src": "c07-noite",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.2
+   ],
+   "ini": 144.68,
+   "fim": 150.66
+  },
+  {
+   "tipo": "img",
+   "src": "c07-noite",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.7
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 150.66,
+   "fim": 160.36
+  },
+  {
+   "tipo": "img",
+   "src": "c08-corda",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 160.36,
+   "fim": 169.42
+  },
+  {
+   "tipo": "img",
+   "src": "c08b-janela",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 169.42,
+   "fim": 175.16
+  },
+  {
+   "tipo": "img",
+   "src": "c08-corda",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.25,
+    1.3
+   ],
+   "ini": 175.16,
+   "fim": 182.02
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "II",
+   "titulo": "THE PHONE CALL",
+   "ini": 182.02,
+   "fim": 184.52
+  },
+  {
+   "tipo": "img",
+   "src": "c09-gabinete",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 184.52,
+   "fim": 194.32
+  },
+  {
+   "tipo": "img",
+   "src": "c10-ligacao",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 194.32,
+   "fim": 210.02
+  },
+  {
+   "tipo": "img",
+   "src": "c09-gabinete",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 210.02,
+   "fim": 225.1
+  },
+  {
+   "tipo": "img",
+   "src": "c10-ligacao",
+   "mov": "revela",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 225.1,
+   "fim": 234.56
+  },
+  {
+   "tipo": "img",
+   "src": "c11-sven",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 234.56,
+   "fim": 242.98
+  },
+  {
+   "tipo": "img",
+   "src": "c11-sven",
+   "mov": "revela",
+   "foco": [
+    0.65,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 242.98,
+   "fim": 251.68
+  },
+  {
+   "tipo": "citacao",
+   "texto": "How kind I thought he was for saying it was just my leg he would shoot.",
+   "autor": "Sven Säfström, hostage (The New Yorker, 1974)",
+   "ini": 251.68,
+   "fim": 258.14
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-gratidao",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 258.14,
+   "fim": 268.52
+  },
+  {
+   "tipo": "img",
+   "src": "c01-cofre",
+   "mov": "descobre",
+   "foco": [
+    0.15,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.4
+   ],
+   "corte": true,
+   "ini": 268.52,
+   "fim": 272.56
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "III",
+   "titulo": "WHAT THEY SAW FROM INSIDE",
+   "ini": 272.56,
+   "fim": 275.06
+  },
+  {
+   "tipo": "img",
+   "src": "c13b-medo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 275.06,
+   "fim": 278.78
+  },
+  {
+   "tipo": "img",
+   "src": "c07-noite",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 278.78,
+   "fim": 290.82
+  },
+  {
+   "tipo": "img",
+   "src": "c12-furo",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 290.82,
+   "fim": 299.1
+  },
+  {
+   "tipo": "img",
+   "src": "c12b-policia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 299.1,
+   "fim": 305.84
+  },
+  {
+   "tipo": "img",
+   "src": "c13b-medo",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 305.84,
+   "fim": 316.84
+  },
+  {
+   "tipo": "img",
+   "src": "c23b-calma",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 316.84,
+   "fim": 329.42
+  },
+  {
+   "tipo": "img",
+   "src": "c12-furo",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 329.42,
+   "fim": 336.14
+  },
+  {
+   "tipo": "img",
+   "src": "c07-noite",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.55
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 336.14,
+   "fim": 345.92
+  },
+  {
+   "tipo": "img",
+   "src": "c12-furo",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 345.92,
+   "fim": 354.46
+  },
+  {
+   "tipo": "img",
+   "src": "c14-foto",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 354.46,
+   "fim": 365.8
+  },
+  {
+   "tipo": "video",
+   "src": "v3-gas",
+   "ini": 365.8,
+   "fim": 370.26
+  },
+  {
+   "tipo": "img",
+   "src": "c15-gas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 370.26,
+   "fim": 374.68
+  },
+  {
+   "tipo": "img",
+   "src": "c15b-saida",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 374.68,
+   "fim": 386.78
+  },
+  {
+   "tipo": "img",
+   "src": "c15b-saida",
+   "mov": "revela",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 386.78,
+   "fim": 393.62
+  },
+  {
+   "tipo": "img",
+   "src": "c16-corredor",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "ini": 393.62,
+   "fim": 401.56
+  },
+  {
+   "tipo": "img",
+   "src": "c16b-pergunta",
+   "mov": "descobre",
+   "foco": [
+    0.65,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 401.56,
+   "fim": 408.86
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "IV",
+   "titulo": "THE MAN WHO NAMED IT",
+   "ini": 408.86,
+   "fim": 411.36
+  },
+  {
+   "tipo": "img",
+   "src": "c17-estudio",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 411.36,
+   "fim": 423.7
+  },
+  {
+   "tipo": "img",
+   "src": "c17-estudio",
+   "mov": "revela",
+   "foco": [
+    0.75,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 423.7,
+   "fim": 430.1
+  },
+  {
+   "tipo": "img",
+   "src": "c18-radio",
+   "mov": "descobre",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 430.1,
+   "fim": 440.4
+  },
+  {
+   "tipo": "img",
+   "src": "c17-estudio",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 440.4,
+   "fim": 449.32
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-kristin",
+   "mov": "parado",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.15,
+    1.25
+   ],
+   "corte": true,
+   "ini": 449.32,
+   "fim": 453.84
+  },
+  {
+   "tipo": "citacao",
+   "texto": "It was a silencing strategy.",
+   "autor": "Allan Wade, therapist who interviewed Kristin Enmark (ABC News, 2023)",
+   "ini": 453.84,
+   "fim": 458.52
+  },
+  {
+   "tipo": "img",
+   "src": "c16-corredor",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 458.52,
+   "fim": 465.92
+  },
+  {
+   "tipo": "img",
+   "src": "c18-radio",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 465.92,
+   "fim": 477.12
+  },
+  {
+   "tipo": "img",
+   "src": "c19-carimbo",
+   "mov": "descobre",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "pista": true,
+   "ini": 477.12,
+   "fim": 480.98
+  },
+  {
+   "tipo": "img",
+   "src": "c19-carimbo",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.4
+   ],
+   "escala": [
+    1.3,
+    1.35
+   ],
+   "corte": true,
+   "ini": 480.98,
+   "fim": 485.6
+  },
+  {
+   "tipo": "img",
+   "src": "c19b-cartas",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 485.6,
+   "fim": 497.34
+  },
+  {
+   "tipo": "img",
+   "src": "c16-corredor",
+   "mov": "parado",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 497.34,
+   "fim": 503.54
+  },
+  {
+   "tipo": "img",
+   "src": "c20-tribunal",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 503.54,
+   "fim": 515.9
+  },
+  {
+   "tipo": "img",
+   "src": "c20-tribunal",
+   "mov": "parado",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 515.9,
+   "fim": 520.4
+  },
+  {
+   "tipo": "img",
+   "src": "c20-tribunal",
+   "mov": "revela",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 520.4,
+   "fim": 527.56
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "V",
+   "titulo": "WHAT THE NUMBERS SAY",
+   "ini": 527.56,
+   "fim": 530.06
+  },
+  {
+   "tipo": "img",
+   "src": "c21-fbi",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 530.06,
+   "fim": 543.82
+  },
+  {
+   "tipo": "img",
+   "src": "c21-fbi",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.45
+   ],
+   "escala": [
+    1.35,
+    1.05
+   ],
+   "ini": 543.82,
+   "fim": 547.68
+  },
+  {
+   "tipo": "dados",
+   "titulo": "FBI HOSTAGE DATABASE (1999)",
+   "itens": [
+    [
+     "1,200+",
+     "hostage and barricade incidents"
+    ],
+    [
+     "92%",
+     "victims with NO sign of the syndrome"
+    ],
+    [
+     "8%",
+     "showed any sign"
+    ]
+   ],
+   "fonte": "Fuselier, \"Placing the Stockholm Syndrome in Perspective,\" FBI Law Enforcement Bulletin, 1999",
+   "ini": 547.68,
+   "fim": 551.72
+  },
+  {
+   "tipo": "img",
+   "src": "c21-fbi",
+   "mov": "descobre",
+   "foco": [
+    0.35,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 551.72,
+   "fim": 559.66
+  },
+  {
+   "tipo": "img",
+   "src": "c22x-papeis",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.55
+   ],
+   "escala": [
+    1.0,
+    1.35
+   ],
+   "pista": true,
+   "ini": 559.66,
+   "fim": 566.52
+  },
+  {
+   "tipo": "citacao",
+   "texto": "'Stockholm syndrome': psychiatric diagnosis or urban myth?",
+   "autor": "Namnyak et al., Acta Psychiatrica Scandinavica, 2008",
+   "estilo": "artigo",
+   "ini": 566.52,
+   "fim": 578.62
+  },
+  {
+   "tipo": "img",
+   "src": "c22b-manual",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 578.62,
+   "fim": 588.04
+  },
+  {
+   "tipo": "img",
+   "src": "c11b-gratidao",
+   "mov": "parado",
+   "foco": [
+    0.55,
+    0.45
+   ],
+   "escala": [
+    1.2,
+    1.25
+   ],
+   "ini": 588.04,
+   "fim": 594.96
+  },
+  {
+   "tipo": "citacao",
+   "texto": "Appeasement: replacing Stockholm syndrome as a definition of a survival strategy",
+   "autor": "Bailey, Dugard, Smith & Porges, European Journal of Psychotraumatology, 2023",
+   "estilo": "artigo",
+   "ini": 594.96,
+   "fim": 608.0
+  },
+  {
+   "tipo": "img",
+   "src": "c23-balanca",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 608.0,
+   "fim": 623.26
+  },
+  {
+   "tipo": "dados",
+   "titulo": "WHEN THE BOND CAN APPEAR",
+   "itens": [
+    [
+     "Can't escape",
+     "life depends on the captor"
+    ],
+    [
+     "Isolated",
+     "hears only his side"
+    ],
+    [
+     "Real threat",
+     "and a small kindness"
+    ]
+   ],
+   "fonte": "de Fabrique et al., \"Understanding Stockholm Syndrome,\" FBI Law Enforcement Bulletin, 2007",
+   "ini": 623.26,
+   "fim": 642.08
+  },
+  {
+   "tipo": "img",
+   "src": "c23b-calma",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 642.08,
+   "fim": 648.94
+  },
+  {
+   "tipo": "img",
+   "src": "c23-balanca",
+   "mov": "revela",
+   "foco": [
+    0.6,
+    0.6
+   ],
+   "escala": [
+    1.45,
+    1.05
+   ],
+   "ini": 648.94,
+   "fim": 654.58
+  },
+  {
+   "tipo": "capitulo",
+   "numero": "VI",
+   "titulo": "AND YOU?",
+   "ini": 654.58,
+   "fim": 657.08
+  },
+  {
+   "tipo": "img",
+   "src": "c24-sofa",
+   "mov": "descobre",
+   "foco": [
+    0.4,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 657.08,
+   "fim": 660.1
+  },
+  {
+   "tipo": "img",
+   "src": "c24b-noticia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 660.1,
+   "fim": 673.56
+  },
+  {
+   "tipo": "img",
+   "src": "c24-sofa",
+   "mov": "revela",
+   "foco": [
+    0.35,
+    0.45
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 673.56,
+   "fim": 682.84
+  },
+  {
+   "tipo": "img",
+   "src": "c16b-pergunta",
+   "mov": "revela",
+   "foco": [
+    0.65,
+    0.5
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 682.84,
+   "fim": 694.48
+  },
+  {
+   "tipo": "img",
+   "src": "c01b-kristin",
+   "mov": "descobre",
+   "foco": [
+    0.45,
+    0.4
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 694.48,
+   "fim": 705.86
+  },
+  {
+   "tipo": "img",
+   "src": "c16-corredor",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "escala": [
+    1.0,
+    1.3
+   ],
+   "ini": 705.86,
+   "fim": 714.88
+  },
+  {
+   "tipo": "img",
+   "src": "c25-cofre-dia",
+   "mov": "descobre",
+   "foco": [
+    0.5,
+    0.6
+   ],
+   "escala": [
+    1.0,
+    1.25
+   ],
+   "ini": 714.88,
+   "fim": 727.5
+  },
+  {
+   "tipo": "img",
+   "src": "c25-cofre-dia",
+   "mov": "revela",
+   "foco": [
+    0.5,
+    0.8
+   ],
+   "escala": [
+    1.4,
+    1.05
+   ],
+   "ini": 727.5,
+   "fim": 737.2
+  },
+  {
+   "tipo": "final",
+   "ini": 737.2,
+   "fim": 757.2
+  }
+ ]
+}

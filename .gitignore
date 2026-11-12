@@ -1,0 +1,59 @@
+# Repositório só de código (decisão de Luiz, 10/11/2026). Mídia, dependências, renders e credenciais ficam fora.
+
+# dependências, renders e caches
+node_modules/
+out/
+.runtime-*/
+.cache/
+logs/
+__pycache__/
+*.pyc
+
+# credenciais: nunca versionar
+.env
+.env.*
+!.env.example
+
+# mídia e binários
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.aif
+*.aiff
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.psd
+*.heic
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+*.bin
+*.exe
+*.dll
+*.prproj
+*.aup3
+*.aup4
+*.aep
+
+# repositório de terceiros, com .git próprio
+vox-director/
